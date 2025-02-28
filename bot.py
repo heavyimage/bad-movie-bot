@@ -7,5 +7,5 @@ with open("rules.json") as f:
 
 grammar = tracery.Grammar(rules)
 grammar.add_modifiers(base_english)
-for i in range(100):
+for i in range(1000):
     print(grammar.flatten("#origin#"))
