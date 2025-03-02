@@ -1,14 +1,18 @@
 import tracery
 from tracery.modifiers import base_english
 
-
 # restore
 #"sex magick",
-#"title": [
-#	"dr.",
-#	"mr.",
-#	"mrs.",
 #],
+#named threats (don't want 'the' ahead of them
+#	"gods" : [
+#		"ra",
+#		"satan",
+#		"hades",
+#		"oberon",
+#		"ra",
+#		"isis"
+#	],
 
 
 RULES = {
@@ -16,41 +20,76 @@ RULES = {
 	# "library"
 	"roman_numeral": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", ],
 	"number": [ "2", "3", "4", "5", "6", "II", "III", "IV", "V", "VI", "VII", ],
-	"color": ["red", "green", "black", "white", "blue", "brown", "orange", "yellow"],
-	"sexy_material": ["leather", "lace", "pvc", "latex", "oil"],
+	"color": ["red", "green", "black", "white", "blue", "brown", "orange", "yellow", "obsidian", "ivory", "ebon", "ebony"],
+	"sexy_material": ["leather", "lace", "pvc", "latex", "lingerie"],
+	"title": [ "dr.", "mr.", "mrs.", "professor",],
+	"magic_type": ["", "sex", "#color#", "dark", "evil", "nature"],
+	"letter": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"],
+
+	"evil_group": [
+		"communist party",
+		"illuminati",
+		"secret society",
+		"cabal",
+		"unamerican activity",
+		"lizard people",
+		"mafia",
+		"vatican",
+		"inner circle",
+		"secret service",
+		"CIA",
+		"FBI",
+		"KGB",
+		"congress",
+		"SS",
+	],
+
+	"battle": [
+        "attack",
+        "revenge",
+		"battle",
+		"revolution",
+		"upheaval",
+		"hunt",
+		"battlefield",
+		"bloodbath",
+		"mutiny",
+		"invasion",
+        "war",
+        "massacre",
+		"holocaust",
+	],
+
 
 	# Maybes
-	"maybe_beyond": [ "of", "from", "from beyond"],
+	"adverb": [ "of", "in", "came from", "from", "before", "corrupted by", "from beyond", "inside", "above", "within"],
 	"maybe_adj": [ "", "#adj#"],
 	"maybe_roman_numeral": [ "", "#roman_numeral#"],
 
     "shortform": ["#threat#"],
     "shortpluralform": ["#threat.s#"],
+	"possessive_form": ["#threat#'s"],
 
     "form": [ "#maybe_adj# #shortform#", ],
     "pluralform": [ "#maybe_adj# #shortpluralform#", ],
 
-
     "origin": [
 		# unsorted:
-		"#silly_prefix# #form#",
         "#body_part# #shortform#",
         "#object# of the #form#",
         "#shortform# #object#",
         "The #body_part# of the #shortform#",
 		"#adj# #job#: The #object# of the #form#",
 		"#adj# #object#",
-		"The #adj# #adj# #shortform#",
-        "I Walked with #pluralform#",
-		"The #form# that Wouldn't Die#",
-		"The #form# that Couldn't be Killed",
+		"#adj# #object# of the #pluralform#",
 
 		# basic form
         "#form#!",
         "The #form#",
-        "#shortform#-Geddon",
-        "#shortform#-nado",
-        "#shortform#-zilla",
+		"#silly_prefix# #form#",
+		"#form# #silly_suffix#",
+		"The #adj# #adj# #shortform#",
+		"The #form# that came from #place#",
 		
 		# battles
         "#form# VS. #form#",
@@ -58,47 +97,103 @@ RULES = {
         "#shortform#-zilla VS #shortform#-ra",
 
 		# job
-        "#shortform# #job#",
-        "#job# #shortform# and the #form# #after_place#",
-        "#job# #shortform# and the #shortform# #after_place#",
-        "#job# #after_place#",
+		"#form# #job#",
+		"#title# #job#",
+        "#job# #shortform# and the #form# #adverb# #place#",
+        "#job# #shortform# and the #shortform# #adverb# #place#",
+        "#job# #adverb# #place#",
 
-		# form in days
-        "30 #shortform.s#, 30 Days",
-        "30 #shortform.s# in 30 Days",
-		"Around #before_place# in 80 Days",
-
-		# object of form
-        "The #object# of #pluralform#",
+		# The Sword of the lictor
         "The #object# of the #pluralform#",
 
+		# Vampire hunter D
+		"#shortform# #job# #letter#",
+
+		# The masque of the red death
+		"The #object# of the #adj# #object#",
+
+		# Ilsa: she wolf of the ss
+		"#form#: #threat# of the #evil_group#",
+
+		# Shadow over innsmouth
+		"The #object# #adverb# #place#",
+
+		# "star wars"
+		"#adj# #battle#",
+
+		# "grind-house"
+		"#adj# #dwelling_place#",
+
+		# escape from NY
+		"escape from #place#", 
+
+		# the day of the triffids
+		# the night of the lepus
+		"The #moment_in_time# of the #pluralform#",
+
+		# The blood on satan's claw
+		"The #threatening_substance# on the #possessive_form# #body_part#",
+
+		# Beyond the valley of the dolls
+        "Beyond the #spooky_locale# of the #pluralform#",
+		
+		# sky captain and the world of tomorrow
+		"#form# and the world of #time#",
+
+
 		# form from place
-        "The #form# #after_place#",
-        "The #shortform# #after_place#",
-        "#pluralform# #after_place#",
+        "The #form# #adverb# #place#",
+        "The #shortform# #adverb# #place#",
+		"#pluralform# #adverb# #place#",
+		"#pluralform#: beyond #place#",
 
-        # Silly sequels
-		"#before_place# #number#: The #form#",
-		"#before_place# #number#: Return of the #form#",
-		"#before_place# #number#: #form# #object#",
-		"#before_place# #number#: #object# of the #form#",
-		"#form# #number#: #after_place#",
-		"The #form# #number#: #after_place#",
+		# forms I want to appear more rarely
+		"#sexploitation_title#",
+        "#iconic_structure#",
+		"#silly_sequels#",
+    ],
 
-        # Sexploitation!
+	"silly_sequels" : [
+		"#place# #number#: The #form#",
+		"#place# #number#: Return of the #form#",
+		"#place# #number#: #form# #object#",
+		"#place# #number#: #object# of the #form#",
+		"#form# #number#: #adverb# #place#",
+		"The #form# #number#: #adverb# #place#",
+	],
+
+	"sexploitation_title" : [
         "#form# de Sade",
         "Sex Slaves of the #form#",
         "The Loves of the #form#",
         "Sexy #threat.s# in Cages",
         "The #form# Lovers",
-        "#form# in Leather",
-        "#form# in Lace",
+        "#form# in #sexy_material#",
         "#pluralform# in #sexy_material#",
-        "Beyond the Valley of the #pluralform#",
-    ],
+	],
+
+	"iconic_structure" : [
+        "#shortform#-Geddon",
+        "#shortform#-nado",
+        "#shortform#-zilla",
+        "I Walked with #pluralform#",
+		"The #form# that Wouldn't Die#",
+		"The #form# that Couldn't be Killed",
+        "30 #shortform.s#, 30 Days",
+        "30 #shortform.s# in 30 Days",
+	],
+
+	"silly_suffix": [
+		"! kill! kill!",
+		": The revenge",
+		": The return",
+		": #space_age# #ritual#",
+		": #story# of the #threat#",
+	],
 
 	"silly_prefix": [
 		"Code Name:",
+		"Alias:",
 		"Danger!!",
 		"The Wild Wild World of the",
         "Death by",
@@ -111,12 +206,56 @@ RULES = {
         "I Was a Teenage",
 	],
 
+	"story": [
+        "legend",
+		"secret",
+		"fable",
+		"fate",
+		"saga",
+		"tale",
+		"tales",
+	],
+
+	"moment_in_time": [
+        "day",
+        "night",
+		"year",
+		"solstice",
+		"time",
+        "dawn",
+		"rise",
+		"dusk",
+	],
+
+
+	# religious rite
+	"ritual": [
+		"#color# mass",
+		"ball",
+		"boogaloo",
+		"dance",
+		"festival",
+		"funeral",
+		"mass",
+		"opera",
+		"orgy",
+		"party",
+		"pyre",
+		"rite",
+		"ritual",
+		"sacrifce",
+	],
+
     "object": [
 		# TODO: Move some space stuff back here?
 		"#dwelling_place#",
 		"#spooky_locale#",
 		"#body_part#",
+		"#story#",
 		"#job#",
+		"#battle#",
+		"#moment_in_time#",
+		"#ritual#",
 		
 		# unsorted
 		"planet",
@@ -125,23 +264,10 @@ RULES = {
         "vigil",
         "horror",
 		"domain",
-		"the million eyes", 
+		"million eyes", 
         "death",
 		"madness",
 		"laugh",
-
-		#battle
-        "attack",
-        "revenge",
-		"battle",
-		"hunt",
-		"battlefield",
-		"bloodbath",
-		"mutiny",
-		"invasion",
-        "war",
-        "massacre",
-		"holocaust",
 
 		#thoughts
 		"betrayal",
@@ -161,22 +287,8 @@ RULES = {
 		"adventure",
 		"journey",
 
-		# history / story
-        "legend",
-		"fable",
-		"fate",
-		"saga",
-		"tale",
-		"tales",
-
-		# moment in time / times of day
-        "day",
-        "night",
-		"time",
-        "dawn",
-		"dusk",
-
 		# systems of government / groups
+		"anarchy",
 		"alliance",
 		"cult",
 		"monarchy",
@@ -184,20 +296,29 @@ RULES = {
 		"reign",
 		"empire",
 
-		# object / weapon
+		# object / weapon / tool
 		"sword",
 		"gun",
+		"hammer",
+		"mace",
+		"plate",
+		"armor",
+		"drill",
+		"shovel",
+		"shield",
+		"lance",
         "mask", 
+		"masque",
 		"key",
 		"crystal ball",
 		"ring",
 		"rings",
 	
 		# magical stuff
-		"magic",
-		"tome",
-		"obsidian",
-		"spellbook",
+		"#magic_type# magic",
+		"#magic_type# magick",
+		"#magic_type# tome",
+		"#magic_type# spellbook",
 
 		# riches
 		"diamonds",
@@ -249,16 +370,22 @@ RULES = {
 		"claw",
 		"eye",
 		"finger",
+		"flesh",
+		"foot",
 		"gut",
 		"hand",
 		"heart",
+		"jaw",
 		"maw",
 		"mind",
 		"mouth",
+		"muscle",
 		"organ",
+		"sinew",
 		"skull",
 		"spine",
 		"stomach",
+		"tendon",
 		"tendril",
 		"tentacle",
     ],
@@ -267,26 +394,33 @@ RULES = {
 		"alchemist",
 		"architect",
 		"avenger",
+		"baron",
 		"biker",
 		"boss",
 		"butcher",
 		"cannibal",
 		"clown",
 		"commander",
+		"commando",
 		"cop",
 		"crusader",
 		"cultist",
 		"defender",
+		"detective",
+		"diver",
 		"duke",
 		"duplicator",
-		"empress",
+		"earl",
 		"emperor",
+		"empress",
+		"football player",
 		"geisha",
 		"gladiator",
 		"goddess",
 		"groupie",
 		"harlot",
 		"holy man",
+		"hunter",
 		"invader",
 		"king",
 		"knight",
@@ -294,7 +428,6 @@ RULES = {
 		"librarian",
 		"lord",
 		"master",
-		"native",
 		"night",
 		"ninja",
 		"occultist",
@@ -302,13 +435,16 @@ RULES = {
 		"priest",
 		"prince",
 		"princess",
+		"private eye",
 		"professor",
 		"queen",
 		"raider",
 		"samurai",
+		"scientist",
 		"secret agent",
 		"seer",
 		"servant",
+		"slayer",
 		"snatcher",
 		"sorceror",
 		"trooper",
@@ -325,13 +461,14 @@ RULES = {
         "raider",
         "rider",
         "soldier", 
+		"villager",
     ],
 
 	"food": [
 		"fruit",
 		"water",
-		"bean",
 		"mushroom",
+		"casserole",
 		"egg", 
 		"tofu",
 	],
@@ -365,6 +502,7 @@ RULES = {
 		"puma",
 		"python",
 		"rabbit",
+		"raven",
 		"scorpion",
 		"seaweed",
 		"serpent",
@@ -377,24 +515,25 @@ RULES = {
 		"vine",
 		"vulture",
 		"wasp",
+		"worm",
     ],
 
 	"natural_phenomena": [
-		"typhoon",
-		"hurricane",
-		"flood",
-		"sandstorm",
-		"vapor",
-		"pool",
-		"shadow",
-		"tornado",
-		"fire",
 		"cloud",
-		"water",
-		"wind",
 		"comet",
+		"fire",
+		"flood",
+		"hurricane",
 		"inferno",
 		"mist",
+		"pool",
+		"sandstorm",
+		"shadow",
+		"tornado",
+		"typhoon",
+		"vapor",
+		"water",
+		"wind",
     ],
 
     "shapes": [
@@ -409,20 +548,30 @@ RULES = {
     ],
 
     "technology": [
-		"doll",
-		"razor",
-		"factory",
-		"toy",
-		"puppet",
-		"plane",
-		"ship",
+		"android",
+		"blade",
 		"car",
-		"starship",
-		"laser",
-		"robot",
-		"statue",
 		"computer",
+		"doll",
+		"elevator",
+		"factory",
+		"gear",
+		"hologram",
+		"laser",
+		"machine",
+		"mystereon",
+		"plane",
+		"puppet",
+		"robot",
+		"rocket",
 		"saucer",
+		"ship",
+		"spaceship",
+		"starship",
+		"statue",
+		"toy",
+		"truck",
+		"tunnel",
 		"ufo",
         "automaton",
     ],
@@ -457,6 +606,7 @@ RULES = {
 		"kobold",
 		"kraken",
 		"leprechaun",
+		"lepus"
 		"leviathan",
 		"lich",
 		"lictor",
@@ -471,7 +621,6 @@ RULES = {
 		"poltergeist",
 		"santa claus",
 		"sasquatch",
-		"satan",
 		"satyr",
 		"shapeshifter",
 		"siren",
@@ -492,15 +641,14 @@ RULES = {
 	"societal": [
 		"bureaucrat",
 		"communist",
-		"unamerican activity",
-		"orgy",
+		"taxman",
+		"president",
+		"czar",
 	],
 
 	"humans": [
 		"man",
 		"woman",
-		"child",
-		"kid",
 		"teenager",
 	],
 
@@ -531,9 +679,9 @@ RULES = {
 		"urge",
 		"fever",
 		"consciousness",
+		"nausea",
 		"pain",
 		"madness",
-		"nausea",
 		"anguish",
 	],
 
@@ -541,7 +689,9 @@ RULES = {
 		"blood",
 		"slime",
 		"ooze",
-		"tear",
+		"goop",
+		"sludge",
+		"mess",
 		"goo",
 		"ichor",
 	],
@@ -560,6 +710,7 @@ RULES = {
 		"#threatening_thing#",
 		"#scary_phenomena#",
 		"#threatening_substance#",
+		#"#gods#",
 	],
 
 	"menacing_places_on_earth": [
@@ -571,7 +722,10 @@ RULES = {
 		"main street USA",
 		"soviet russia",
 		"L.A.",
-		"bavaria",
+		"Basque Country",
+		"Bavaria",
+		"The pacific",
+		"the atlantic",
 		"The Himalayas",
 		"Tibet",
 		"New Jersey",
@@ -585,19 +739,19 @@ RULES = {
 	],
 
 	"scary_parts_of_a_house" : [
-		"#maybe_adj# sewer",
-		"in the #maybe_adj# kitchen",
-		"inside the #maybe_adj# walls",
-		"the #maybe_adj# attic",
-		"the #maybe_adj# basement",
-		"the #maybe_adj# cellar",
-		"the #maybe_adj# fireplace",
-		"the #maybe_adj# room",
-		"the #maybe_adj# shed out back",
-		"the #maybe_adj# well",
-		"under the #maybe_adj# bed",
-		"under the #maybe_adj# floorboards",
-		"under the #maybe_adj# stairs",
+		"sewer",
+		"kitchen",
+		"walls",
+		"attic",
+		"basement",
+		"cellar",
+		"fireplace",
+		"room",
+		"shed out back",
+		"well",
+		"bed",
+		"floorboards",
+		"stairs",
 	],
 
 	"space_places" : [
@@ -635,7 +789,6 @@ RULES = {
 		"pegasus #maybe_roman_numeral#",
 		"orion #maybe_roman_numeral#",
 		"corona borealis #maybe_roman_numeral#",
-		"vela #maybe_roman_numeral#",
 		"cetus #maybe_roman_numeral#",
 	],
 	
@@ -655,6 +808,9 @@ RULES = {
 		"atlantis",
 		"valhalla",
 		"underworld",
+		"plane of leng",
+		"miskatonic university",
+		"Innsmouth"
 		"hades",
 		"avalon",
 		"Shangra La",
@@ -710,6 +866,7 @@ RULES = {
 		"tomb",
 		"torture chamber",
 		"tower",
+		"valley"
 		"vault",
 		"volcano",
 		"wilderness",
@@ -719,7 +876,7 @@ RULES = {
 	],
 
 	"water_and_oceans" :[
-		"under the sea",
+		"the sea",
 		"the deep",
 		"20,000 fathoms",
 		"the ocean",
@@ -732,63 +889,68 @@ RULES = {
         "hotel",
         "house",
 		"mansion",
-		"condo",
 		"fort",
 		"town",
 		"colony",
 		"city",
 		"realm",
 		"zone",
-		"ville",
+		"-ville",
+	],
+
+	"religious_buildings" : [
+		"church",
+		"the cathedral",
+		"the pagoda",
+		"the chapel",
+		"the reliquary",
+		"synagogue",
+		"the mosque",
+		"temple",
 	],
 
 	"time" : [
-		"before time",
-		"beyond time",
+		"time",
 		"the future",
+		"tomorrow",
 		"the year 2000",
 		"the year 5000",
 		"the year 10000",
 		"the 41st Millennium",
 	],
 
-	"before_place": [
+	"place": [
 		"below",
 		"beyond",
-		"under the earth",
+		"the earth",
 		"#menacing_places_on_earth#",	
-		"#scary_parts_of_a_house#",
+		"the #maybe_adj# #scary_parts_of_a_house#",
 		"#unpleasant_places#",
 		"#space_places#",
 		"#mythological_places#",
 		"#water_and_oceans#",
+		"#religious_buildings#",
 		"the #maybe_adj# #spooky_locale#",
 		"#adj# #spooky_locale_without_the#",
 		"#adj# #dwelling_place#",
 		"#time#",
 	],
 
-	"after_place": [
-		"below",
-		"beyond",
-		"under the earth",
-		"#menacing_places_on_earth#",	
-		"#scary_parts_of_a_house#",
-		"#unpleasant_places#",
-		"#maybe_beyond# #space_places#",
-		"#maybe_beyond# #mythological_places#",
-		"#maybe_beyond# #water_and_oceans#",
-		"#maybe_beyond# the #maybe_adj# #spooky_locale#",
-		"#maybe_beyond# #adj# #spooky_locale_without_the#",
-		"#adj# #dwelling_place#",
-		"#time#",
+	##################### Adjectives #######################
+
+	"material" : [
+		"iron",
+		"metal",
+		"crystal",
+		"bone",
+		"wooden",
+		"hollow",
+		"glowing",
 	],
 
-	"adj": [
-		"#color#",
-
-		# sexploitation-y
-		"polyamorous",
+	"sexploitation": [
+		"kinky",
+		"BDSM",
 		"promiscuous",
 		"raunchy",
 		"dirty",
@@ -804,8 +966,9 @@ RULES = {
 		"adult",
 		"lecherous",
 		"leather",
-	
-		# old
+	],
+
+	"old" : [
 		"eldrich",
 		"prehistoric",
 		"medieval",
@@ -817,53 +980,62 @@ RULES = {
 		"cyclopean",
 		"ancient",
 		"abandoned",
+	],
 
-		# nuclear / science-y
+	"nuclear_science_y" : [
 		"nuclear",
 		"atomic",
 		"radioactive",
 		"toxic",
 		"mutated",
+	],
 
-		# magical / other worldly
+	"magical": [
 		"hexed",
 		"accursed",
 		"magic",
 		"magical",
-		"crystal",
-		"iron",
 		"supernatural",
 		"telepathic",
+		"voodoo",
 		"telekinetic",
 		"vedic",
 		"sorcerous",
 		"cursed",
-
 		"forbidden",
 		"mysterious",
 		"ghost",
 		"ghostly",
+	],
 
-		# Space age / futuristic
+	"space_age" : [
 		"robo-",
 		"astro",
 		"rocket",
 		"solar",
 		"neon",
 		"space",
+		"mecha-",
+		"mechano-",
+		"techno-",
+		"electric",
+		"electro-mechanical",
+		"cybernetic",
 		"stellar",
 		"turbo",
 		"uber",
 		"photonic",
 		"temporal",
+		"holographic",
 		"time",
 		"transdimensional",
 		"ultra",
 		"futuristic",
 		"techno",
 		"space age",
-	
-		# decayed / disgusting
+	],
+
+	"decayed" : [
 		"demolished",
 		"diseased",
 		"one-eyed",
@@ -873,48 +1045,49 @@ RULES = {
 		"rotting",
 		"putrid",
 		"fetid",
-
-		# violent / crazy / dangerous / evil
-		"sinister",
-		"laughing",
-		"insane",
-		"killer",
-		"inhuman",
-		"infernal",
-		"haunted",
+	],
+	
+	# violent / crazy / dangerous / evil
+	"evil" : [
+		"abominable",
+		"aggressive",
+		"corrupt",
+		"dark",
+		"deadly",
+		"demonic",
+		"depraved",
+		"deranged",
+		"dread",
+		"evil",
 		"ferocious",
 		"godless",
-		"demonic",
-		"terrifying",
-		"unstoppable",
+		"grim",
+		"haunted",
 		"horrendous",
 		"horrifying",
-        "mindless",
-		"spooky",
-		"skeletal",
-		"sinister",
-		"deadly",
-		"evil",
-		"freakish",
-		"lurking",
-		"vampiric", 
-		"grim",
-		"dread",
-		"depraved",
-		"dark",
-		"deranged",
-		"violent",
-		"mad",
-		"aggressive",
-		"macabre",
-		"abominable",
+		"infernal",
+		"inhuman",
+		"insane",
 		"insidious",
-		"satanic",
+		"killer",
+		"laughing",
+		"lurking",
+		"macabre",
+		"mad",
 		"remorseless",
+		"satanic",
 		"shadowy",
-		"corrupt",
+		"sinister",
+		"skeletal",
+		"spooky",
+		"terrifying",
+		"unstoppable",
+		"vampiric", 
+		"violent",
+        "mindless",
+	],
 
-		# hungry / of the natural world
+	"natural" : [
 		"sentient",
 		"gelatinous",
 		"protoplasmic",
@@ -935,8 +1108,9 @@ RULES = {
 		"blood-sucking",
 		"fungal",
 		"jungle",
+	],
 
-		# cosmic horror / lovecraft
+	"cosmic" :[
 		"crawling",
 		"alien",
 		"indescribable",
@@ -955,8 +1129,9 @@ RULES = {
 		"groaning",
 		"hoary",
 		"stygian",
+	],
 
-		# wonderous
+	"wonderous" : [
 		"glorious",
 		"mystical",
 		"incredible",
@@ -964,14 +1139,18 @@ RULES = {
 		"awesome",
 		"fantastic",
 		"amazing",
+	],
 
-		# horror movie
+	"horror_movie" : [
 		"blood-soaked",
 		"charnel",
+		"grind-",
 		"chainsaw",
 		"bloody",
+		"gore-encrusted",
+	],
 
-		# small and big / powerful
+	"size_related": [
 		"micro",
 		"shrinking",
 		"giant",
@@ -980,37 +1159,62 @@ RULES = {
 		"enormous",
 		"indestructible",
 		"mighty",
+	],
 
-		# back from the dead
+	"undead" : [
 		"undead",
 		"reborn",
 		"reanimated",
+	],
 
-		# of a (mythological) earth civilization
+	# of a (mythological) earth civilization
+	"religion_or_culture" : [
 		"Aztec",
 		"Egyptian",
 		"christian",
+		"jewish",
 		"Mormon",
 		"neanderthal",
 		"heathen",
+		"shamanistic",
 		"Norse",
 		"soviet",
 		"communist",
+	],
 
-		# unseen / empty
+	"unseen": [
 		"invisible",
-		"hollow",
 		"immaterial",
 		"empty",
 		"phantasm",
 		"phantom",
 		"subterranean",
 		"transparent",
+	],
+
+	"adj": [
+		"#color#",
+		"#material#",
+		"#sexploitation#",
+		"#old#",
+		"#nuclear_science_y#",
+		"#magical#",
+		"#space_age#",
+		"#decayed#",
+		"#evil#",
+		"#natural#",
+		"#cosmic#",
+		"#wonderous#",
+		"#horror_movie#",
+		"#size_related#",
+		"#undead#",
+		"#religion_or_culture#",
+		"#unseen#",
 
 		# a bit silly
 		"teenage",
+		"harsh",
 		"surfing", 
-		"she-",
 
 	]
 }
@@ -1018,9 +1222,12 @@ RULES = {
 
 grammar = tracery.Grammar(RULES)
 grammar.add_modifiers(base_english)
-for i in range(1000):
+for i in range(100):
 	title = grammar.flatten("#origin#")
 	title = title.replace("womans", "women")
+	title = title.replace(" mans ", " men ")
 	title = title.replace("elfs", "elves")
+	title = title.replace("nauseas", "nausea")
 	title = title.replace("  ", " ")
+	title = title.replace(" : ", ": ")
 	print(title.strip().title())
