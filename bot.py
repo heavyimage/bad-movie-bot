@@ -1,6 +1,7 @@
 import tracery
 from tracery.modifiers import base_english
 
+# The Million Eyes of Sumuru
 #named threats (don't want 'the' ahead of them
 # "ra",
 # "hades",
@@ -25,6 +26,7 @@ RULES = {
 	"moved" : [ "walked into", "was sent to", "traveled to", "returned from", "came back from", "time-traveled to", "slid into", "fell into", "was transported to", ],
 
 	##################### Nouns #######################
+	"sexy_servants" : [ "Sex Slaves", "Love Servants", "The Loves", "Lovers", "Concubine", "Pleasure mistress", "Pleasure master"],
 	"real_animal": ["owl", "whale", "eel", "lion", "carrion", "amoeba", "virus", "bacteria", "anaconda", "ant", "bat", "bear", "bee", "bird", "brood", "bunny", "cat", "centipede", "cheetah", "chicken", "dinosaur", "dog", "eagle", "fish", "frog", "hound", "leech", "lizard", "maggot", "mantis", "mole", "piranha", "plant", "puma", "python", "rabbit", "raven", "scorpion", "seaweed", "serpent", "shark", "snake", "spider", "termite", "tiger", "turtle", "vine", "vulture", "wasp", "worm", ],
 	"evil_group": [ "communist party", "illuminati", "secret society", "league", "triumvirate", "demagogue", "billionaire", "cabal", "unamerican activity", "lizard people", "mafia", "Vatican", "inner circle", "secret service", "CIA", "FBI", "Pentagon", "KGB", "congress", "SS", "council"],
 	"battle": [ "attack", "battle", "clash", "revolution", "hunt", "counterattack", "battlefield", "bloodbath", "mutiny", "invasion", "war", "massacre", "holocaust", ],
@@ -34,7 +36,7 @@ RULES = {
     "shapes": [ "vector", "field", "color", "stain", "circle", "pentagram", "hexagon", "element", "colour", "orb", "chaos", "blob", "cube", "flash", "form", "monolith", "sphere", ],
 	"spooky_objects_tools_or_weapons": [ "armor", "blade", "candy", "crown", "crystal ball", "drill", "relic", "artifact", "antique", "gun", "machinegun", "saw", "hammer", "helm", "key", "lance", "mace", "masque", "plate", "rifle", "ring", "saber", "scepter", "shield", "shovel", "sword", "trapdoor", "mask", "capsule", "blaster", "mirror", "band"],
 	"portal": ["gate", "door", "gateway", "doorway", "passage", "portal", "tunnel", "bridge"],
-	"technology": ["raygun", "monument", "android", "blade", "car", "computer", "doll", "effect", "elevator", "factory", "gear", "hologram", "laser", "machine", "mystereon", "plane", "puppet", "robot", "rocket", "saucer", "ship", "battleship", "tank", "science", "experiment", "spaceship", "starship", "statue", "toy", "truck", "ufo", "automaton", ],
+	"technology": ["zeppelin", "forcefield", "equations", "raygun", "monument", "android", "blade", "car", "computer", "doll", "effect", "elevator", "factory", "gear", "hologram", "laser", "machine", "mystereon", "plane", "puppet", "robot", "rocket", "saucer", "ship", "battleship", "tank", "science", "experiment", "spaceship", "starship", "statue", "toy", "truck", "ufo", "automaton", ],
     "fantasy_animal": [ "revenant", "phantasm", "alien", "angel", "bigfoot", "chimera", "chupacabra", "cockatrice", "cyborg", "demon", "dragon", "elf", "fairy", "fury", "gargoyle", "ghost", "ghoul", "giant", "gnome", "goblin", "god", "golem", "gorgon", "gremlin", "grue", "hobgoblin", "homunculus", "hydra", "imp", "kobold", "kraken", "leprechaun", "lepus", "leviathan", "lich", "lictor", "lycanthrope", "mermaid", "merman", "monster", "mummy", "mutant", "ogre", "phoenix", "poltergeist", "santa claus", "sasquatch", "satyr", "shapeshifter", "siren", "soul", "spectre", "spirit", "stalker", "troll", "undead", "unicorn", "vampire", "werewolf", "wight", "yeti", "zombie", "snowman"],
 	"humans": [ "man", "teenager", "girl", "boy", "woman", "chick", "dude",],
 	"threatening_thing": [ "creep", "beast", "terror", "creature", "it", "thing", "threat", "lurker", "being", "maniac", "corpse", ],
@@ -48,9 +50,9 @@ RULES = {
 	"ritual": [ "#color# mass", "boogaloo", "dance", "festival", "funeral", "christmas", "opera", "orgy", "party", "pyre", "rite", "ritual", "sacrifice", ],
 	"mythological_places" : [ "hell", "atlantis", "valhalla", "underworld", "astral plane", "the plane of leng", "miskatonic university", "Innsmouth", "hades", "avalon", "Ga'Hoole", "Shangra-La", "El Dorado", "carcosa", "R'lyeh", "Omicron Persei #number#", "vulcan", ],
 	"spooky_locale_without_the": [ "swamp", "island", "lake", "tower", "mountain", "hill", ],
-	"spooky_locale": [ "void", "barren", "barrier", "caldera", "carnival", "bazzar", "castle", "cave", "continent", "crater", "crypt", "dungeon", "field", "forest", "grave", "graveyard", "cemetery", "grotto", "hill", "hive", "island", "jungle", "keep", "kingdom", "lagoon", "lagoon", "lake", "mausoleum", "mine", "mountain", "rim", "ruin", "sands", "sepulcher", "shipwreck", "shores", "swamp", "throne", "tomb", "torture chamber", "tower", "valley", "vault", "volcano", "wilderness", "fortress", "labrynth", "pit", ],
+	"spooky_locale": [ "continuum", "void", "barren", "barrier", "caldera", "carnival", "bazzar", "castle", "cave", "continent", "crater", "crypt", "dungeon", "field", "forest", "grave", "graveyard", "cemetery", "grotto", "hill", "hive", "island", "jungle", "keep", "kingdom", "lagoon", "lagoon", "lake", "mausoleum", "mine", "mountain", "rim", "ruin", "sands", "sepulcher", "shipwreck", "shores", "swamp", "throne", "tomb", "torture chamber", "tower", "valley", "vault", "volcano", "wilderness", "fortress", "labrynth", "pit", ],
 	"water_and_oceans_with_the" :[ "sea", "deep", "depths", "reef"],
-	"dwelling_place" : [ "village", "hotel", "house", "mansion", "fort", "town", "colony", "cabin", "city", "realm", "zone"],
+	"dwelling_place" : [ "village", "hotel", "house", "mansion", "fort", "base", "barracks", "town", "colony", "cabin", "city", "realm", "zone"],
 	"menacing_places_on_earth_without_the": [ "Antarctica", "Babylonia", "Basque Country", "Bavaria", "Egypt", "L.A.", "New Jersey", "Tibet", "area 51", "groom lake", "main street USA", "mesoptamia", "mongolia", "siberia", "soviet russia", "tampa", "yucca flats"],
 	"menacing_places_on_earth_with_the": ["Orient", "atlantic", "far east", "north", "nile", "north pole", "outback", "Himalayas", "pacific"],
 	"unpleasant_places_without_the" : [ "prison", "jail",],
@@ -63,7 +65,7 @@ RULES = {
 	"evil_adj" : [ "twisted", "abominable", "aggressive", "corrupt", "dark", "deadly", "demonic", "depraved", "deranged", "dread", "evil", "ferocious", "godless", "grim", "haunted", "homocidal", "horrendous", "horrifying", "infernal", "inhuman", "insane", "insidious", "killer", "laughing", "lurking", "macabre", "mad", "remorseless", "satanic", "shadowy", "sinister", "skeletal", "spooky", "terrifying", "unstoppable", "vampiric", "violent", "mindless", "wrathful", "enraged", "furious", ],
 	"horror_movie_adj" : [ "blood-soaked", "cannibal", "charnel", "grind-", "grind", "chainsaw", "bloody", "slasher", "gore-encrusted", ],
 	"magical_adj": [ "hexed", "accursed", "magic", "magical", "supernatural", "telepathic", "voodoo", "telekinetic", "precognitive", "clairvoyant", "pyrokinetic", "vedic", "sorcerous", "cursed", "forbidden", "mysterious", "ghost", "ghostly", ],
-	"material_adj" : [ "stone", "iron", "metal", "gold", "platinum", "silver", "lead", "wax", "clay", "crystal", "bone"],
+	"material_adj" : [ "water", "fire", "earth", "stone", "iron", "metal", "titanium", "aluminum", "cobalt", "plutonium", "thorium", "uranium", "gold", "platinum", "silver", "lead", "wax", "clay", "crystal", "bone"],
 	"material_properties" : ["hollow", "glowing"],
 	"natural_adj" : [ "albino", "amorphous", "frozen", "burning", "boiling", "backwoods", "blood-sucking", "chimeric", "dead", "flesh-eating", "fungal", "gelatinous", "heavy", "jungle", "living", "man-eating", "nocturnal", "protoplasmic", "rabid", "sentient", "starving", "untamed", "wild", "woodland", ],
 	"nuclear_science_y_adj" : [ "nuclear", "atomic", "radioactive", "toxic", "mutated", ],
@@ -71,7 +73,7 @@ RULES = {
 	"religion_or_culture_adj" : [ "noble", "highborn", "Aztec", "Egyptian", "eastern", "western", "christian", "jewish", "holy", "sacred", "hebrew", "Mormon", "neanderthal", "heathen", "shamanistic", "Norse", "soviet", "communist", ],
 	"sexploitation_adj": [ "kinky", "BDSM", "promiscuous", "raunchy", "dirty", "hedonistic", "desperate", "pent-up", "carnal", "freaky", "deviant", "fleshy", "sexy", "lavacious", "lecherous", "leather", ],
 	"silly_adj" : [ "teenage", "surfing", "strange", "weird", "dancing", "new-wave"],
-	"size_related_adj": [ "micro", "micro-", "mega", "mega-", "shrinking", "giant", "transforming", "colossal", "titanic", "enormous", "indestructible", "mighty", ],
+	"size_related_adj": [ "retro", "micro", "micro-", "mega", "mega-", "shrinking", "giant", "transforming", "colossal", "titanic", "enormous", "indestructible", "mighty", ],
 	"space_age_adj" : [ "experimental", "robo-", "astro", "rocket", "solar", "genetic", "neon", "space", "mecha-", "mechano-", "techno-", "electric", "electro-mechanical", "cybernetic", "stellar", "turbo", "uber-", "photonic", "temporal", "holographic", "time", "transdimensional", "ultra", "futuristic", "techno", "space age", ],
 	"undead_adj" : [ "undead", "reborn", "reanimated", ],
 	"unseen_adj": [ "invisible", "immaterial", "empty", "vacant", "phantom", "subterranean", "transparent", ],
@@ -112,6 +114,8 @@ RULES = {
 		# one person X machine
 		"One Man #shortform# Machine",
 		"One Woman #shortform# Machine",
+		"One Man #shortform# #shortform#",
+		"One Woman #shortform# #shortform#",
 
 		# battles
         "#form# VS. #form#",
@@ -182,8 +186,9 @@ RULES = {
 		# sky captain and the world of tomorrow
 		"#form# and the world of #time_related#",
 
-		# forms I want to appear more rarely
-		"#sexploitation_title#",
+
+		# Vampire hunter D
+		"#shortform# #job# '#letter#'",
 
 		# a few other ones
 		"The #form# that Couldn't be Killed",
@@ -211,13 +216,19 @@ RULES = {
         "My Boss is #form.a#",
 		"I attended #adj.a# #ritual#",
 
+		# sexploitation
+        "My Wife is #adj.a# Lover",
+        "My Husband is #adj.a# Lover",
+        "#form# de Sade",
+        "#sexy_servants# of the #form#",
+        "Sexy #threat.s# in Cages",
+        "The #form# Lovers",
+        "#form# in #sexy_material#",
+        "#pluralform# in #sexy_material#",
 
-		# Vampire hunter D
-		"#shortform# #job# '#letter#'",
-
+		# forms I want to appear more rarely
 		"#silly_sequels#",
 	],
-
 
 	"silly_sequels" : [
 		"#place# #number#: The #form#",
@@ -236,19 +247,6 @@ RULES = {
 		": #story# of the #threat#",
 		" XXX",
 	],
-
-	"sexploitation_title" : [
-        "My Wife is #adj.a# Lover",
-        "My Husband is #adj.a# Lover",
-        "#form# de Sade",
-        "Sex Slaves of the #form#",
-        "The Loves of the #form#",
-        "Sexy #threat.s# in Cages",
-        "The #form# Lovers",
-        "#form# in #sexy_material#",
-        "#pluralform# in #sexy_material#",
-	],
-
 
 	"silly_prefix": [
 		"Code Name:",
