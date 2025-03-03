@@ -28,7 +28,7 @@ RULES = {
 	##################### Nouns #######################
 	"sexy_servants" : [ "Sex Slaves", "Love Servants", "The Loves", "Lovers", "Concubine", "Pleasure mistress", "Pleasure master"],
 	"real_animal": ["owl", "whale", "eel", "lion", "carrion", "amoeba", "virus", "bacteria", "anaconda", "ant", "bat", "bear", "bee", "bird", "brood", "bunny", "cat", "centipede", "cheetah", "chicken", "dinosaur", "dog", "eagle", "fish", "frog", "hound", "leech", "lizard", "maggot", "mantis", "mole", "piranha", "plant", "puma", "python", "rabbit", "raven", "scorpion", "seaweed", "serpent", "shark", "snake", "spider", "termite", "tiger", "turtle", "vine", "vulture", "wasp", "worm", ],
-	"evil_group": [ "communist party", "illuminati", "secret society", "league", "triumvirate", "demagogue", "billionaire", "cabal", "unamerican activity", "lizard people", "mafia", "Vatican", "inner circle", "secret service", "CIA", "FBI", "Pentagon", "KGB", "congress", "SS", "council"],
+	"evil_group": [ "communist party", "illuminati", "secret society", "league", "triumvirate", "demagogue", "billionaire", "cabal", "unamerican activity", "lizard person", "mafia", "Vatican", "inner circle", "secret service", "CIA", "FBI", "Pentagon", "KGB", "congress", "SS", "council"],
 	"battle": [ "attack", "battle", "clash", "revolution", "hunt", "counterattack", "battlefield", "bloodbath", "mutiny", "invasion", "war", "massacre", "holocaust", ],
     "job": [ "student", "mom", "dad", "father", "mother", "runner", "surfer", "hooker", "comptroller", "trucker", "engineer", "alchemist", "architect", "autarch", "avenger", "baron", "biker", "bimbo", "boss", "bureaucrat", "butcher", "cannibal", "cheerleader", "clown", "commander", "commando", "communist", "cop", "crusader", "cultist", "czar", "defender", "detective", "diver", "duke", "duplicator", "emperor", "empress", "exorcist", "football player", "geisha", "gladiator", "goddess", "groupie", "harlot", "hunter", "invader", "king", "knight", "legionnaire", "librarian", "lord", "luchador", "master", "night", "ninja", "nun", "occultist", "pirate", "president", "priest", "prince", "princess", "private eye", "professor", "pyromaniac", "queen", "rabbi", "raider", "ronin", "samurai", "scientist", "secret agent", "seer", "servant", "slayer", "snatcher", "sorceror", "taxman", "trooper", "villager", "witch", "wizard", "astronaut", "renegade", "barbarian", "commando", "conqueror", "cop", "destroyer", "judge", "raider", "rider", "soldier", "surgeon", "thief", "warlock", "druid", "cleric", "preacher", "mage", "superhero", "supervillain", "hero", "villain"],
 	"food": [ "fruit", "water", "mushroom", "casserole", "toast", "mold", "egg", "tofu", "cheese"],
@@ -518,10 +518,10 @@ for i in range(1000):
 	
 	# fix plurals
 	title = title.replace("womans", "women")
-	title = title.replace(" mans ", " men ")
-	title = title.replace(" Mans ", " men ")
+	title = title.replace(" mans", " men")
 	title = title.replace("elfs", "elves")
 	title = title.replace("nauseas", "nausea")
+	title = title.replace("bloods", "blood")
 	
 
 	# capitalize
