@@ -32,6 +32,7 @@ RULES = {
 	"partner" : ["twin", "husband", "wife", "boss", "partner", "bride", "spouse", "groom", "mate", "baby"],
 
 	"drug": ["spice", "stimulant", "heroin", "psychedelic", "drug", "marijuana", "pcp", "cocaine", "LSD", "reefer", "ganja", "angel dust"],
+	"riches": ["diamonds", "riches", "bounty", "harvest", "gold", "treasure", "wealth", "fortune", "prosperity", "opulence"],
 
 	##################### Nouns #######################
 	"sexy_servant" : [ "Sex Slave", "Love Servant", "Sex Toy", "Lover", "Concubine", "Pleasure mistress", "Pleasure master"],
@@ -56,7 +57,7 @@ RULES = {
 	"story": ["elegy", "legend", "secret", "cycle", "fable", "fate", "saga", "tale", "tales", ],
 	"moment_in_time": [  "age", "era", "aeon", "eon", "day", "night", "year", "solstice", "time", "dawn", "rise", "dusk", "twilight"],
 	"ritual": [ "sabbath", "#color# mass", "dance", "rave", "concert", "festival", "funeral", "christmas", "opera", "orgy", "party", "pyre", "rite", "ritual", "sacrifice", ],
-	"mythological_places" : [ "hell", "elm street", "greenwich village", "eden", "atlantis", "troy", "Olympus", "Armageddon", "valhalla", "underworld", "astral plane", "miskatonic university", "Innsmouth", "hades", "avalon", "Ga'Hoole", "Shangra-La", "El Dorado", "carcosa", "R'lyeh", "Omicron Persei #number#", "vulcan", ],
+	"mythological_places" : [ "hell", "elm street", "greenwich village", "eden", "atlantis", "troy", "Olympus", "Armageddon", "valhalla", "underworld", "astral plane", "miskatonic university", "Innsmouth", "hades", "avalon", "Ga'Hoole", "Shangra-La", "El Dorado", "carcosa", "R'lyeh", "Tau Ceti #number#", "Omicron Persei #number#", "vulcan", ],
 	"spooky_locale_without_the": [ "swamp", "island", "lake", "tower", "mountain", "hill", ],
 	"spooky_locale": [ "continuum", "lighthouse", "pyramid", "void", "barren", "barrier", "caldera", "carnival", "bazzar", "castle", "cave", "continent", "crater", "crypt", "dungeon", "field", "forest", "grave", "graveyard", "cemetery", "grotto", "hill", "hive", "island", "jungle", "keep", "kingdom", "lagoon", "lagoon", "lake", "mausoleum", "mine", "mountain", "rim", "ruin", "sands", "sepulcher", "shipwreck", "shores", "swamp", "throne", "tomb", "torture chamber", "tower", "valley", "vault", "volcano", "wilderness", "fortress", "labrynth", "pit", ],
 	"water_and_oceans_with_the" :[ "sea", "deep", "depths", "reef"],
@@ -90,6 +91,7 @@ RULES = {
 	# Maybes
 	"adverb": [ "of", "in", "to", "that came from", "from", "before", "corrupted by", "from beyond", "on", "on the edge of", "beyond", "inside", "above", "within"],
 	"maybe_adj": [ "", "#adj#", "#adj#"],
+	"maybe_old_adj": ["", "#old_adj#"],
 	"maybe_roman_numeral": [ "", "#roman_numeral#"],
 
 	# Basics
@@ -157,6 +159,9 @@ RULES = {
 		"#job# #object#",
 		# Samurai cop
 		"#job# #job#",
+
+		# The treasure of the sierra madres
+		"The #maybe_old_adj# #riches# of #place# xyz",
 
 		# Mountain of the cannibal god
 		"#place_without_the# of the #form#",
@@ -310,6 +315,7 @@ RULES = {
 		"#spooky_objects_tools_or_weapons#",
 		"#drug#",
 		"#partner#",
+		"#riches#",
 
 		# random
 		"country",
@@ -361,14 +367,6 @@ RULES = {
 		"#magic_type# magick",
 		"#magic_type# tome",
 		"#magic_type# spellbook",
-
-		# riches
-		"diamonds",
-		"riches", 
-		"bounty",
-        "harvest",
-        "gold",
-        "treasure",
 
 		# spooky evidence
 		"vision",
