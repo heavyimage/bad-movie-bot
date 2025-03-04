@@ -29,7 +29,7 @@ RULES = {
 	"magic_type": ["", "sex", "#color#", "dark", "evil", "nature"],
 	"letter": [ "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"],
 	"moved" : [ "walked into", "was sent to", "traveled to", "returned from", "came back from", "time-traveled to", "slid into", "fell into", "was transported to", ],
-	"partner" : ["twin", "husband", "wife", "boss", "partner", "bride", "spouse", "groom", "mate", "baby"],
+	"partner" : ["girlfriend", "boyfriend", "twin", "husband", "wife", "boss", "partner", "bride", "spouse", "groom", "mate", "baby"],
 
 	"drug": ["spice", "stimulant", "heroin", "psychedelic", "drug", "marijuana", "pcp", "cocaine", "LSD", "reefer", "ganja", "angel dust"],
 	"riches": ["diamonds", "riches", "bounty", "harvest", "gold", "treasure", "wealth", "fortune", "prosperity", "opulence"],
@@ -41,18 +41,18 @@ RULES = {
 	"battle": [ "attack", "battle", "clash", "revolution", "hunt", "counterattack", "battlefield", "bloodbath", "mutiny", "invasion", "war", "massacre", "holocaust", ],
     "job": [ "messiah", "conciliator", "junkie", "enforcer", "gangster", "roadie", "cowboy", "vigilante", "vixen", "marquis", "student", "mom", "dad", "father", "mother", "runner", "surfer", "hooker", "comptroller", "trucker", "engineer", "alchemist", "architect", "autarch", "avenger", "baron", "biker", "bimbo", "bureaucrat", "butcher", "cannibal", "cheerleader", "clown", "commander", "commando", "communist", "cop", "crusader", "cultist", "czar", "defender", "detective", "diver", "duke", "duplicator", "emperor", "empress", "exorcist", "football player", "geisha", "gladiator", "goddess", "groupie", "harlot", "hunter", "invader", "king", "knight", "legionnaire", "librarian", "lord", "luchador", "master", "ninja", "nun", "occultist", "pirate", "president", "priest", "prince", "princess", "private eye", "professor", "pyromaniac", "queen", "rabbi", "raider", "ronin", "samurai", "scientist", "secret agent", "seer", "servant", "slayer", "snatcher", "sorceror", "taxman", "trooper", "villager", "witch", "wizard", "astronaut", "renegade", "barbarian", "commando", "conqueror", "cop", "destroyer", "judge", "raider", "rider", "soldier", "surgeon", "thief", "warlock", "druid", "cleric", "preacher", "mage", "superhero", "supervillain", "hero", "villain"],
 	"food": [ "fruit", "water", "mushroom", "casserole", "toast", "mold", "egg", "tofu", "cheese"],
-	"natural_phenomena": [ "ash", "cloud", "comet", "fire", "wave", "flood", "fog", "hail", "hurricane", "inferno", "mist", "pool", "rain", "sandstorm", "shadow", "snow", "summer", "tornado", "typhoon", "vapor", "water", "wind", "winter", "smoke", "smog"],
+	"natural_phenomena": [ "planet", "galaxy", "comet", "sun", "star", "moon", "ash", "cloud", "comet", "fire", "wave", "flood", "fog", "hail", "hurricane", "inferno", "mist", "pool", "rain", "sandstorm", "shadow", "snow", "summer", "tornado", "typhoon", "vapor", "water", "wind", "winter", "smoke", "smog"],
     "shapes": [ "pyramid", "vector", "field", "color", "stain", "circle", "pentagram", "hexagon", "element", "colour", "orb", "chaos", "blob", "cube", "flash", "form", "monolith", "sphere", ],
 	"spooky_objects_tools_or_weapons": [ "armor", "blade", "candy", "crown", "crystal ball", "drill", "relic", "artifact", "antique", "gun", "machinegun", "saw", "hammer", "amulet", "guillotine", "key", "lance", "mace", "masque", "plate", "rifle", "ring", "saber", "scepter", "shield", "shovel", "sword", "trapdoor", "mask", "capsule", "blaster", "mirror", "band"],
 	"portal": ["gate", "door", "gateway", "doorway", "passage", "portal", "tunnel", "bridge"],
 	"technology": ["test tube", "zeppelin", "forcefield", "equations", "raygun", "monument", "android", "blade", "car", "train", "computer", "doll", "effect", "elevator", "factory", "gear", "hologram", "laser", "machine", "mystereon", "plane", "puppet", "robot", "rocket", "saucer", "ship", "battleship", "tank", "science", "experiment", "spaceship", "starship", "statue", "toy", "truck", "ufo", "automaton", ],
     "fantasy_animal": [ "revenant", "phantasm", "alien", "angel", "bigfoot", "chimera", "chupacabra", "cockatrice", "cyborg", "demon", "dragon", "elf", "fairy", "fury", "gargoyle", "ghost", "ghoul", "giant", "gnome", "goblin", "god", "golem", "gorgon", "gremlin", "grue", "hobgoblin", "homunculus", "hydra", "imp", "kobold", "kraken", "leprechaun", "lepus", "leviathan", "lich", "lictor", "lycanthrope", "mermaid", "merman", "monster", "mummy", "mutant", "ogre", "phoenix", "poltergeist", "santa claus", "sasquatch", "satyr", "shapeshifter", "siren", "soul", "spectre", "spirit", "stalker", "troll", "undead", "unicorn", "vampire", "werewolf", "wight", "yeti", "zombie", "snowwoman", "snowman"],
-	"humans": [ "man", "teenager", "girl", "boy", "woman", "chick", "dude",],
+	"humans": [ "man", "teenager", "girl", "boy", "woman", "chick", "dude", "children", "daughter", "son"],
 	"threatening_thing": [ "freaks", "scum", "creep", "beast", "terror", "humanoids", "creature", "it", "thing", "threat", "lurker", "being", "maniac", "corpse", ],
 	"scary_phenomena" : [ "nightmare", "hunger", "dream", "horror", "madness", "death", "urge", "fever", "consciousness", "nausea", "pain", "madness", "anguish", "scream"],
 	"threatening_substance" : [ "web", "#drug#", "blood", "slime", "meat", "poison", "elixir", "dust", "stuff", "grime", "oil", "ooze", "goop", "sludge", "goo", "ichor", ],
 	
-	"body_part": [ "fist", "lip", "wing", "blood", "bone", "bun", "bosom", "brain", "claw", "eye", "finger", "flesh", "foot", "gut", "hand", "heart", "jaw", "maw", "mind", "mouth", "muscle", "organ", "skull", "spine", "stomach", "gaze", "tendril", "tentacle", ],
+	"body_part": [ "fist", "lip", "wing", "blood", "bone", "bun", "bosom", "brain", "claw", "eye", "finger", "flesh", "foot", "gut", "hand", "heart", "jaw", "maw", "mind", "mouth", "muscle", "organ", "skull", "face", "teeth", "brow", "spine", "stomach", "gaze", "tendril", "tentacle", ],
 	"scary_parts_of_a_house" : [ "attic", "basement", "bed", "cellar", "closet", "fireplace", "floorboards", "rug", "painting", "furnace", "kitchen", "room", "sewer", "garden", "backyard", "shed", "stairs", "walls", "well", ],
 	"story": ["elegy", "legend", "secret", "cycle", "fable", "fate", "saga", "tale", "tales", ],
 	"moment_in_time": [  "age", "era", "aeon", "eon", "day", "night", "year", "solstice", "time", "dawn", "rise", "dusk", "twilight"],
@@ -81,7 +81,7 @@ RULES = {
 	"old_adj" : [ "eldrich", "prehistoric", "medieval", "long-lost", "lost", "primal", "primeval", "forgotten", "cyclopean", "ancient", "abandoned", ],
 	"religion_or_culture_adj" : [ "noble", "highborn", "Mayan", "Aztec", "Egyptian", "eastern", "western", "christian", "jewish", "holy", "sacred", "hebrew", "Mormon", "neanderthal", "heathen", "shamanistic", "Norse", "soviet", "communist", ],
 	"sexploitation_adj": [ "transsexual", "foxy", "immoral", "kinky", "BDSM", "promiscuous", "raunchy", "dirty", "hedonistic", "desperate", "pent-up", "carnal", "freaky", "deviant", "fleshy", "sexy", "disco", "free-love", "pleasurable", "lavacious", "lecherous", "leather", ],
-	"silly_adj" : [ "teenage", "surfing", "strange", "weird", "convulsing", "dancing", "new-wave"],
+	"silly_adj" : [ "teenage", "surfing", "strange", "weird", "convulsing", "new-wave"],
 	"size_related_adj": [ "retro", "micro", "micro-", "mega", "mega-", "shrinking", "giant", "transforming", "colossal", "titanic", "enormous", "indestructible", "mighty", ],
 	"space_age_adj" : [ "video", "film", "experimental", "robo-", "astro", "rocket", "solar", "genetic", "neon", "space", "mecha-", "mechano-", "techno-", "electric", "electro-mechanical", "cybernetic", "stellar", "turbo", "uber-", "photonic", "temporal", "holographic", "time", "transdimensional", "ultra", "futuristic", "techno", "space age", ],
 	"undead_adj" : [ "undead", "reborn", "reanimated", ],
@@ -215,10 +215,14 @@ RULES = {
         "#adverb# the #spooky_locale# of the #pluralform#",
 
 		# sky captain and the world of tomorrow
-		"#form# and the world of #time_related#",
+		"#form# and the world of #simple_places#",
 
 		# Vampire hunter D
 		"#shortform# #job# '#letter#'",
+
+		# Daughters of the Sun
+		"#humans# of the #natural_phenomena#", 
+		"#humans.s# of the #natural_phenomena#", 
 
 		# a few other ones
 		"The #form# that Couldn't be Killed",
@@ -318,6 +322,7 @@ RULES = {
 		"#riches#",
 
 		# random
+		"curve",
 		"country",
 		"sex-change operation",
 		"school",
@@ -339,12 +344,6 @@ RULES = {
 		"song",
 		"melody",
 		"shiver",
-
-		# space stuff
-		"planet",
-		"galaxy",
-		"comet",
-		"moon",
 
 		#thoughts / states
 		"love",
@@ -461,21 +460,19 @@ RULES = {
 		"cetus #maybe_roman_numeral#",
 	],
 
-	"time_related" : [
+	"simple_places" : [
+		"#space_places#",
+
 		"forever",
 		"tomorrow",
 		"the earth",
 		"the future",
 		"the year 2000",
+		"the year 3000",
 		"the year 5000",
 		"the year 10000",
 		"the 41st Millennium",
 		"the center of the earth",
-		],
-
-	"simple_places" : [
-		"#space_places#",
-		"#time_related#",
 
 		"below",
 		"beyond",
