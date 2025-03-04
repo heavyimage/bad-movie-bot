@@ -161,7 +161,7 @@ RULES = {
 		"#job# #job#",
 
 		# The treasure of the sierra madres
-		"The #maybe_old_adj# #riches# of #place# xyz",
+		"The #maybe_old_adj# #riches# of #place#",
 
 		# Mountain of the cannibal god
 		"#place_without_the# of the #form#",
