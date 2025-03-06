@@ -18,12 +18,13 @@ from tracery.modifiers import base_english
 # https://en.wikipedia.org/wiki/Erotic_thriller#1980s%E2%80%931990s:_Classic_period
 
 
+
 RULES = {
 
-	# "library"
+	##################### Library #######################
 	"roman_numeral": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", ],
 	"number": [ "2", "3", "4", "5", "6", "II", "III", "IV", "V", "VI", "VII", ],
-	"color": ["beryl", "emerald", "scarlet", "ruby", "onyx", "purple", "copper", "golden", "silver", "red", "green", "black", "white", "blue", "glittering", "orange", "yellow", "obsidian", "ivory", "ebon", "ebony"],
+	"color": ["beryl", "emerald", "scarlet", "ruby", "onyx", "purple", "copper", "golden", "silver", "red", "green", "black", "white", "blue", "glittering", "orange", "yellow", "obsidian", "ebon"],
 	"sexy_material": ["the buff", "leather", "rubber", "lace", "pvc", "latex", "lingerie"],
 	"title": [ "dr.", "mr.", "mrs.", "professor",],
 	"magic_type": ["", "sex", "#color#", "dark", "evil", "nature"],
@@ -31,50 +32,51 @@ RULES = {
 	"moved" : [ "walked into", "was sent to", "traveled to", "returned from", "came back from", "time-traveled to", "slid into", "fell into", "was transported to", ],
 	"partner" : ["girlfriend", "boyfriend", "twin", "husband", "wife", "boss", "partner", "bride", "spouse", "groom", "mate", "baby"],
 
-	"drug": ["spice", "stimulant", "heroin", "psychedelic", "drug", "marijuana", "pcp", "cocaine", "LSD", "reefer", "ganja", "angel dust"],
-	"riches": ["diamonds", "riches", "bounty", "harvest", "gold", "treasure", "wealth", "fortune", "prosperity", "opulence"],
-
 	##################### Nouns #######################
 	"sexy_servant" : [ "Sex Slave", "Love Servant", "Sex Toy", "Lover", "Concubine", "Pleasure mistress", "Pleasure master"],
 	"real_animal": ["horse", "owl", "whale", "eel", "lion", "amoeba", "virus", "orca", "bacteria", "anaconda", "ant", "bat", "bear", "bee", "bird", "brood", "bunny", "cat", "centipede", "cheetah", "chicken", "dinosaur", "dog", "eagle", "fish", "frog", "hound", "leech", "lizard", "maggot", "mantis", "mole", "razorback", "piranha", "hedge", "tree", "shrub", "plant", "puma", "python", "rabbit", "raven", "scorpion", "seaweed", "serpent", "shark", "snake", "spider", "termite", "tiger", "turtle", "vine", "vulture", "wasp", "worm", ],
-	"evil_group": [ "gestapo", "communist party", "illuminati", "secret society", "league", "triumvirate", "demagogue", "billionaire", "cabal", "unamerican activity", "lizard person", "mafia", "Vatican", "inner circle", "secret service", "CIA", "FBI", "Pentagon", "KGB", "congress", "SS", "council", "anarchy", "domain", "alliance", "cult", "monarchy", "fellowship", "reign", "empire"],
+    "fantasy_animal": [ "sandworm", "revenant", "phantasm", "alien", "angel", "bigfoot", "chimera", "chupacabra", "cockatrice", "cyborg", "demon", "dragon", "elf", "fairy", "fury", "gargoyle", "ghost", "ghoul", "giant", "gnome", "goblin", "god", "golem", "gorgon", "gremlin", "grue", "hobgoblin", "homunculus", "hydra", "imp", "kobold", "kraken", "leprechaun", "lepus", "leviathan", "lich", "lictor", "lycanthrope", "mermaid", "merman", "monster", "mummy", "mutant", "ogre", "phoenix", "poltergeist", "santa claus", "sasquatch", "satyr", "shapeshifter", "siren", "soul", "spectre", "spirit", "stalker", "troll", "undead", "unicorn", "vampire", "werewolf", "wight", "yeti", "zombie", "snowwoman", "snowman"],
+	"evil_group": [ "commission", "gestapo", "communist party", "illuminati", "secret society", "league", "triumvirate", "demagogue", "billionaire", "cabal", "unamerican activity", "lizard person", "mafia", "Vatican", "inner circle", "secret service", "CIA", "FBI", "Pentagon", "KGB", "congress", "SS", "council", "anarchy", "domain", "alliance", "cult", "monarchy", "fellowship", "reign", "empire"],
+	"drug": ["spice", "stimulant", "heroin", "psychedelic", "drug", "marijuana", "pcp", "cocaine", "LSD", "reefer", "ganja", "angel dust"],
+	"riches": ["diamonds", "riches", "bounty", "harvest", "gold", "treasure", "wealth", "fortune", "prosperity", "opulence"],
 	"battle": [ "attack", "battle", "clash", "revolution", "hunt", "counterattack", "battlefield", "bloodbath", "mutiny", "invasion", "war", "massacre", "holocaust", ],
     "job": [ "messiah", "conciliator", "junkie", "enforcer", "gangster", "roadie", "cowboy", "vigilante", "vixen", "marquis", "student", "mom", "dad", "father", "mother", "runner", "surfer", "hooker", "comptroller", "trucker", "engineer", "alchemist", "architect", "autarch", "avenger", "baron", "biker", "bimbo", "bureaucrat", "butcher", "cannibal", "cheerleader", "clown", "commander", "commando", "communist", "cop", "crusader", "cultist", "czar", "defender", "detective", "diver", "duke", "duplicator", "emperor", "empress", "exorcist", "football player", "geisha", "gladiator", "goddess", "groupie", "harlot", "hunter", "invader", "king", "knight", "legionnaire", "librarian", "lord", "luchador", "master", "ninja", "nun", "occultist", "pirate", "president", "priest", "prince", "princess", "private eye", "professor", "pyromaniac", "queen", "rabbi", "raider", "ronin", "samurai", "scientist", "secret agent", "seer", "servant", "slayer", "snatcher", "sorceror", "taxman", "trooper", "villager", "witch", "wizard", "astronaut", "renegade", "barbarian", "commando", "conqueror", "cop", "destroyer", "judge", "raider", "rider", "soldier", "surgeon", "thief", "warlock", "druid", "cleric", "preacher", "mage", "superhero", "supervillain", "hero", "villain"],
-	"food": [ "fruit", "water", "mushroom", "casserole", "toast", "mold", "egg", "tofu", "cheese"],
+	"food": [ "fruit", "tomato", "water", "mushroom", "casserole", "toast", "mold", "egg", "tofu", "cheese"],
 	"natural_phenomena": [ "planet", "galaxy", "comet", "sun", "star", "moon", "ash", "cloud", "comet", "fire", "wave", "flood", "fog", "hail", "hurricane", "inferno", "mist", "pool", "rain", "sandstorm", "shadow", "snow", "summer", "tornado", "typhoon", "vapor", "water", "wind", "winter", "smoke", "smog"],
-    "shapes": [ "pyramid", "vector", "field", "color", "stain", "circle", "pentagram", "hexagon", "element", "colour", "orb", "chaos", "blob", "cube", "flash", "form", "monolith", "sphere", ],
-	"spooky_objects_tools_or_weapons": [ "armor", "blade", "candy", "crown", "crystal ball", "drill", "relic", "artifact", "antique", "gun", "machinegun", "saw", "hammer", "amulet", "guillotine", "key", "lance", "mace", "masque", "plate", "rifle", "ring", "saber", "scepter", "shield", "shovel", "sword", "trapdoor", "mask", "capsule", "blaster", "mirror", "band"],
+    "shapes": ["geometry", "curve", "pyramid", "vector", "field", "color", "stain", "circle", "pentagram", "hexagon", "element", "colour", "orb", "chaos", "blob", "cube", "flash", "form", "monolith", "sphere", ],
+	"spooky_objects_tools_or_weapons": [ "armor", "blade", "candy", "crown", "crystal ball", "relic", "artifact", "antique", "gun", "machinegun", "saw", "hammer", "amulet", "guillotine", "key", "lance", "mace", "masque", "plate", "rifle", "ring", "saber", "scepter", "shield", "shovel", "sword", "trapdoor", "mask", "capsule", "blaster", "mirror", "band"],
 	"portal": ["gate", "door", "gateway", "doorway", "passage", "portal", "tunnel", "bridge"],
-	"technology": ["test tube", "zeppelin", "forcefield", "equations", "raygun", "monument", "android", "blade", "car", "train", "computer", "doll", "effect", "elevator", "factory", "gear", "hologram", "laser", "machine", "mystereon", "plane", "puppet", "robot", "rocket", "saucer", "ship", "battleship", "tank", "science", "experiment", "spaceship", "starship", "statue", "toy", "truck", "ufo", "automaton", ],
-    "fantasy_animal": [ "revenant", "phantasm", "alien", "angel", "bigfoot", "chimera", "chupacabra", "cockatrice", "cyborg", "demon", "dragon", "elf", "fairy", "fury", "gargoyle", "ghost", "ghoul", "giant", "gnome", "goblin", "god", "golem", "gorgon", "gremlin", "grue", "hobgoblin", "homunculus", "hydra", "imp", "kobold", "kraken", "leprechaun", "lepus", "leviathan", "lich", "lictor", "lycanthrope", "mermaid", "merman", "monster", "mummy", "mutant", "ogre", "phoenix", "poltergeist", "santa claus", "sasquatch", "satyr", "shapeshifter", "siren", "soul", "spectre", "spirit", "stalker", "troll", "undead", "unicorn", "vampire", "werewolf", "wight", "yeti", "zombie", "snowwoman", "snowman"],
-	"humans": [ "man", "teenager", "girl", "boy", "woman", "chick", "dude", "children", "daughter", "son"],
+	"technology": ["space station", "test tube", "zeppelin", "forcefield", "equations", "raygun", "monument", "android", "blade", "car", "train", "computer", "doll", "effect", "elevator", "factory", "gear", "hologram", "laser", "machine", "mystereon", "plane", "puppet", "robot", "rocket", "saucer", "ship", "battleship", "tank", "science", "experiment", "spaceship", "starship", "statue", "toy", "truck", "ufo", "automaton", ],
+	"humans": [ "man", "broad", "gentleman", "teenager", "girl", "boy", "woman", "chick", "dude", "children", "daughter", "son"],
 	"threatening_thing": [ "freaks", "scum", "creep", "beast", "terror", "humanoids", "creature", "it", "thing", "threat", "lurker", "being", "maniac", "corpse", ],
 	"scary_phenomena" : [ "nightmare", "hunger", "dream", "horror", "madness", "death", "urge", "fever", "consciousness", "nausea", "pain", "madness", "anguish", "scream"],
 	"threatening_substance" : [ "web", "#drug#", "blood", "slime", "meat", "poison", "elixir", "dust", "stuff", "grime", "oil", "ooze", "goop", "sludge", "goo", "ichor", ],
-	
 	"body_part": [ "fist", "lip", "wing", "blood", "bone", "bun", "bosom", "brain", "claw", "eye", "finger", "flesh", "foot", "gut", "hand", "heart", "jaw", "maw", "mind", "mouth", "muscle", "organ", "skull", "face", "teeth", "brow", "spine", "stomach", "gaze", "tendril", "tentacle", ],
 	"scary_parts_of_a_house" : [ "attic", "basement", "bed", "cellar", "closet", "fireplace", "floorboards", "rug", "painting", "furnace", "kitchen", "room", "sewer", "garden", "backyard", "shed", "stairs", "walls", "well", ],
+
 	"story": ["elegy", "legend", "secret", "cycle", "fable", "fate", "saga", "tale", "tales", ],
 	"moment_in_time": [  "age", "era", "aeon", "eon", "day", "night", "year", "solstice", "time", "dawn", "rise", "dusk", "twilight"],
 	"ritual": [ "sabbath", "#color# mass", "dance", "rave", "concert", "festival", "funeral", "christmas", "opera", "orgy", "party", "pyre", "rite", "ritual", "sacrifice", ],
-	"mythological_places" : [ "hell", "elm street", "greenwich village", "eden", "atlantis", "troy", "Olympus", "Armageddon", "valhalla", "underworld", "astral plane", "miskatonic university", "Innsmouth", "hades", "avalon", "Ga'Hoole", "Shangra-La", "El Dorado", "carcosa", "R'lyeh", "Tau Ceti #number#", "Omicron Persei #number#", "vulcan", ],
+	"mythological_places" : [ "doom", "kingdom come", "hell", "dune", "elm street", "greenwich village", "eden", "atlantis", "troy", "Olympus", "Armageddon", "valhalla", "underworld", "astral plane", "miskatonic university", "Innsmouth", "hades", "avalon", "Ga'Hoole", "Shangra-La", "El Dorado", "carcosa", "R'lyeh", "Tau Ceti #number#", "Omicron Persei #number#", "vulcan", ],
 	"spooky_locale_without_the": [ "swamp", "island", "lake", "tower", "mountain", "hill", ],
 	"spooky_locale": [ "continuum", "lighthouse", "pyramid", "void", "barren", "barrier", "caldera", "carnival", "bazzar", "castle", "cave", "continent", "crater", "crypt", "dungeon", "field", "forest", "grave", "graveyard", "cemetery", "grotto", "hill", "hive", "island", "jungle", "keep", "kingdom", "lagoon", "lagoon", "lake", "mausoleum", "mine", "mountain", "rim", "ruin", "sands", "sepulcher", "shipwreck", "shores", "swamp", "throne", "tomb", "torture chamber", "tower", "valley", "vault", "volcano", "wilderness", "fortress", "labrynth", "pit", ],
 	"water_and_oceans_with_the" :[ "sea", "deep", "depths", "reef"],
 	"dwelling_place" : [ "village", "hotel", "house", "mansion", "fort", "stalag", "base", "barracks", "town", "colony", "cabin", "city", "realm", "zone"],
-	"menacing_places_on_earth_without_the": [ "Antarctica", "Babylonia", "Basque Country", "Baghdad", "Persia", "harlem", "berlin", "Bavaria", "Egypt", "L.A.", "New Jersey", "Tibet", "area 51", "groom lake", "main street USA", "mesoptamia", "mongolia", "siberia", "soviet russia", "tampa", "yucca flats"],
+	"menacing_places_on_earth_without_the": [ "Manhattan", "Antarctica", "Babylonia", "Basque Country", "Africa", "Baghdad", "Persia", "harlem", "berlin", "Bavaria", "Egypt", "L.A.", "New Jersey", "Tibet", "area 51", "groom lake", "main street USA", "mesoptamia", "mongolia", "siberia", "soviet russia", "tampa", "yucca flats"],
 	"menacing_places_on_earth_with_the": ["Orient", "atlantic", "far east", "north", "nile", "north pole", "outback", "Himalayas", "pacific"],
 	"unpleasant_places_without_the" : [ "prison", "jail",],
 	"unpleasant_places_with_the" :[ "suburbs", "fair", "silo", "mall", "science fair", "DMV", "library", ],
 	"religious_buildings_with_the" : [ "church", "abbey", "cathedral", "pagoda", "chapel", "reliquary", "synagogue", "mosque", "temple", ],
 
+	"surname" :["#menacing_places_on_earth_with_the#", "#menacing_places_on_earth_without_the#", "#moment_in_time#", "#mythological_places#" , "#spooky_locale_without_the#", "#spooky_locale#"],
+
 	##################### Adjectives #######################
-	"cosmic_adj" :["silent", "ruined", "lovecraftian", "non-euclidean", "hallucinogenic", "terminal", "alien", "cosmic", "crawling", "endless", "eternal", "final", "gibbous", "gloaming", "groaning", "hoary", "indescribable", "infinite", "occult", "outer", "star", "stygian", "timeless", ],
+	"cosmic_adj" :["spectral", "shuddering", "silent", "ruined", "lovecraftian", "non-euclidean", "hallucinogenic", "terminal", "alien", "cosmic", "crawling", "endless", "eternal", "final", "gibbous", "gloaming", "groaning", "hoary", "indescribable", "infinite", "occult", "outer", "star", "stygian", "timeless", ],
 	"decayed_adj" : ["paralyzing", "caustic", "acrid", "bubbling", "demolished", "diseased", "disgusting", "dying", "fetid", "melting", "one-eyed", "putrid", "rotting", ],
 	"evil_adj" : [ "twisted", "abominable", "aggressive", "corrupt", "dark", "deadly", "demonic", "depraved", "deranged", "dread", "evil", "ferocious", "godless", "grim", "haunted", "homicidal", "horrifying", "infernal", "inhuman", "insane", "insidious", "killer", "laughing", "lurking", "macabre", "mad", "remorseless", "satanic", "shadowy", "sinister", "skeletal", "spooky", "terrifying", "unstoppable", "vampiric", "violent", "mindless", "wrathful", "enraged", "furious", ],
 	"horror_movie_adj" : [ "blood-soaked", "cannibal", "charnel", "grind-", "grind", "chainsaw", "bloody", "slasher", "gore-encrusted", ],
 	"magical_adj": [ "hexed", "accursed", "magic", "magical", "supernatural", "telepathic", "voodoo", "telekinetic", "precognitive", "clairvoyant", "pyrokinetic", "vedic", "sorcerous", "cursed", "forbidden", "mysterious", "ghost", "ghostly", ],
-	"material_adj" : [ "water", "fire", "earth", "stone", "iron", "metal", "titanium", "aluminum", "cobalt", "plutonium", "thorium", "uranium", "gold", "silver", "lead", "wax", "clay", "crystal", "bone"],
+	"material_adj" : [ "water", "fire", "earth", "stone", "iron", "metal", "stainless steel", "titanium", "aluminum", "cobalt", "plutonium", "thorium", "uranium", "gold", "silver", "lead", "wax", "clay", "crystal", "bone"],
 	"material_properties" : ["hollow", "glowing"],
 	"natural_adj" : [ "flaming", "fiery", "psycho-", "flying", "albino", "amorphous", "frozen", "burning", "boiling", "backwoods", "blood-sucking", "chimeric", "dead", "flesh-eating", "fungal", "gelatinous", "heavy", "jungle", "living", "man-eating", "nocturnal", "protoplasmic", "rabid", "sentient", "starving", "untamed", "wild", "woodland", ],
 	"nuclear_science_y_adj" : [ "nuclear", "atomic", "radioactive", "toxic", "mutated", ],
@@ -150,6 +152,8 @@ RULES = {
 
 		"The #place# of #material_adj#",
 
+		"#title# #surname# and the #form#",
+
 		# job
 		"#form# #job#",
 		"#shortform# #job#",
@@ -221,8 +225,8 @@ RULES = {
 		"#shortform# #job# '#letter#'",
 
 		# Daughters of the Sun
-		"#humans# of the #natural_phenomena#", 
-		"#humans.s# of the #natural_phenomena#", 
+		"#humans# of the #natural_phenomena#",
+		"#humans.s# of the #natural_phenomena#",
 
 		# a few other ones
 		"The #form# that Couldn't be Killed",
@@ -230,7 +234,7 @@ RULES = {
 		"The #form# that Wouldn't Die#",
 		"The Wild, Wild World of the #form#",
 		"The Wild, Wild World of the #pluralform#",
-		"They called me '#form#'", 
+		"They called me '#form#'",
         "#shortform# -Geddon",
         "#shortform# -nado",
         "#shortform# -zilla",
@@ -322,7 +326,6 @@ RULES = {
 		"#riches#",
 
 		# random
-		"curve",
 		"country",
 		"sex-change operation",
 		"school",
@@ -508,7 +511,7 @@ RULES = {
 	"adj": [
 		"#color#",
 		"#material_adj#",
-		"#material_properties#", 
+		"#material_properties#",
 		"#sexploitation_adj#",
 		"#old_adj#",
 		"#nuclear_science_y_adj#",
@@ -534,7 +537,7 @@ grammar = tracery.Grammar(RULES)
 grammar.add_modifiers(base_english)
 for i in range(1000):
 	title = grammar.flatten("#full_title#")
-	
+
 	# merge adjectives / prefixes / suffixes
 	title = title.replace("- ", "")
 	title = title.replace(" -", "")
@@ -543,7 +546,7 @@ for i in range(1000):
 	# fix spacing
 	title = title.replace("' ", "'")
 	title = title.replace(" : ", ": ")
-	
+
 	# fix plurals
 	title = title.replace("womans", "women")
 	title = title.replace(" mans", " men")
@@ -553,7 +556,7 @@ for i in range(1000):
 	title = title.replace("foots", "feet")
 	title = title.replace("snowmans", "snowmen")
 	title = title.replace("snowwomans", "snowwomen")
-	
+
 
 	# capitalize
 	title = title.strip().title()
