@@ -45,15 +45,18 @@ RULES = {
 	"cardinal_direction": ["north", "south", "east", "west"],
     "roman_numeral": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", ],
     "number": [ "2", "3", "4", "5", "6", "II", "III", "IV", "V", "VI", "VII", "#greek_letter#"],
-    "title": [ "sgt.", "dr.", "mr.", "mrs.", "professor",],
+    "title": [ "wing commander", "sgt.", "dr.", "mr.", "mrs.", "professor",],
     "letter": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
                "s", "t", "u", "v", "w", "x", "y", "z"],
+    "numeric": ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"],
     "funny_year": ["19XX", "20XX", "2000", "3001", "5000", "10,000"],
     "greek_letter": ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "lamda", "mu", "nu", "xi", "omicron", "pi", "rho", "sigma", "tau", "upsilon", "phi", "chi", "psi", "omega",],
     "large_count_singular_adj": ["uncountable", "endless", "hundred", "thousand", "million", "billion", "trillion"],
     "threat_suffix": ["nado", "geddon", "zilla", "drome"],
     "magic_type_adj": ["sex", "#color#", "dark", "evil", "nature"],
     "impossible_verb": ["couldn't", "wouldn't", "could never"],
+    "person": ["man", "woman", "person", "robot"],
+    "fear": ["fear", "dread", "avoid", "flee"],
 
     #"preposition": ["about", "above", "across", "after", "against", "among",
     #                "around", "at", "before", "behind", "below", "beside",
@@ -61,11 +64,15 @@ RULES = {
     #                "inside", "into", "near", "of", "off", "on", "out", "over",
     #                "through", "to", "toward", "under", "up", "with", "within"],
     # just use the ones that imply coming from somewhere
-    "preposition": ["above", "across", "after", "against", "among",
+    "preposition": ["above", "across", "after", "among",
                     "around", "at", "before", "behind", "below",
                     "beyond", "from", "in",
                     "inside", "near", "of", "on", "out", "over",
                     "through", "to", "toward", "under", "with", "within"],
+
+    "surname" :["#places_on_earth#", "#moment_in_time#", "#mythological_places#"
+                , "#spooky_locale#", "Lee", "Jones", "Rodríguez", "Johnson",
+                "Williams", "Gonzalez", "#color#", "Smith", "O'Brian"],
 
 
     # slightly meta here
@@ -79,12 +86,13 @@ RULES = {
 
     ##### WTF ZONE ####
     # TODO:
-    #"events": ["toast"],
     #"???": ["that came from", "corrupted by", "from beyond", "on the edge of", "above the"]
     
     # Verbs?
-    # Separate for threat / place?
-    "ominous_action": ["came", "walked", "married", "studied", "hid", "walked", "was sent", "traveled", "returned", "came back", "time-traveled", "slid", "fell", "was transported"],
+    # TODO: Separate for threat / place?
+    "ominous_action": ["came", "walked", "married", "studied", "hid", "walked",
+                       "was sent", "traveled", "returned", "came back",
+                       "time-traveled", "slid into", "fell onto", "was transported to"],
     "danger_verb": ["kill", "freeze", "burn", "eat", "torture", "dissect", "dissolve"],
     
     #### COMPOUND RULES ####
@@ -94,7 +102,7 @@ RULES = {
     "maybe_old_adj":     ["", "#old_adj#"],
     "maybe_fun_numeral": ["", "#roman_numeral#", "#greek_letter#"],
     "maybe_the":         ["", "the"],
-    "maybe_adj_place":   ["#maybe_adj# #place#"],
+    "maybe_adj_place":   ["#maybe_adj# #smart_place#"],
 
     "smart_place": ["the #place_rt#", "#place_nrt#"],
 
@@ -102,21 +110,20 @@ RULES = {
     "ma_noun":       ["#maybe_adj# #noun#", ],
     "ma_nouns": ["#maybe_adj# #noun.s#", ],
 
-    "surname" :["#places_on_earth_with_the#", "#places_on_earth#", "#moment_in_time#", "#mythological_places#" , "#spooky_locale_without_the#", "#spooky_locale#", "Jones", "Smith", "O'Brian"],
 
     ### title encomplexification ###
 
 	# TODO: replace #place# with #maybe_adj_#place"
     "silly_sequels" : [
-        "#place# #number#: The #ma_noun#",
-        "#place# #number#: Return of the #ma_noun#",
-        "#place# #number#: Chapter #fun_numeral",
-        "#place# #number#: Revenge of the #ma_noun#",
-        "#place# #number#: #ma_noun# #noun#",
-        "#place# #number#: #noun# of the #ma_noun#",
-        "#ma_noun# #number#: #preposition# #place#",
-        "The #ma_noun# #number#: #preposition# #place#",
-        "The #ma_noun# #number#: #place#",
+        "#smart_place# #number#: The #ma_noun#",
+        "#smart_place# #number#: Return of the #ma_noun#",
+        "#smart_place# #number#: Chapter #fun_numeral",
+        "#smart_place# #number#: Revenge of the #ma_noun#",
+        "#smart_place# #number#: #ma_noun# #noun#",
+        "#smart_place# #number#: #noun# of the #ma_noun#",
+        "#ma_noun# #number#: #preposition# #smart_place#",
+        "The #ma_noun# #number#: #preposition# #smart_place#",
+        "The #ma_noun# #number#: #smart_place#",
     ],
     "silly_suffix": [
         "! kill! kill!",

@@ -6,20 +6,18 @@ full_titles = [
     "#silly_prefix# #ma_noun#",
     "#ma_noun# #silly_suffix#",
 
-    # unsorted:
+    # only one of many -- so called infrequently
+    "#silly_sequels#",
+
+    # basic forms
+    "#ma_noun#!",
+    "The #ma_noun#",
+    "The #adj# #adj# #noun#",
     "#noun# of the #ma_noun#",
     "#noun# #noun#",
     "#adj# #job#: The #noun# of the #ma_noun#",
     "#adj# #noun#",
     "#adj# #noun# of the #ma_nouns#",
-
-    # basic form
-    "#ma_noun#!",
-    "The #ma_noun#",
-    "The #adj# #adj# #noun#",
-
-    # one person X machine
-    "One #person# #noun# Machine",
 
     # battles
     "#ma_noun# vs. #ma_noun#",
@@ -31,12 +29,80 @@ full_titles = [
     "#body_part# of #noun#",
     "The #body_part# of the #noun#",
 
+    "#title# #surname# and the #ma_noun#",
+
+    # job
+    "#ma_noun# #job#",
+    "#noun# #job#",
+
+    "The #scheme# of the #noun#",
+
+    # TODO: this needs a lot of work...
+    # TODO: replace #place# with #maybe_adj_#place"?????
+    #"#maybe_the# #maybe_adj# #adventure# #preposition# #place#",
     # the place that was turned to material
-    # TODO: replace #place# with #maybe_adj_#place"
     "#smart_place# that was turned to #material#",
     "#smart_place# that became #material#",
-    # TODO: replace #place# with #maybe_adj_#place"
     "#smart_place# of #material_adj#",
+    "The #portal# #preposition# #smart_place#",
+    "I #ominous_action# #smart_place#",
+    "I attended #adj.a# #ritual#",
+    "#job# #noun# and the #ma_noun# #preposition# #smart_place#",
+    "#job# #noun# and the #noun# #preposition# #smart_place#",
+    "#job# #preposition# #smart_place#",
+    "The #ma_noun# #preposition# #smart_place#",
+    "#maybe_the# #noun# #preposition# #smart_place#",
+
+
+    ### GENRE WORK ###
+
+    # mondo cane
+    "The Wild, Wild World of the #ma_noun#",
+    "The Wild, Wild World of the #ma_nouns#",
+    "They called me '#ma_noun#'",
+    "#noun##threat_suffix#",
+    "30 #noun.s# in 30 Days",
+    "30 #noun.s#, 30 Days",
+
+    # Bad horror
+    "Death by #ma_noun#",
+    "Death by #ma_nouns#",
+    "The #ma_noun# that #impossible_verb# be Killed",
+    "The #ma_noun# that #impossible_verb# be Stopped",
+    "The #ma_noun# that #impossible_verb# Die#",
+    "I #ominous_action# the #ma_noun#",
+    "I #ominous_action# the #ma_nouns#",
+    "I was in league with #ma_noun.a#",
+
+    # Cursed relations
+    "My #relation# Became #ma_noun.a#",
+    "#relation# Became #ma_noun.a#",
+    "My #relation# #ominous_action# #noun.a#",
+    "#relation# #ominous_action# #ma_noun.a#",
+    "#relation# from #smart_place#",
+    "#relation# of #smart_place#",
+    "#relation# of #named_noun#",
+    "#relation# of #noun#",
+
+    # sexploitation
+    "She was a #adj# #noun#",
+    "#sexy_servant.s# of the #ma_noun#",
+    "#adj# love potion#",
+    "#ma_noun# de Sade",
+    "#maybe_adj# #noun.s# in the #trapped_place#",
+    "The #noun# in the #trapped_place#",
+    "The #ma_noun# Lovers",
+    "#ma_noun# in #sexy_material#",
+    "#ma_nouns# in #sexy_material#",
+    "My #relation# is #adj.a# #sexy_servant#",
+    "My #relation# is #ma_noun.a#",
+    "My #relation# is the #adj# #sexy_servant# of #job.s#",
+    "My #relation# is the #adj# #sexy_servant# of #noun.s#",
+
+
+    ### TARGET  FILM TITLES ###
+    # one person X machine
+    "One #person# #noun# Machine",
 
     # magic job
     "#magic_type_adj# #magic# #job#",
@@ -47,7 +113,71 @@ full_titles = [
     # texas chainsaw massacre
     "#evocative_nations# #spooky_objects_tools_or_weapons# #battle#",
 
-    "#title# #surname# and the #ma_noun#",
+    # Demon door
+    "#evil_adj# #portal#",
+
+    # The Seventh Seal
+    "The #numeric# #portal#",
+
+    # Close Encounters, lol
+    "Close Encounters of the #numeric# kind",
+
+    # Ilsa: she wolf of the ss
+    "#ma_noun#: #noun# of the #evil_group#",
+
+    # Why did you eat my mother?!"
+    "Why did you #danger_verb# my #relation#?!",
+
+    # Shadow over innsmouth
+    # TODO: replace #place# with #maybe_adj_#place"
+    "The #noun# #preposition# #smart_place#",
+
+    # "star wars"
+    "#adj# #battle#",
+
+    # "Battle of Los Angeles"
+    # TODO: replace with #maybe_adj_#place"
+    "#battle#: #maybe_adj# #smart_place#",
+
+    # "grind-house"
+    "#adj# #smart_place#",
+
+    # Daughters of the Sun
+    "#human# of the #natural_phenomena#",
+    "#human.s# of the #natural_phenomena#",
+
+    # The door in time
+    "The #portal# #preposition# #smart_place#",
+    # The infinite gate
+    "The #cosmic_adj# #portal#",
+
+    # D-war
+    "#letter#-#battle#",
+
+    # I have no mouth but I must scream
+    "I have no #body_part# but I must #human_reaction#",
+
+    # "Daughter of the dinosaur people"
+    "#relation# of the #all_animals#-#people#",
+
+    # I was a teenage warewolf
+    "I Was a #silly_adj# #ma_noun#",
+
+    # hitchiker's guide to the galaxy
+    "The #job#'s guide to #smart_place#",
+
+    # the day of the triffids
+    # the night of the lepus
+    "The #moment_in_time# of the #ma_nouns#",
+
+    # Beyond the valley of the dolls
+    "#preposition# the #spooky_locale# of the #ma_nouns#",
+
+    # sky captain and the world of tomorrow
+    "#adj# #job# and the world of #smart_place.s#",
+
+    # Vampire hunter D
+    "#noun# #job# '#letter#'",
 
     # TODO: The Million Eyes of Sumuru
     "The #large_count_singular_adj# #body_part.s# of the #noun#",
@@ -74,23 +204,14 @@ full_titles = [
     # Firestarter
     "#natural_phenomena#starter",
 
-    # job
-    "#ma_noun# #job#",
-    "#noun# #job#",
-
     # The hills have eyes
-    "#smart_place.s# have #body_part.s#",
+    "The #spooky_locale.s# have #body_part.s#",
 
     # The cabin in the woods
     "The #building# in the #spooky_locale.s#",
 
     # Superman lives!
     "#noun# lives!",
-
-    # TODO: replace #place# with #maybe_adj_#place"
-    "#job# #noun# and the #ma_noun# #preposition# #smart_place#",
-    "#job# #noun# and the #noun# #preposition# #smart_place#",
-    "#job# #preposition# #smart_place#",
 
     # librarian counterattack
     "#job# #noun#",
@@ -121,19 +242,9 @@ full_titles = [
     "#smart_place# #operation.s#",
 
     # escape from NY
-    # #TODO: place/the fail!
     "#adventure# #preposition# #smart_place#",
-
-    # TODO: this needs a lot of work...
-    # TODO: replace #place# with #maybe_adj_#place"?????
-    #"#maybe_the# #maybe_adj# #adventure# #preposition# #place#",
-
     # The love witch
     "The #noun# #job#",
-
-    # TODO: replace #place# with #maybe_adj_#place"
-    "The #ma_noun# #preposition# #smart_place#",
-    "#maybe_the# #noun# #preposition# #smart_place#",
 
     # The blood on satan's claw
     "The #threatening_substance# on the #fantasy_animal#'s #body_part#",
@@ -145,115 +256,18 @@ full_titles = [
     # The masque of the red death
     "The #noun# of the #adj# #noun#",
 
-    # TODO: replace #place# with #maybe_adj_#place"
-    "The #portal# #preposition# #smart_place#",
+    # Indiana Jones and the temple of doom
+    "#title# #surname# and the #building# of #concept#",
 
-    # Ilsa: she wolf of the ss
-    "#ma_noun#: #noun# of the #evil_group#",
+    # indiana Jones and the dial of destiny
+    "#title# #surname# and the #spooky_objects_tools_or_weapons# of #concept#",
 
-    # Why did you eat my mother?!"
-    "Why did you #danger_verb# my #relation#?!",
+    # The cranes are flying
+    "The #all_animals.s# are flying",
 
-    # Shadow over innsmouth
-    # TODO: replace #place# with #maybe_adj_#place"
-    "The #noun# #preposition# #smart_place#",
+    # don't fear the reaper
+    "Don't #fear# the #noun#",
 
-    # "star wars"
-    "#adj# #battle#",
 
-    # "Battle of Los Angeles"
-    # TODO: replace with #maybe_adj_#place"
-    "#battle#: #maybe_adj# #smart_place#",
 
-    # "grind-house"
-    "#adj# #smart_place#",
-
-    # the day of the triffids
-    # the night of the lepus
-    "The #moment_in_time# of the #ma_nouns#",
-
-    # Beyond the valley of the dolls
-    "#preposition# the #spooky_locale# of the #ma_nouns#",
-
-    # sky captain and the world of tomorrow
-    "#adj# #job# and the world of #smart_place.s#",
-
-    # Vampire hunter D
-    "#noun# #job# '#letter#'",
-
-    "The #scheme# of the #noun#",
-
-    # Daughters of the Sun
-    "#human# of the #natural_phenomena#",
-    "#human.s# of the #natural_phenomena#",
-
-    # The door in time
-    "The #portal# #preposition# #smart_place#",
-    # The infinite gate
-    "The #cosmic_adj# #portal#",
-
-    # D-war
-    "#letter#-#battle#",
-
-    # a few other ones
-    "The #ma_noun# that #impossible_verb# be Killed",
-    "The #ma_noun# that #impossible_verb# be Stopped",
-    "The #ma_noun# that #impossible_verb# Die#",
-    "The Wild, Wild World of the #ma_noun#",
-    "The Wild, Wild World of the #ma_nouns#",
-    "They called me '#ma_noun#'",
-    "#noun##threat_suffix#",
-    "30 #noun.s# in 30 Days",
-    "30 #noun.s#, 30 Days",
-    "Death by #ma_noun#",
-    "Death by #ma_nouns#",
-
-    # Demon door
-    "#evil_adj# #portal#",
-
-    # Cursed relations
-    "My #relation# Became #ma_noun.a#",
-    "#relation# Became #ma_noun.a#",
-    "My #relation# #ominous_action# #noun.a#",
-    "#relation# #ominous_action# #ma_noun.a#",
-    "#relation# from #smart_place#",
-    "#relation# of #smart_place#",
-    "#relation# of #named_noun#",
-    "#relation# of #noun#",
-    # "Daughter of the dinosaur people"
-    "#relation# of the #real_animal#-people",
-
-    "My #relation# is #adj.a# #sexy_servant#",
-    "My #relation# is #ma_noun.a#",
-    "My #relation# is the #adj# #sexy_servant# of #job.s#",
-    "My #relation# is the #adj# #sexy_servant# of #noun.s#",
-
-    "I #ominous_action# #preposition# #ma_nouns#",
-    "I #ominous_action# the #ma_noun#", # TODO: need prepositions?
-    "I #ominous_action# the #ma_nouns#", # TODO: need prepositions
-    "I was in league with #ma_noun.a#",
-
-    # TODO: replace #place# with #maybe_adj_#place"
-    "I #ominous_action# #smart_place#",
-    "I attended #adj.a# #ritual#",
-
-    # I was a teenage warewolf
-    "I Was a #silly_adj# #ma_noun#",
-
-    # sexploitation
-    "She was a #adj# #noun#",
-    "#sexy_servant.s# of the #ma_noun#",
-    "#adj# love potion#",
-    "#ma_noun# de Sade",
-    "#maybe_adj# #noun.s# in #trapped_place#",
-    "The #noun# in #trapped_place#",
-    "The #ma_noun# Lovers",
-    "#ma_noun# in #sexy_material#",
-    "#ma_nouns# in #sexy_material#",
-
-    # hitchiker's guide to the galaxy
-    "The #job#'s guide to #smart_place#",
-
-    # forms I want to appear more rarely
-    "#silly_sequels#",
 ]
