@@ -2,54 +2,56 @@
 # TODO: try to have an example title to explain the rule!
 full_titles = [
     # prefix and suffix
-    "#silly_prefix# #threat#",
-    "#silly_prefix# #form#",
-    "#form# #silly_suffix#",
+    "#silly_prefix# #noun#",
+    "#silly_prefix# #ma_noun#",
+    "#ma_noun# #silly_suffix#",
 
     # unsorted:
-    "#noun# of the #form#",
-    "#threat# #noun#",
-    "#adj# #job#: The #noun# of the #form#",
+    "#noun# of the #ma_noun#",
+    "#noun# #noun#",
+    "#adj# #job#: The #noun# of the #ma_noun#",
     "#adj# #noun#",
-    "#adj# #noun# of the #pluralform#",
+    "#adj# #noun# of the #ma_nouns#",
 
     # basic form
-    "#form#!",
-    "The #form#",
-    "The #adj# #adj# #threat#",
+    "#ma_noun#!",
+    "The #ma_noun#",
+    "The #adj# #adj# #noun#",
 
     # one person X machine
-    "One #person# #threat# Machine",
+    "One #person# #noun# Machine",
 
     # battles
-    "#form# vs. #form#",
-    "The #form# and the #form#",
-    "#threat#-zilla VS #threat#-ra",
+    "#ma_noun# vs. #ma_noun#",
+    "The #ma_noun# and the #ma_noun#",
+    "#noun#-zilla VS #noun#-ra",
 
     # body part form
-    "#body_part# #threat#",
-    "#body_part# of #threat#",
-    "The #body_part# of the #threat#",
+    "#body_part# #noun#",
+    "#body_part# of #noun#",
+    "The #body_part# of the #noun#",
 
     # the place that was turned to material
     # TODO: replace #place# with #maybe_adj_#place"
-    "The #place_without_the# that was turned to #material_adj#",
-    "The #place_without_the# that became #material_adj#",
+    "#smart_place# that was turned to #material#",
+    "#smart_place# that became #material#",
+    # TODO: replace #place# with #maybe_adj_#place"
+    "#smart_place# of #material_adj#",
 
     # magic job
     "#magic_type_adj# #magic# #job#",
 
-    # carnival of souls
-    "#maybe_the# #noun# of #threat.s#",
+    # (the) carnival of souls
+    "#maybe_the# #noun# of #noun.s#",
 
-    # TODO: replace #place# with #maybe_adj_#place"
-    "The #place# of #material_adj#",
+    # texas chainsaw massacre
+    "#evocative_nations# #spooky_objects_tools_or_weapons# #battle#",
 
-    "#title# #surname# and the #form#",
+    "#title# #surname# and the #ma_noun#",
 
     # TODO: The Million Eyes of Sumuru
-    "The #large_count_singular_adj# #body_part.s# of the #threat#",
-    "The #large_count_singular_adj# #body_part.s# of the #threat.s#",
+    "The #large_count_singular_adj# #body_part.s# of the #noun#",
+    "The #large_count_singular_adj# #body_part.s# of the #noun.s#",
 
     # TODO: night of 1000 dreams
     "#moment_in_time# of a #large_count_singular_adj# #concept.s#",
@@ -58,160 +60,199 @@ full_titles = [
     "#concept# and #concept#",
 
     # Beyond Good and Evil
-    "#adverb# #concept# and #concept#",
+    "#preposition# #concept# and #concept#",
 
     # Beyond Justice
-    "#adverb# #concept#",
+    "#preposition# #concept#",
 
     # "Blue Justice"
     "#adj# #concept#",
+
+    # The shadow over innsouth
+    "The #concept# #preposition# #smart_place#",
 
     # Firestarter
     "#natural_phenomena#starter",
 
     # job
-    "#form# #job#",
-    "#threat# #job#",
+    "#ma_noun# #job#",
+    "#noun# #job#",
+
+    # The hills have eyes
+    "#smart_place.s# have #body_part.s#",
+
+    # The cabin in the woods
+    "The #building# in the #spooky_locale.s#",
+
+    # Superman lives!
+    "#noun# lives!",
 
     # TODO: replace #place# with #maybe_adj_#place"
-    "#job# #threat# and the #form# #adverb# #place#",
-    "#job# #threat# and the #threat# #adverb# #place#",
-    "#job# #adverb# #place#",
+    "#job# #noun# and the #ma_noun# #preposition# #smart_place#",
+    "#job# #noun# and the #noun# #preposition# #smart_place#",
+    "#job# #preposition# #smart_place#",
+
+    # librarian counterattack
     "#job# #noun#",
 
     # Samurai cop
     "#job# #job#",
 
     # The treasure of the sierra madres
-    "The #maybe_old_adj# #riches# of #adj# #place#",
+    "The #maybe_old_adj# #riches# of #adj# #smart_place#",
 
     # Mountain of the cannibal god
     # TODO: replace #place# with #maybe_adj_#place"
-    "#place_without_the# of the #form#",
+    "#smart_place# of the #ma_noun#",
 
     # Plan 9 from outer space
     # TODO: replace #place# with #maybe_adj_#place"
-    "#operation# #number# from #place#",
+    "#operation# #number# from #smart_place#",
 
     # Assignment: earth
     # TODO: replace #place# with #maybe_adj_#place"
-    "#operation#: #place#",
+    "#operation#: #smart_place#",
 
     # Phase IV
     "#operation# #number#",
 
+    # The hydra protocol
+    "The #noun# #operation#",
+    "#smart_place# #operation.s#",
+
     # escape from NY
+    # #TODO: place/the fail!
+    "#adventure# #preposition# #smart_place#",
+
     # TODO: this needs a lot of work...
     # TODO: replace #place# with #maybe_adj_#place"?????
-    "#maybe_the# #maybe_adj# #adventure# #adverb# #place#",
+    #"#maybe_the# #maybe_adj# #adventure# #preposition# #place#",
 
     # The love witch
     "The #noun# #job#",
 
     # TODO: replace #place# with #maybe_adj_#place"
-    "The #form# #adverb# #place#",
-    "#maybe_the# #threat# #adverb# #place#",
+    "The #ma_noun# #preposition# #smart_place#",
+    "#maybe_the# #noun# #preposition# #smart_place#",
 
     # The blood on satan's claw
     "The #threatening_substance# on the #fantasy_animal#'s #body_part#",
     "The #threatening_substance# in the #fantasy_animal#'s #body_part#",
 
     # The Sword of the lictor
-    "The #noun# of the #pluralform#",
+    "The #noun# of the #ma_nouns#",
 
     # The masque of the red death
     "The #noun# of the #adj# #noun#",
 
     # TODO: replace #place# with #maybe_adj_#place"
-    "The #portal# #adverb# #place#",
+    "The #portal# #preposition# #smart_place#",
 
     # Ilsa: she wolf of the ss
-    "#form#: #threat# of the #evil_group#",
+    "#ma_noun#: #noun# of the #evil_group#",
+
+    # Why did you eat my mother?!"
+    "Why did you #danger_verb# my #relation#?!",
 
     # Shadow over innsmouth
     # TODO: replace #place# with #maybe_adj_#place"
-    "The #noun# #adverb# #place#",
+    "The #noun# #preposition# #smart_place#",
 
     # "star wars"
     "#adj# #battle#",
 
     # "Battle of Los Angeles"
     # TODO: replace with #maybe_adj_#place"
-    "#battle#: #maybe_adj# #place#",
+    "#battle#: #maybe_adj# #smart_place#",
 
     # "grind-house"
-    "#place#",
+    "#adj# #smart_place#",
 
     # the day of the triffids
     # the night of the lepus
-    "The #moment_in_time# of the #pluralform#",
+    "The #moment_in_time# of the #ma_nouns#",
 
     # Beyond the valley of the dolls
-    "#adverb# the #spooky_locale# of the #pluralform#",
+    "#preposition# the #spooky_locale# of the #ma_nouns#",
 
     # sky captain and the world of tomorrow
-    "#adj# #job# and the world of #simple_places#",
+    "#adj# #job# and the world of #smart_place.s#",
 
     # Vampire hunter D
-    "#threat# #job# '#letter#'",
+    "#noun# #job# '#letter#'",
+
+    "The #scheme# of the #noun#",
 
     # Daughters of the Sun
     "#human# of the #natural_phenomena#",
     "#human.s# of the #natural_phenomena#",
 
     # The door in time
-    "The #portal# #adverb# #cosmic_place#",
-    "The #portal# #adverb# the #cosmic_place#",
+    "The #portal# #preposition# #smart_place#",
     # The infinite gate
     "The #cosmic_adj# #portal#",
 
+    # D-war
+    "#letter#-#battle#",
+
     # a few other ones
-    "The #form# that Couldn't be Killed",
-    "The #form# that Couldn't be Stopped",
-    "The #form# that Wouldn't Die#",
-    "The Wild, Wild World of the #form#",
-    "The Wild, Wild World of the #pluralform#",
-    "They called me '#form#'",
-    "#threat#geddon",
-    "#threat#nado",
-    "#threat#zilla",
-    "#threat#drome",
-    "30 #threat.s# in 30 Days",
-    "30 #threat.s#, 30 Days",
-    "Death by #form#",
-    "Death by #pluralform#",
-    "I Became #form.a#",
-    "I Married #form.a#",
-    "My dad married #threat.a#",
-    "My mom married #threat.a#",
-    "I Walked with #pluralform#",
-    "I Walked with the #form#",
-    "I Walked with the #pluralform#",
-    "I was in league with #form.a#",
+    "The #ma_noun# that #impossible_verb# be Killed",
+    "The #ma_noun# that #impossible_verb# be Stopped",
+    "The #ma_noun# that #impossible_verb# Die#",
+    "The Wild, Wild World of the #ma_noun#",
+    "The Wild, Wild World of the #ma_nouns#",
+    "They called me '#ma_noun#'",
+    "#noun##threat_suffix#",
+    "30 #noun.s# in 30 Days",
+    "30 #noun.s#, 30 Days",
+    "Death by #ma_noun#",
+    "Death by #ma_nouns#",
+
+    # Demon door
+    "#evil_adj# #portal#",
+
+    # Cursed relations
+    "My #relation# Became #ma_noun.a#",
+    "#relation# Became #ma_noun.a#",
+    "My #relation# #ominous_action# #noun.a#",
+    "#relation# #ominous_action# #ma_noun.a#",
+    "#relation# from #smart_place#",
+    "#relation# of #smart_place#",
+    "#relation# of #named_noun#",
+    "#relation# of #noun#",
+    # "Daughter of the dinosaur people"
+    "#relation# of the #real_animal#-people",
+
+    "My #relation# is #adj.a# #sexy_servant#",
+    "My #relation# is #ma_noun.a#",
+    "My #relation# is the #adj# #sexy_servant# of #job.s#",
+    "My #relation# is the #adj# #sexy_servant# of #noun.s#",
+
+    "I #ominous_action# #preposition# #ma_nouns#",
+    "I #ominous_action# the #ma_noun#", # TODO: need prepositions?
+    "I #ominous_action# the #ma_nouns#", # TODO: need prepositions
+    "I was in league with #ma_noun.a#",
+
     # TODO: replace #place# with #maybe_adj_#place"
-    "I #moved# #place#",
-    "I Was a Teenage #form#",
+    "I #ominous_action# #smart_place#",
     "I attended #adj.a# #ritual#",
 
+    # I was a teenage warewolf
+    "I Was a #silly_adj# #ma_noun#",
+
     # sexploitation
-    # "Daughter of the dinosaur people"
-    "#partner# of the #real_animal#-people",
-    "My #partner# is #form.a#",
-    "#partner# of #threat#",
-    "#partner# of #named_threat#",
-    "#partner# from #star#",
-    "#partner# of #mythological_places#",
-    "My #partner# is #adj.a# #sexy_servant#",
-    "My #partner# is the #adj# #sexy_servant# of #threat.s#",
-    "My #partner# is the #adj# #sexy_servant# of #job.s#",
-    "She was a #adj# #threat#",
-    "#sexy_servant.s# of the #form#",
+    "She was a #adj# #noun#",
+    "#sexy_servant.s# of the #ma_noun#",
     "#adj# love potion#",
-    "#form# de Sade",
-    "Sexy #threat.s# in #plural_trapped_place#",
-    "The #form# Lovers",
-    "#form# in #sexy_material#",
-    "#pluralform# in #sexy_material#",
+    "#ma_noun# de Sade",
+    "#maybe_adj# #noun.s# in #trapped_place#",
+    "The #noun# in #trapped_place#",
+    "The #ma_noun# Lovers",
+    "#ma_noun# in #sexy_material#",
+    "#ma_nouns# in #sexy_material#",
+
+    # hitchiker's guide to the galaxy
+    "The #job#'s guide to #smart_place#",
 
     # forms I want to appear more rarely
     "#silly_sequels#",

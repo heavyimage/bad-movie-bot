@@ -3,19 +3,18 @@ from tracery.modifiers import base_english
 
 # Split up stuff!
 from adjectives import base_adjectives
-from nouns import base_nouns, base_threats
+from nouns import base_nouns
+from places import base_places_rt, base_places_nrt
 from full_titles import full_titles
 
 
 
 # TODO:sanity check duplicates
 # TODO: sort out "the"
-# TODO: 'form' is too vague...
 
 #named threats (don't want 'the' ahead of them
 
 # the plane of leng
-# sort adverbs
 # adjective / noun agreement?
 #"#magic_type_adj# #magic#",
 # https://en.wikipedia.org/wiki/Erotic_thriller#1980s%E2%80%931990s:_Classic_period
@@ -24,8 +23,8 @@ from full_titles import full_titles
 "filth"
 "part XXX"
 "invincible"
-"#threat# lives"
-"murderous"
+"grave",
+"reign"
 "country",
 "school",
 "barbed wire",
@@ -41,31 +40,52 @@ DONT_CAP = ["a", "and", "as", "at", "be", "but", "became", "by", "down", "for", 
 
 RULES = {
     ##################### Basic Rules #######################
+
+    # Putting them here means they won't be used as "nouns" or "adjectives"
 	"cardinal_direction": ["north", "south", "east", "west"],
     "roman_numeral": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", ],
     "number": [ "2", "3", "4", "5", "6", "II", "III", "IV", "V", "VI", "VII", "#greek_letter#"],
-    "title": [ "dr.", "mr.", "mrs.", "professor",],
+    "title": [ "sgt.", "dr.", "mr.", "mrs.", "professor",],
     "letter": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
                "s", "t", "u", "v", "w", "x", "y", "z"],
     "funny_year": ["19XX", "20XX", "2000", "3001", "5000", "10,000"],
-    "greek_letter": ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa",
-                     "lamda", "mu", "nu", "xi", "omicron", "pi", "rho", "sigma", "tau", "upsilon", "phi", "chi", "psi", "omega",],
-    "day_of_the_week": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+    "greek_letter": ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "lamda", "mu", "nu", "xi", "omicron", "pi", "rho", "sigma", "tau", "upsilon", "phi", "chi", "psi", "omega",],
+    "large_count_singular_adj": ["uncountable", "endless", "hundred", "thousand", "million", "billion", "trillion"],
+    "threat_suffix": ["nado", "geddon", "zilla", "drome"],
+    "magic_type_adj": ["sex", "#color#", "dark", "evil", "nature"],
+    "impossible_verb": ["couldn't", "wouldn't", "could never"],
 
+    #"preposition": ["about", "above", "across", "after", "against", "among",
+    #                "around", "at", "before", "behind", "below", "beside",
+    #                "between", "beyond", "by", "down", "during", "for", "from", "in",
+    #                "inside", "into", "near", "of", "off", "on", "out", "over",
+    #                "through", "to", "toward", "under", "up", "with", "within"],
+    # just use the ones that imply coming from somewhere
+    "preposition": ["above", "across", "after", "against", "among",
+                    "around", "at", "before", "behind", "below",
+                    "beyond", "from", "in",
+                    "inside", "near", "of", "on", "out", "over",
+                    "through", "to", "toward", "under", "with", "within"],
+
+
+    # slightly meta here
+    "fun_numeral": ["#roman_numeral#", "#greek_letter#"],
 
     # Load external 
     "adj": [f"#{adj}#" for adj in base_adjectives],
     "noun": [f"#{noun}#" for noun in base_nouns],
-    "threat": [f"#{threat}#" for threat in base_threats],
-
-
+    "place_rt": [f"#{place}#" for place in base_places_rt],
+    "place_nrt": [f"#{place}#" for place in base_places_nrt],
 
     ##### WTF ZONE ####
     # TODO:
     #"events": ["toast"],
-    "moved" : ["walked into", "was sent to", "traveled to", "returned from", "came back from", "time-traveled to", "slid into", "fell into", "was transported to", ],
-    "adverb": ["of", "in", "to", "that came from", "from", "before", "corrupted by", "from beyond", "on", "on the edge of", "beyond", "inside", "above", "within"],
-    "surname" :["#places_on_earth_with_the#", "#places_on_earth_without_the#", "#moment_in_time#", "#mythological_places#" , "#spooky_locale_without_the#", "#spooky_locale#", "Jones", "Smith", "O'Brian"],
+    #"???": ["that came from", "corrupted by", "from beyond", "on the edge of", "above the"]
+    
+    # Verbs?
+    # Separate for threat / place?
+    "ominous_action": ["came", "walked", "married", "studied", "hid", "walked", "was sent", "traveled", "returned", "came back", "time-traveled", "slid", "fell", "was transported"],
+    "danger_verb": ["kill", "freeze", "burn", "eat", "torture", "dissect", "dissolve"],
     
     #### COMPOUND RULES ####
 
@@ -74,53 +94,29 @@ RULES = {
     "maybe_old_adj":     ["", "#old_adj#"],
     "maybe_fun_numeral": ["", "#roman_numeral#", "#greek_letter#"],
     "maybe_the":         ["", "the"],
+    "maybe_adj_place":   ["#maybe_adj# #place#"],
+
+    "smart_place": ["the #place_rt#", "#place_nrt#"],
 
     # Basics
-    "form":       ["#maybe_adj# #threat#", ],
-    "pluralform": ["#maybe_adj# #threat.s#", ],
-    "fun_numeral": ["#roman_numeral#", "#greek_letter#"],
+    "ma_noun":       ["#maybe_adj# #noun#", ],
+    "ma_nouns": ["#maybe_adj# #noun.s#", ],
 
-    "place_without_the" : [
-        "#water_and_oceans_with_the#",
-        "#places_on_earth_with_the#",
-        "#unpleasant_places_with_the#",
-        "#scary_parts_of_a_house#",
-        "#spooky_locale#",
-        "#religious_buildings_with_the#",
-    ],
-
-    "place_with_the" : [
-        "#plural_trapped_place#",
-        "#mythological_places#",
-        "#places_on_earth_without_the#",
-        "#spooky_locale_without_the#",
-        "#dwelling_place#",
-    ],
-
-    "place": [
-        "#simple_places#",
-        "the #place_without_the#",
-        "#place_with_the#",
-    ],
-
-    "may_adj_place": [
-        "the #maybe_adj# #place_without_the#",
-        "#maybe_adj# #place_with_the#",
-    ],
+    "surname" :["#places_on_earth_with_the#", "#places_on_earth#", "#moment_in_time#", "#mythological_places#" , "#spooky_locale_without_the#", "#spooky_locale#", "Jones", "Smith", "O'Brian"],
 
     ### title encomplexification ###
 
 	# TODO: replace #place# with #maybe_adj_#place"
     "silly_sequels" : [
-        "#place# #number#: The #form#",
-        "#place# #number#: Return of the #form#",
+        "#place# #number#: The #ma_noun#",
+        "#place# #number#: Return of the #ma_noun#",
         "#place# #number#: Chapter #fun_numeral",
-        "#place# #number#: Revenge of the #form#",
-        "#place# #number#: #form# #noun#",
-        "#place# #number#: #noun# of the #form#",
-        "#form# #number#: #adverb# #place#",
-        "The #form# #number#: #adverb# #place#",
-        "The #form# #number#: #place#",
+        "#place# #number#: Revenge of the #ma_noun#",
+        "#place# #number#: #ma_noun# #noun#",
+        "#place# #number#: #noun# of the #ma_noun#",
+        "#ma_noun# #number#: #preposition# #place#",
+        "The #ma_noun# #number#: #preposition# #place#",
+        "The #ma_noun# #number#: #place#",
     ],
     "silly_suffix": [
         "! kill! kill!",
@@ -130,7 +126,7 @@ RULES = {
         ": The revenge",
         ": The return",
         ": #space_age_adj# #ritual#",
-        ": #story# of the #threat#",
+        ": #story# of the #noun#",
         " XXX",
     ],
 
@@ -151,18 +147,17 @@ RULES = {
 # Load remote lists
 RULES.update(base_adjectives)
 RULES.update(base_nouns)
-RULES.update(base_threats)
+RULES.update(base_places_rt)
+RULES.update(base_places_nrt)
 RULES['full_title'] = full_titles
 
 # TODO: capitalize both parts of a hyphenation
 def custom_capitalize(text):
     capitalized_words = []
-    #print(">>>" + text + "<<<")
     for word in text.split():
         if word.lower in DONT_CAP:
             capitalized_words.append(word)
         else:
-            #print(word)
             if len(word) == 1:
                 fix = word
             elif "-" in word:
@@ -172,7 +167,10 @@ def custom_capitalize(text):
             else:
                 fix = f"{word[0].upper()}{word[1:]}"
             capitalized_words.append(fix)
-    return ' '.join(capitalized_words)
+    result = ' '.join(capitalized_words)
+    if len(result) == 0:
+        return ""
+    return result[0].upper() + result[1:]
 
 
 def clean(title):
@@ -188,7 +186,7 @@ def clean(title):
     # fix plurals
     title = title.replace("teethes", "teeth")
     title = title.replace("womans", "women")
-    title = title.replace(" mans", " men")
+    title = title.replace(" mans ", " men ")
     title = title.replace("elfs", "elves")
     title = title.replace("nauseas", "nausea")
     title = title.replace("bloods", "blood")
