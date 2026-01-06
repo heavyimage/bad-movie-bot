@@ -1,5 +1,6 @@
 
 # TODO: try to have an example title to explain the rule!
+# TODO: ideally try to slim this down as much as possible
 full_titles = [
     # prefix and suffix
     "#silly_prefix# #noun#",
@@ -12,7 +13,7 @@ full_titles = [
     # basic forms
     "#ma_noun#!",
     "The #ma_noun#",
-    "The #adj# #adj# #noun#",
+    "The #adj#, #adj# #noun#",
     "#noun# of the #ma_noun#",
     "#noun# #noun#",
     "#adj# #job#: The #noun# of the #ma_noun#",
@@ -45,7 +46,6 @@ full_titles = [
     "#smart_place# that became #material#",
     "#smart_place# of #material_adj#",
     "The #portal# #preposition# #smart_place#",
-    "I #ominous_action# #smart_place#",
     "I attended #adj.a# #ritual#",
     "#job# #noun# and the #ma_noun# #preposition# #smart_place#",
     "#job# #noun# and the #noun# #preposition# #smart_place#",
@@ -70,19 +70,22 @@ full_titles = [
     "The #ma_noun# that #impossible_verb# be Killed",
     "The #ma_noun# that #impossible_verb# be Stopped",
     "The #ma_noun# that #impossible_verb# Die#",
-    "I #ominous_action# the #ma_noun#",
-    "I #ominous_action# the #ma_nouns#",
+    "The #noun# that #impossible_verb# Die#",
+    "I #ominous_place_actions# #smart_place#",
+    "I #ominous_place_actions# #smart_ma_place#",
+    "I #ominous_noun_actions_past# the #ma_noun#",
+    "I #ominous_noun_actions_past# the #ma_nouns#",
     "I was in league with #ma_noun.a#",
 
     # Cursed relations
+    # TODO: fuse became / married
     "My #relation# Became #ma_noun.a#",
-    "#relation# Became #ma_noun.a#",
-    "My #relation# #ominous_action# #noun.a#",
-    "#relation# #ominous_action# #ma_noun.a#",
+    "My #relation# Married #noun.a#",
+
     "#relation# from #smart_place#",
     "#relation# of #smart_place#",
     "#relation# of #named_noun#",
-    "#relation# of #noun#",
+    "#relation# of #noun.s#",
 
     # sexploitation
     "She was a #adj# #noun#",
@@ -126,7 +129,7 @@ full_titles = [
     "#ma_noun#: #noun# of the #evil_group#",
 
     # Why did you eat my mother?!"
-    "Why did you #danger_verb# my #relation#?!",
+    "Why did you #ominous_noun_actions_present# my #relation#?!",
 
     # Shadow over innsmouth
     # TODO: replace #place# with #maybe_adj_#place"
@@ -267,6 +270,9 @@ full_titles = [
 
     # don't fear the reaper
     "Don't #fear# the #noun#",
+
+    # Ice Station Zebra
+    "Ice Station #real_animal#",
 
 
 

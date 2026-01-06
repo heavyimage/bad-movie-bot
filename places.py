@@ -17,12 +17,25 @@ base_places_rt = {
 
     "water_and_oceans": [ "sea", "deep", "depths", "reef"],
 
-    "cosmic_place": ["asterid belt", "moon", "black hole", "eclipse", "continuum", "#star# constellation", "planet", "galaxy", "nebula", "dimension", "world", "star", "solar system"],
+    "cosmic_place": ["asteroid belt", "moon", "black hole", "eclipse", "continuum", "#star# constellation", "planet", "galaxy", "nebula", "dimension", "world", "star", "solar system"],
 
     "scary_parts_of_a_house": [
-        "attic", "basement", "bed", "cellar", "closet", "fireplace", "floorboards", "rug",
-        "painting", "furnace", "kitchen", "room", "sewer", "garden", "backyard",
-        "shed", "stairs", "walls", "well", "crawlspace", "panic room"],
+        "attic", "basement", "bed", "cellar", "closet", "fireplace",
+        #"floorboards",
+        #"painting",
+        "furnace", 
+        "kitchen", 
+        #"room",
+        "sewer", 
+        "garden", 
+        #"backyard",
+        "shed", 
+        #"stairs", 
+        "walls", 
+        "well", 
+        "crawlspace", 
+        "panic room"
+    ],
 
     "places_on_earth_that_use_the": [
                         "Orient", "atlantic", "far #cardinal_direction#",

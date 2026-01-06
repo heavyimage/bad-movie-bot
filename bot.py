@@ -64,11 +64,11 @@ RULES = {
     #                "inside", "into", "near", "of", "off", "on", "out", "over",
     #                "through", "to", "toward", "under", "up", "with", "within"],
     # just use the ones that imply coming from somewhere
-    "preposition": ["above", "across", "after", "among",
+    "preposition": ["above", "across", "among",
                     "around", "at", "before", "behind", "below",
                     "beyond", "from", "in",
-                    "inside", "near", "of", "on", "out", "over",
-                    "through", "to", "toward", "under", "with", "within"],
+                    "inside", "near", "of", "on", "over",
+                    "through", "to", "under", "with", "within"],
 
     "surname" :["#places_on_earth#", "#moment_in_time#", "#mythological_places#"
                 , "#spooky_locale#", "Lee", "Jones", "Rodríguez", "Johnson",
@@ -89,11 +89,9 @@ RULES = {
     #"???": ["that came from", "corrupted by", "from beyond", "on the edge of", "above the"]
     
     # Verbs?
-    # TODO: Separate for threat / place?
-    "ominous_action": ["came", "walked", "married", "studied", "hid", "walked",
-                       "was sent", "traveled", "returned", "came back",
-                       "time-traveled", "slid into", "fell onto", "was transported to"],
-    "danger_verb": ["kill", "freeze", "burn", "eat", "torture", "dissect", "dissolve"],
+    "ominous_place_actions": ["explored", "studied", "walked", "was sent to", "traveled to", "returned from", "woke up in", "was transported to"],
+    "ominous_noun_actions_past": ["watched", "killed", "froze", "burned", "ate", "tortured", "dissected", "dissolved", "studied", "became", "married", "swallowed"],
+    "ominous_noun_actions_present": ["kill", "freeze", "burn", "eat", "torture", "dissect", "dissolve", "study", "become", "marry", "swallow"],
     
     #### COMPOUND RULES ####
 
@@ -105,6 +103,7 @@ RULES = {
     "maybe_adj_place":   ["#maybe_adj# #smart_place#"],
 
     "smart_place": ["the #place_rt#", "#place_nrt#"],
+    "smart_ma_place": ["the #maybe_adj# #place_rt#", "#maybe_adj# #place_nrt#"],
 
     # Basics
     "ma_noun":       ["#maybe_adj# #noun#", ],
