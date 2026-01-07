@@ -114,7 +114,7 @@ full_titles = [
     "#maybe_the# #noun# of #noun.s#",
 
     # texas chainsaw massacre
-    "#evocative_nations# #spooky_objects_tools_or_weapons# #battle#",
+    "#evocative_nations# #appliance_tool_or_weapon# #battle#",
 
     # Demon door
     "#evil_adj# #portal#",
@@ -259,11 +259,17 @@ full_titles = [
     # The masque of the red death
     "The #noun# of the #adj# #noun#",
 
+    # Indiana Jones and the raiders of the lost ark
+    "#title# #surname# and the #job# of the #adj# #appliance_tool_or_weapon#",
+
     # Indiana Jones and the temple of doom
     "#title# #surname# and the #building# of #concept#",
 
+    # Indiana Jones and last crusade
+    "#title# #surname# and the #ordering# #adventure#",
+
     # indiana Jones and the dial of destiny
-    "#title# #surname# and the #spooky_objects_tools_or_weapons# of #concept#",
+    "#title# #surname# and the #appliance_tool_or_weapon# of #concept#",
 
     # The cranes are flying
     "The #all_animals.s# are flying",
@@ -274,6 +280,7 @@ full_titles = [
     # Ice Station Zebra
     "Ice Station #real_animal#",
 
-
+    # Something like Ilsa she-wolf of the SS
+    "#evocative_and_mythological_names: She-#all_animals# of the #evil_group# xyz", 
 
 ]

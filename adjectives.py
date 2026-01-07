@@ -12,7 +12,7 @@ base_adjectives = {
     "material_adj" : ["water", "fire", "earth", "stone", "iron", "metal", "stainless steel", "titanium", "aluminum", "cobalt", "plutonium", "thorium", "uranium", "gold", "silver", "lead", "wax", "clay", "crystal", "bone", "hollow", "glowing", "shining", "glittering", "stainless"],
     "cosmic_adj": ["forever", "spectral", "shuddering", "silent", "ruined", "lovecraftian", "non-euclidean", "hallucinogenic", "terminal", "alien", "astral", "cosmic", "crawling", "endless", "eternal", "final", "gibbous", "gloaming", "groaning", "hoary", "indescribable", "infinite", "occult", "outer", "stygian", "timeless", ],
     "size_related_adj": ["hung", "retro", "micro", "micro-", "mega", "mega-", "shrinking", "giant", "transforming", "colossal", "titanic", "enormous", "indestructible", "mighty", ],
-    "sexploitation_adj": ["gender", "nude", "perky", "moist", "sex-change", "sensual", "buxom", "well-endowed", "passionate", "transsexual", "foxy", "immoral", "kinky", "BDSM", "promiscuous", "raunchy", "dirty", "hedonistic", "desperate", "pent-up", "carnal", "freaky", "deviant", "fleshy", "sexy", "disco", "free-love", "pleasurable", "lavacious", "lecherous", "leather", "buff", "horny", "gay", "lesbian", "trans", "transvestite"],
+    "sexploitation_adj": ["femme", "butch", "uptight", "gender", "nude", "perky", "moist", "sex-change", "sensual", "buxom", "well-endowed", "passionate", "transsexual", "foxy", "immoral", "kinky", "BDSM", "promiscuous", "raunchy", "dirty", "hedonistic", "desperate", "pent-up", "carnal", "freaky", "deviant", "fleshy", "sexy", "disco", "free-love", "pleasurable", "lavacious", "lecherous", "leather", "buff", "horny", "gay", "lesbian", "trans", "transvestite"],
     "space_age_adj" : ["modern", "chemical", "video", "film", "experimental", "light", "robo-", "astro", "rocket", "solar", "genetic", "neon", "space", "mecha-", "mechano-", "machine", "techno-", "electric", "electro-mechanical", "cybernetic", "stellar", "turbo", "uber-", "photonic", "temporal", "holographic", "time", "transdimensional", "ultra", "futuristic", "techno", "space age", ],
     "decayed_adj" : ["wet", "burning", "ashen", "paralyzing", "caustic", "acrid", "bubbling", "demolished", "diseased", "disgusting", "dying", "fetid", "melting", "one-eyed", "putrid", "rotting", "nuclear", "atomic", "radioactive", "toxic", "mutated", "bloated"],
     "evil_adj" : ["killer", "twisted", "abominable", "aggressive", "corrupt",
@@ -34,4 +34,5 @@ base_adjectives = {
     "evocative_nations": ["Yugoslavian", "French", "Italian", "Armenian",
                           "Brazilian", "Mexican", "Russian", "Egyptian",
                           "Chinese", "German", "Canadian", "Swedish", "Texas"],
+    "ordering": ["first", "last", "penulimate", "final"],
 }

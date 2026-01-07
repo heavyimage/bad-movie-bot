@@ -9,7 +9,6 @@ base_nouns = {
     "drug": ["spice", "stimulant", "heroin", "psychedelic", "drug", "marijuana", "PCP", "cocaine", "LSD", "reefer", "ganja", "angel dust"],
     "portal": ["seal", "hole", "gate", "door", "gateway", "doorway", "passage", "portal", "tunnel", "bridge"],
     "food": [ "carrion", "fruit", "tomato", "water", "mushroom", "casserole", "toast", "mold", "egg", "tofu", "cheese"],
-    "appliance_or_tool": ["refrigerator", "saw", "hammer", "drill", "key", "coin", "lucre", "money"],
     "weapon": ["spear", "blade", "gun", "machine gun", "guillotine", "lance", "mace", "rifle", "saber", "sword", "blaster", "raygun", "nunchuck"],
     "story": ["elegy", "legend", "secret", "cycle", "fable", "fate", "saga", "tale", "tales", ],
     "day_of_the_week": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
@@ -20,7 +19,7 @@ base_nouns = {
     "shapes": ["square", "circle", "rune", "diagram", "pictogram", "geometry", "curve", "pyramid", "vector", "field", "color", "stain", "circle", "pentagram", "hexagon", "colour", "orb", "blob", "cube", "flash", "form", "monolith", "sphere", ],
     "body_part": ["body", "skin", "fist", "lip", "wing", "blood", "bone", "bun", "bosom", "brain", "claw", "eye", "finger", "flesh", "foot", "gut", "hand", "heart", "jaw", "maw", "mind", "mouth", "muscle", "skull", "face", "teeth", "brow", "spine", "stomach", "gaze", "tendril", "tentacle", ],
     "sexy_material": ["leather", "rubber", "g-string", "thong", "lace", "pvc", "latex", "lingerie"],
-    "adventure": ["romp", "quest", "escape", "voyage", "odyssey", "journey", "pilgrimage", "adventure", "expedition", "encounter"],
+    "adventure": ["crusade", "romp", "quest", "escape", "voyage", "odyssey", "journey", "pilgrimage", "adventure", "expedition", "encounter"],
     "riches": ["diamonds", "riches", "bounty", "harvest", "gold", "treasure", "wealth", "fortune", "prosperity", "opulence"],
     "sound": ["requium", "symphony", "sound", "scream", "song", "melody", "song"],
     "scheme": ["coverup", "mutiny", "perversion", "study", "experiment", "destiny", "scheme", "grudge", "study", "plot", "revenge", "compact", "embrace", "pact", "bargain", "vigil", "betrayal", "lies", "promises", "wishes"],
@@ -29,8 +28,9 @@ base_nouns = {
     "instrament": ["guitar", "piano", "flute", "pan-pipes", "tubular bells"],
     "material" : ["water", "fire", "earth", "stone", "iron", "metal", "steel", "titanium", "aluminum", "cobalt", "plutonium", "thorium", "uranium", "gold", "silver", "lead", "wax", "clay", "crystal", "bone", "hollow", "glowing", "shining", "glittering"],
     "people": ["femme", "butch", "people", "men", "women"],
-
     "events": ["toast", "banquet", "dinner", "dance", "ball", "masquerade",],
+
+    "appliance_tool_or_weapon": ["ark", "refrigerator", "saw", "hammer", "drill", "key", "coin", "lucre", "money", "crucifix", "dial", "mechanism", "chainsaw", "#appliance_or_tool#", "#weapon#", "armor", "ring", "candy", "crown", "cross", "bible", "crystal ball", "masque", "scepter", "shield", "mask", "capsule", "mirror", "band", "antique", "artifact", "relic"],
 
     # simple meta rules
     "ritual": ["sabbath", "#color# mass", "dance", "rave", "concert", "festival", "funeral", "christmas", "opera", "orgy", "party", "pyre", "rite", "ritual", "sacrifice", "circus", "carnival", "bazzar", ],
@@ -38,7 +38,6 @@ base_nouns = {
     "sexy_servant": [ "sex slave", "love servant", "sex toy", "lover", "concubine", "pleasure #job#"],
     "technology": ["#vehicle#", "space station", "test tube", "forcefield", "equations", "monument", "android", "computer", "doll", "effect", "factory", "gear", "hologram", "laser", "machine", "plane", "puppet", "science", "experiment", "statue", "toy", "labratory", "lab"],
     # TODO: plural forms are riches?
-    "spooky_objects_tools_or_weapons": ["crucifix", "dial", "mechanism", "chainsaw", "#appliance_or_tool#", "#weapon#", "armor", "ring", "candy", "crown", "cross", "bible", "crystal ball", "masque", "scepter", "shield", "mask", "capsule", "mirror", "band", "antique", "artifact", "relic"],
 
 
     # Threats
@@ -59,8 +58,8 @@ base_nouns = {
     "human_reaction": ["smile", "shiver", "scream", "laugh", "frown", "scowl"],
     "pop_culture_people": ["Spiderman", "Batman", "Wonder Woman", "Elvira", "Caligula", "Zorro", "Merlin"],
 
-    "real_animal":                      [i.strip() for i in open("sources/real_animals.txt").readlines()]],
-    "natural_phenomena":                [i.strip() for i in open("sources/natural_phenomena.txt").readlines()]],
+    "real_animal":                      [i.strip() for i in open("sources/real_animals.txt").readlines()],
+    "natural_phenomena":                [i.strip() for i in open("sources/natural_phenomena.txt").readlines()],
     "fantasy_animal":                   [i.strip() for i in open("sources/fantasy_animals.txt").readlines()],
     "evocative_and_mythological_names": [i.strip() for i in open("sources/evocative_and_mythological_names.txt").readlines()],
     "job":                              [i.strip() for i in open("sources/jobs.txt").readlines()],
