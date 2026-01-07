@@ -2,7 +2,7 @@
 base_adjectives = {
     "horror_movie_adj" : ["undead", "reborn", "reanimated", "blood-soaked", "cannibal", "cannibalistic", "charnel", "grind-", "grind", "chainsaw", "bloody", "slasher", "gore-encrusted", ],
     "magical_adj": [ "hexed", "accursed", "magic", "magical", "supernatural", "telepathic", "voodoo", "telekinetic", "precognitive", "clairvoyant", "pyrokinetic", "vedic", "sorcerous", "cursed", "forbidden", "mysterious", "ghost", "ghostly", ],
-    "natural_adj" : [ "chitinous", "flaming", "fiery", "psycho-", "flying", "albino", "amorphous", "frozen", "burning", "backwoods", "blood-sucking", "chimeric", "dead", "flesh-eating", "fungal", "gelatinous", "heavy", "jungle", "living", "man-eating", "nocturnal", "protoplasmic", "rabid", "sentient", "starving", "untamed", "wild", "woodland", ],
+    "natural_adj" : ["psychotic", "chitinous", "flaming", "fiery", "psycho-", "flying", "albino", "amorphous", "frozen", "burning", "backwoods", "blood-sucking", "chimeric", "dead", "flesh-eating", "fungal", "gelatinous", "heavy", "jungle", "living", "man-eating", "nocturnal", "protoplasmic", "rabid", "sentient", "starving", "untamed", "wild", "woodland", ],
     "old_adj" : [ "eldrich", "prehistoric", "medieval", "long-lost", "lost", "primal", "primeval", "forgotten", "cyclopean", "ancient", "abandoned", "primordial", ],
     "silly_adj" : ["biblically-accurate", "teenage", "surfing", "strange", "weird", "convulsing",
                    "new-wave", "middle-age", "undercover"],
@@ -14,7 +14,7 @@ base_adjectives = {
     "size_related_adj": ["hung", "retro", "micro", "micro-", "mega", "mega-", "shrinking", "giant", "transforming", "colossal", "titanic", "enormous", "indestructible", "mighty", ],
     "sexploitation_adj": ["femme", "butch", "uptight", "gender", "nude", "perky", "moist", "sex-change", "sensual", "buxom", "well-endowed", "passionate", "transsexual", "foxy", "immoral", "kinky", "BDSM", "promiscuous", "raunchy", "dirty", "hedonistic", "desperate", "pent-up", "carnal", "freaky", "deviant", "fleshy", "sexy", "disco", "free-love", "pleasurable", "lavacious", "lecherous", "leather", "buff", "horny", "gay", "lesbian", "trans", "transvestite"],
     "space_age_adj" : ["modern", "chemical", "video", "film", "experimental", "light", "robo-", "astro", "rocket", "solar", "genetic", "neon", "space", "mecha-", "mechano-", "machine", "techno-", "electric", "electro-mechanical", "cybernetic", "stellar", "turbo", "uber-", "photonic", "temporal", "holographic", "time", "transdimensional", "ultra", "futuristic", "techno", "space age", ],
-    "decayed_adj" : ["wet", "burning", "ashen", "paralyzing", "caustic", "acrid", "bubbling", "demolished", "diseased", "disgusting", "dying", "fetid", "melting", "one-eyed", "putrid", "rotting", "nuclear", "atomic", "radioactive", "toxic", "mutated", "bloated"],
+    "decayed_adj" : ["rusty", "rusted", "wet", "burning", "ashen", "paralyzing", "caustic", "acrid", "bubbling", "demolished", "diseased", "disgusting", "dying", "fetid", "melting", "one-eyed", "putrid", "rotting", "nuclear", "atomic", "radioactive", "toxic", "mutated", "bloated"],
     "evil_adj" : ["killer", "twisted", "abominable", "aggressive", "corrupt",
                   "dark", "deadly", "demon", "demonic", "depraved", "deranged", "dread",
                   "dreadful", "evil", "ferocious", "godless", "grim", "haunted",
@@ -34,5 +34,5 @@ base_adjectives = {
     "evocative_nations": ["Yugoslavian", "French", "Italian", "Armenian",
                           "Brazilian", "Mexican", "Russian", "Egyptian",
                           "Chinese", "German", "Canadian", "Swedish", "Texas"],
-    "ordering": ["first", "last", "penulimate", "final"],
+    "ordering": ["first", "last", "penulimate", "final", "third", "second"],
 }

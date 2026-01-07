@@ -35,6 +35,7 @@ daemon
 diablo
 diabolos
 diti
+cthulhu
 dracula
 drusilla
 dullahan
@@ -107,6 +108,7 @@ ravana
 raven
 samael
 samhain
+santa claus
 satan
 satanael
 saturna

@@ -3,7 +3,7 @@ base_places_rt = {
     "trapped_place": ["slaughterhouse", "cages", "prison", "trap", "snare", "jail", "#threatening_substance#"],
 
     "moment_in_time": ["#day_of_the_week#", "age", "era", "aeon", "eon", "day",
-                       "night", "year", "solstice", "dawn", "sunrise",
+                       "night", "year", "solstice", "time", "dawn", "sunrise",
                        "dusk", "twilight", "forever", "tomorrow", "future"],
 
     "spooky_locale": ["swamp", "island", "land", "park", "beach", "lake", "tower", "mountain", "hill", "lighthouse", "pyramid", "void", "barrens", "barrier", "caldera", "castle", "cave", "continent", "crater", "crypt", "dungeon", "field", "forest", "graveyard", "cemetery", "grotto", "hill", "hive", "island", "jungle", "keep", "kingdom", "lagoon", "lagoon", "lake", "mausoleum", "mine", "mountain", "rim", "ruin", "sands", "sepulcher", "shipwreck", "shores", "swamp", "throne", "tomb", "torture chamber", "tower", "valley", "vault", "volcano", "wilderness", "fortress", "labrynth", "pit", "earth", "year #funny_year#", "41st Millennium", "center of the earth", "below", "beyond", "above", "underground", "20,000 fathoms"],
@@ -17,7 +17,7 @@ base_places_rt = {
 
     "water_and_oceans": [ "sea", "deep", "depths", "reef"],
 
-    "cosmic_place": ["astral plane", "asteroid belt", "moon", "black hole", "eclipse", "continuum", "#star# constellation", "planet", "galaxy", "nebula", "dimension", "world", "star", "solar system"],
+    "cosmic_place": ["spaceship", "space station", "astral plane", "asteroid belt", "moon", "black hole", "eclipse", "continuum", "#star# constellation", "planet", "galaxy", "nebula", "dimension", "world", "star", "solar system"],
 
     "scary_parts_of_a_house": [
         "attic", "basement", "bed", "cellar", "closet", "fireplace",

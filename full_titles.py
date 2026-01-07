@@ -44,7 +44,7 @@ full_titles = [
     "#smart_place# that became #material#",
     "#smart_place# of #material_adj#",
     "The #portal# #preposition# #smart_place#",
-    "I attended #adj.a# #ritual#",
+    "I attended #maybe_adj.a# #ritual_or_event#",
     "#job# #noun# and the #ma_noun# #preposition# #smart_place#",
     "#job# #noun# and the #noun# #preposition# #smart_place#",
     "#job# #preposition# #smart_place#",
@@ -82,8 +82,9 @@ full_titles = [
 
     "#relation# from #smart_place#",
     "#relation# of #smart_place#",
-    "#relation# of #named_noun#",
     "#relation# of #noun.s#",
+    "#relation# of #name#",
+    "#relation# of the #job#",
 
     # sexploitation
     "She was a #adj# #noun#",
@@ -280,5 +281,8 @@ full_titles = [
 
     # Something like Ilsa she-wolf of the SS
     "#name#: She-#all_animals# of the #evil_group#", 
+
+    # Santa Claus vs. the Martians
+    "#name# vs. the #noun.s#",
 
 ]

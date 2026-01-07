@@ -1,5 +1,4 @@
 POW
-master
 addict
 alchemist
 architect
@@ -39,6 +38,7 @@ duplicator
 emperor
 empress
 enforcer
+executioner
 exorcist
 ferryman
 football player

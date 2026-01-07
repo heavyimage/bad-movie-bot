@@ -48,7 +48,7 @@ RULES = {
 	"cardinal_direction": ["north", "south", "east", "west"],
     "roman_numeral": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", ],
     "number": [ "2", "3", "4", "5", "6", "II", "III", "IV", "V", "VI", "VII", "#greek_letter#"],
-    "title": [ "wing commander", "sgt.", "dr.", "mr.", "mrs.", "professor",],
+    "title": ["sgt.", "dr.", "mr.", "mrs.", "professor",],
     "letter": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
                "s", "t", "u", "v", "w", "x", "y", "z"],
     "numeric": ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"],
@@ -61,26 +61,22 @@ RULES = {
     "person": ["man", "woman", "person", "robot"],
     "fear": ["fear", "dread", "avoid", "flee"],
 
-    #"preposition": ["about", "above", "across", "after", "against", "among",
-    #                "around", "at", "before", "behind", "below", "beside",
-    #                "between", "beyond", "by", "down", "during", "for", "from", "in",
-    #                "inside", "into", "near", "of", "off", "on", "out", "over",
-    #                "through", "to", "toward", "under", "up", "with", "within"],
+    # slightly meta here
+    "fun_numeral": ["#roman_numeral#", "#greek_letter#"],
+
     # just use the ones that imply coming from somewhere
+    # TODO: split into for nouns and places?
     "preposition": ["above", "across", "among",
                     "around", "at", "before", "behind", "below",
                     "beyond", "from", "in",
                     "inside", "near", "of", "on", "over",
                     "through", "to", "under", "with", "within"],
 
+    # names (some meta)
+    "name": load("names"),
     "surname" :["#places_on_earth#", "#moment_in_time#", "#mythological_places#"
                 , "#spooky_locale#", "Lee", "Jones", "Rodríguez", "Johnson",
                 "Williams", "Gonzalez", "#color#", "Smith", "O'Brian"],
-
-    "name": load("names"),
-
-    # slightly meta here
-    "fun_numeral": ["#roman_numeral#", "#greek_letter#"],
 
     # Load external 
     "adj": [f"#{adj}#" for adj in base_adjectives],
@@ -97,8 +93,6 @@ RULES = {
     "ominous_noun_actions_past": ["watched", "killed", "froze", "burned", "ate", "tortured", "dissected", "dissolved", "studied", "became", "married", "swallowed"],
     "ominous_noun_actions_present": ["kill", "freeze", "burn", "eat", "torture", "dissect", "dissolve", "study", "become", "marry", "swallow"],
     
-    #### COMPOUND RULES ####
-
     # Maybes
     "maybe_adj":         ["", "", "#adj#"],
     "maybe_old_adj":     ["", "#old_adj#"],
