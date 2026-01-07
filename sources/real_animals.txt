@@ -12,6 +12,7 @@ cat
 centipede
 cheetah
 chicken
+cobra
 dinosaur
 dog
 dolphin
@@ -31,6 +32,7 @@ mole
 octopus
 orca
 owl
+panther
 piranha
 plant
 puma

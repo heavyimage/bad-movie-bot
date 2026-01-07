@@ -5,7 +5,10 @@ cloud
 comet
 cyclone
 drought
+heat
+mist
 earthquake
+lake
 fire
 flood
 flower

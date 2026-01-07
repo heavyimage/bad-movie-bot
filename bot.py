@@ -46,14 +46,23 @@ RULES = {
 
     # Putting them here means they won't be used as "nouns" or "adjectives"
 	"cardinal_direction": ["north", "south", "east", "west"],
-    "roman_numeral": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", ],
-    "number": [ "2", "3", "4", "5", "6", "II", "III", "IV", "V", "VI", "VII", "#greek_letter#"],
+
+    # numbers
+    "roman_numeral": ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"],
+    "greek_letter": ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "lamda", "mu", "nu", "xi", "omicron", "pi", "rho", "sigma", "tau", "upsilon", "phi", "chi", "psi", "omega",],
+    "digit" :["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
+    # slighty meta here...
+    "fun_number": ["#digit#", "#roman_numeral#", "#greek_letter#"],
+
+    # Years
+    "maybe_era": ["AD", "BC", ""],
+    "funny_year": ["year 0", "19XX", "20XX", "1999", "2000", "2001", "3001", "5000", "10,000", "#digit##digit##digit##digit# #maybe_era#", "#digit##digit##digit##digit##digit# #maybe_era#", "#digit##digit##digit##digit##digit##digit# #maybe_era#"],
+
     "title": ["sgt.", "dr.", "mr.", "mrs.", "professor",],
     "letter": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
                "s", "t", "u", "v", "w", "x", "y", "z"],
     "numeric": ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"],
-    "funny_year": ["19XX", "20XX", "2000", "3001", "5000", "10,000"],
-    "greek_letter": ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "lamda", "mu", "nu", "xi", "omicron", "pi", "rho", "sigma", "tau", "upsilon", "phi", "chi", "psi", "omega",],
+
     "large_count_singular_adj": ["uncountable", "endless", "hundred", "thousand", "million", "billion", "trillion"],
     "threat_suffix": ["nado", "geddon", "zilla", "drome", "ra"],
     "magic_type_adj": ["sex", "#color#", "dark", "evil", "nature"],
@@ -61,8 +70,6 @@ RULES = {
     "person": ["man", "woman", "person", "robot"],
     "fear": ["fear", "dread", "avoid", "flee"],
 
-    # slightly meta here
-    "fun_numeral": ["#roman_numeral#", "#greek_letter#"],
 
     # just use the ones that imply coming from somewhere
     # TODO: split into for nouns and places?
@@ -112,15 +119,15 @@ RULES = {
 
 	# TODO: replace #place# with #maybe_adj_#place"
     "silly_sequels" : [
-        "#smart_place# #number#: The #ma_noun#",
-        "#smart_place# #number#: Return of the #ma_noun#",
-        "#smart_place# #number#: Chapter #fun_numeral",
-        "#smart_place# #number#: Revenge of the #ma_noun#",
-        "#smart_place# #number#: #ma_noun# #noun#",
-        "#smart_place# #number#: #noun# of the #ma_noun#",
-        "#ma_noun# #number#: #preposition# #smart_place#",
-        "The #ma_noun# #number#: #preposition# #smart_place#",
-        "The #ma_noun# #number#: #smart_place#",
+        "#smart_place# #fun_number#: The #ma_noun#",
+        "#smart_place# #fun_number#: Return of the #ma_noun#",
+        "#smart_place# #fun_number#: Chapter #fun_numeral",
+        "#smart_place# #fun_number#: Revenge of the #ma_noun#",
+        "#smart_place# #fun_number#: #ma_noun# #noun#",
+        "#smart_place# #fun_number#: #noun# of the #ma_noun#",
+        "#ma_noun# #fun_number#: #preposition# #smart_place#",
+        "The #ma_noun# #fun_number#: #preposition# #smart_place#",
+        "The #ma_noun# #fun_number#: #smart_place#",
     ],
     "silly_suffix": [
         "! kill! kill!",

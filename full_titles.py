@@ -283,14 +283,21 @@ full_titles = [
     "#name#: She-#all_animals# of the #evil_group#", 
 
     # Santa Claus vs. the Martians
-    "#name# vs. the #noun.s# xyz",
+    "#name# vs. the #noun.s#",
 
     # Godzilla films
-    "#noun#-#threat_suffix# vs. #noun#-#threat_suffix# xyz",
+    "#noun#-#threat_suffix# vs. #noun#-#threat_suffix#",
 
     # other Battles
-    "#name# vs. #name# xyz",
-    "#name# vs. the #ma_noun# xyz",
-    "The #ma_noun# vs. the #ma_noun# xyz",
+    "#name# vs. #name#",
+    "#name# vs. the #ma_noun#",
+    "The #ma_noun# vs. the #ma_noun#",
+
+    # Witchcraft Through the Ages
+    "#job#craft through the #time.s#",
+
+    # Space 1999
+    "#place_nrt#: #funny_year#",
+    "#place_rt#: #funny_year#", # ignore 'the' in this context?
 
 ]
