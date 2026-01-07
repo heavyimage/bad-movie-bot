@@ -9,7 +9,7 @@ base_nouns = {
     "drug": ["spice", "stimulant", "heroin", "psychedelic", "drug", "marijuana", "PCP", "cocaine", "LSD", "reefer", "ganja", "angel dust"],
     "portal": ["seal", "hole", "gate", "door", "gateway", "doorway", "passage", "portal", "tunnel", "bridge"],
     "food": [ "carrion", "fruit", "tomato", "water", "mushroom", "casserole", "toast", "mold", "egg", "tofu", "cheese"],
-    "appliance_or_tool": ["refrigerator", "saw", "hammer", "drill", "key",],
+    "appliance_or_tool": ["refrigerator", "saw", "hammer", "drill", "key", "coin", "lucre", "money"],
     "weapon": ["spear", "blade", "gun", "machine gun", "guillotine", "lance", "mace", "rifle", "saber", "sword", "blaster", "raygun", "nunchuck"],
     "story": ["elegy", "legend", "secret", "cycle", "fable", "fate", "saga", "tale", "tales", ],
     "day_of_the_week": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
@@ -17,7 +17,7 @@ base_nouns = {
     "operation": ["codename", "protocol", "assignment", "phase", "operation", "plan", "conspiracy"],
     "battle": ["ambush", "siege", "attack", "battle", "clash", "revolution", "hunt", "counterattack", "battlefield", "bloodbath", "mutiny", "invasion", "war", "massacre", "holocaust"],
 	"vehicle": ["car", "UFO", "black helicopter", "flying saucer", "train", "zeppelin", "truck", "rocket", "ship", "battleship", "aircraft carrier", "plane", "jet", "elevator", "tank", "spaceship", "starship", "scooter"],
-    "shapes": ["rune", "diagram", "pictogram", "geometry", "curve", "pyramid", "vector", "field", "color", "stain", "circle", "pentagram", "hexagon", "colour", "orb", "blob", "cube", "flash", "form", "monolith", "sphere", ],
+    "shapes": ["square", "circle", "rune", "diagram", "pictogram", "geometry", "curve", "pyramid", "vector", "field", "color", "stain", "circle", "pentagram", "hexagon", "colour", "orb", "blob", "cube", "flash", "form", "monolith", "sphere", ],
     "body_part": ["body", "skin", "fist", "lip", "wing", "blood", "bone", "bun", "bosom", "brain", "claw", "eye", "finger", "flesh", "foot", "gut", "hand", "heart", "jaw", "maw", "mind", "mouth", "muscle", "skull", "face", "teeth", "brow", "spine", "stomach", "gaze", "tendril", "tentacle", ],
     "sexy_material": ["leather", "rubber", "g-string", "thong", "lace", "pvc", "latex", "lingerie"],
     "adventure": ["romp", "quest", "escape", "voyage", "odyssey", "journey", "pilgrimage", "adventure", "expedition", "encounter"],
@@ -28,7 +28,7 @@ base_nouns = {
     "magic": ["magic", "magick", "tome", "spellbook", "phylactery"],
     "instrament": ["guitar", "piano", "flute", "pan-pipes", "tubular bells"],
     "material" : ["water", "fire", "earth", "stone", "iron", "metal", "steel", "titanium", "aluminum", "cobalt", "plutonium", "thorium", "uranium", "gold", "silver", "lead", "wax", "clay", "crystal", "bone", "hollow", "glowing", "shining", "glittering"],
-    "people": ["people", "men", "women"],
+    "people": ["femme", "butch", "people", "men", "women"],
 
     "events": ["toast", "banquet", "dinner", "dance", "ball", "masquerade",],
 
@@ -42,7 +42,8 @@ base_nouns = {
 
 
     # Threats
-    "named_noun": ["Devil", "Spiderman", "Batman", "Wonder Woman", "Ra", "Hades", "Oberon", "Isis", "Ares", "Paimon", "Satan", "Dracula", "Medusa", "Hercules", "Sumuru", "Frankenstein", "Elvira", "Caligula", "Zorro", "Merlin"],
+    # TODO: deal with 'evil_names.txt'
+    "named_noun": ["Devil", "Spiderman", "Batman", "Wonder Woman", "Ra", "Oberon", "Isis", "Ares", "Paimon", "Satan", "Dracula", "Medusa", "Hercules", "Sumuru", "Frankenstein", "Elvira", "Caligula", "Zorro", "Merlin"],
 
     "threatening_substance": ["web", "#drug#", "blood", "slime", "meat", "poison", "elixir", "dust", "stuff", "grime", "oil", "ooze", "goop", "sludge", "goo", "ichor", ],
 
@@ -54,43 +55,19 @@ base_nouns = {
 
     "threatening_thing": ["AI", "freak", "scum", "creep", "beast", "terror", "humanoids", "creature", "it", "thing", "threat", "lurker", "being", "maniac", "corpse", "threat", "curse", "call", "reaper"],
 
+    # short ones
     "human_reaction": ["smile", "shiver", "scream", "laugh", "frown", "scowl"],
+    "pop_culture_people": ["Spiderman", "Batman", "Wonder Woman", "Elvira", "Caligula", "Zorro", "Merlin"],
 
-    "natural_phenomena": ["flower", "avalanche", "planet", "galaxy", "comet", "sun", "star", "moon", "ash", "rainbow", "cloud", "comet",
-                          "fire", "wave", "flood", "fog", "hail", "hurricane", "inferno", "mist", "pool", "rain",
-                          "sandstorm", "shadow", "snow", "summer", "tornado", "typhoon", "vapor", "water", "wind",
-                          "winter", "smoke", "smog", "twister", "drought", "earthquake", "tidal wave", "boulder",
-						  "rockslide", "plague", "outbreak", "pandemic", "cyclone", "vortex"],
+    "real_animal":                      [i.strip() for i in open("sources/real_animals.txt").readlines()]],
+    "natural_phenomena":                [i.strip() for i in open("sources/natural_phenomena.txt").readlines()]],
+    "fantasy_animal":                   [i.strip() for i in open("sources/fantasy_animals.txt").readlines()],
+    "evocative_and_mythological_names": [i.strip() for i in open("sources/evocative_and_mythological_names.txt").readlines()],
+    "job":                              [i.strip() for i in open("sources/jobs.txt").readlines()],
 
-    "real_animal": ["horse", "owl", "whale", "eel", "lion", "amoeba", "virus", "orca", "bacteria", "anaconda", "ant",
-                    "bat", "bear", "bee", "bird", "brood", "bunny", "cat", "centipede", "cheetah", "chicken", "dinosaur",
-                    "dog", "eagle", "fish", "frog", "hound", "leech", "lizard", "maggot", "mantis", "mole", "razorback",
-                    "piranha", "hedge", "tree", "shrub", "plant", "puma", "python", "rabbit", "raven", "scorpion", "seaweed",
-                    "serpent", "shark", "snake", "spider", "termite", "tiger", "turtle", "vine", "vulture", "wasp", "worm",
-                    "dolphin", "squid", "octopus", "pussycat", "zebra"],
-
-    "fantasy_animal": ["pegasus", "sandworm", "revenant", "phantasm", "alien", "angel", "bigfoot", "chimera", "chupacabra", "cockatrice",
-                       "cyborg", "demon", "dragon", "elf", "fairy", "fury", "gargoyle", "ghost", "ghoul", "giant", "gnome",
-                       "goblin", "god", "golem", "gorgon", "gremlin", "grue", "hobgoblin", "homunculus", "hydra", "imp",
-                       "kobold", "kraken", "leprechaun", "lepus", "leviathan", "lich", "lictor", "lycanthrope", "mermaid",
-                       "merman", "monster", "mummy", "mutant", "ogre", "phoenix", "poltergeist", "santa claus", "sasquatch",
-                       "satyr", "shapeshifter", "siren", "soul", "spectre", "spirit", "stalker", "troll", "undead", "unicorn",
-                       "vampire", "werewolf", "wight", "yeti", "zombie", "snowwoman", "snowman", "robot", "automaton", "succubus",
-                       "incubus", "spaceman", "spacewoman", "visitor", "mysterion"],
-
-    "job": ["master", "mistress", "captain", "teacher", "messiah", "conciliator", "junkie", "enforcer", "gangster", "roadie",
-            "cowboy", "vigilante", "vixen", "marquis", "student", "runner", "surfer", "hooker", "comptroller",
-            "trucker", "alchemist", "architect", "autarch", "avenger", "baron", "biker", "bureaucrat",
-            "butcher", "cannibal", "cheerleader", "clown", "commander", "commando", "communist", "cop", "crusader", "cultist",
-            "czar", "defender", "detective", "diver", "duke", "duplicator", "emperor", "empress", "exorcist", "football player",
-            "geisha", "gladiator", "goddess", "groupie", "hunter", "invader",
-            "king", "knight", "legionnaire", "legionary", "librarian", "lord", "luchador", "master", "ninja", "nun", "occultist", "pirate", "president", "priest", "prince",
-            "princess", "private eye", "professor", "pyromaniac", "queen", "rabbi", "raider", "ronin", "samurai", "scientist",
-            "secret agent", "seer", "servant", "slayer", "snatcher", "sorceror", "taxman", "trooper", "villager", "witch",
-            "wizard", "astronaut", "renegade", "barbarian", "commando", "conqueror", "cop", "destroyer", "judge", "raider",
-            "rider", "soldier", "surgeon", "thief", "warlock", "druid", "cleric", "preacher", "mage", "superhero",
-            "supervillain", "hero", "villain", "harvester", "reanimator",
-            "nurse", "schoolgirl", "boozehound", "addict", "POW", "hitchiker"],
+    "ruler": ["king", "lord", "queen", "prince", "princess", "baron", "duke",
+              "earl", "emperor", "kaiser", "pope", "Padishah", "vizier",
+              "shogun", "Emir", "chieftain", "sheikh"],
 
     # Some threat meta...
     "all_animals": ["#fantasy_animal#", "#real_animal#"],
