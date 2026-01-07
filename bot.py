@@ -38,6 +38,9 @@ DONT_CAP = ["a", "and", "as", "at", "be", "but", "became", "by", "down", "for", 
                    "on", "once", "onto", "or", "over", "past", "so", "than",
                    "that", "to", "upon", "vs.", "was", "when", "with", "yet"]
 
+def load(filename):
+    return [i.strip() for i in open(f"sources/{filename}.txt").readlines()]
+
 RULES = {
     ##################### Basic Rules #######################
 
@@ -74,6 +77,7 @@ RULES = {
                 , "#spooky_locale#", "Lee", "Jones", "Rodríguez", "Johnson",
                 "Williams", "Gonzalez", "#color#", "Smith", "O'Brian"],
 
+    "name": load("names"),
 
     # slightly meta here
     "fun_numeral": ["#roman_numeral#", "#greek_letter#"],

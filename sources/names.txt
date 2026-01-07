@@ -15,18 +15,19 @@ azazel
 balor
 banshee
 baphomet
+batman
 beelzebub
 behemoth
 belial
 bellatrix
 cailleach
 caliban
+caligula
 callicantzaros
 cetus
 champ
 champakali
 chernobog
-chimera
 circe
 cruella
 cyclops
@@ -37,6 +38,7 @@ diti
 dracula
 drusilla
 dullahan
+elvira
 enrir
 erebus
 euryale
@@ -76,6 +78,7 @@ makara
 mara
 medusa
 mephistopheles
+merlin
 mngwa
 moloch
 morgana
@@ -108,6 +111,7 @@ satan
 satanael
 saturna
 scylla
+spiderman
 succubus
 sumuru
 tartarus
@@ -115,7 +119,9 @@ tezcatlipoca
 thanatos
 tiamat
 typhon
+wonder woman
 yami
 yokai
 yowie
 zagan
+zorro

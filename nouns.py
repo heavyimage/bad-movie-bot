@@ -3,13 +3,15 @@
 # might be in both lists?
 # Or keep nouns that are sinister enough to be both (move ones that aren't into bot.y
 
+def load(filename):
+    return [i.strip() for i in open(f"sources/{filename}.txt").readlines()]
+
 base_nouns = {
     # Basic words  / vocabulary
     "relation": ["mom", "dad", "ex-wife", "ex-husband", "grandpa", "grandma", "step-father", "step-mother", "mother-in-law", "father-in-law", "father", "mother", "girlfriend", "boyfriend", "twin", "husband", "wife", "boss", "partner", "bride", "spouse", "groom", "baby", "offspring"],
     "drug": ["spice", "stimulant", "heroin", "psychedelic", "drug", "marijuana", "PCP", "cocaine", "LSD", "reefer", "ganja", "angel dust"],
     "portal": ["seal", "hole", "gate", "door", "gateway", "doorway", "passage", "portal", "tunnel", "bridge"],
     "food": [ "carrion", "fruit", "tomato", "water", "mushroom", "casserole", "toast", "mold", "egg", "tofu", "cheese"],
-    "weapon": ["spear", "blade", "gun", "machine gun", "guillotine", "lance", "mace", "rifle", "saber", "sword", "blaster", "raygun", "nunchuck"],
     "story": ["elegy", "legend", "secret", "cycle", "fable", "fate", "saga", "tale", "tales", ],
     "day_of_the_week": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
     "spooky_evidence": ["sigil", "talisman", "crop circles", "vision", "clue", "proof", "vestage", "vision", "stare", "track", "sign", "footprint", "fossil", "shadow", "touch", "sacrific", "whisper", "echo", "stench", "shard", "bone", "ruin", "trail"],
@@ -30,7 +32,7 @@ base_nouns = {
     "people": ["femme", "butch", "people", "men", "women"],
     "events": ["toast", "banquet", "dinner", "dance", "ball", "masquerade",],
 
-    "appliance_tool_or_weapon": ["ark", "refrigerator", "saw", "hammer", "drill", "key", "coin", "lucre", "money", "crucifix", "dial", "mechanism", "chainsaw", "#appliance_or_tool#", "#weapon#", "armor", "ring", "candy", "crown", "cross", "bible", "crystal ball", "masque", "scepter", "shield", "mask", "capsule", "mirror", "band", "antique", "artifact", "relic"],
+    "appliance_tool_or_weapon": ["ark", "refrigerator", "saw", "hammer", "drill", "key", "coin", "lucre", "money", "crucifix", "dial", "mechanism", "chainsaw", "armor", "ring", "candy", "crown", "cross", "bible", "crystal ball", "masque", "scepter", "shield", "mask", "capsule", "mirror", "band", "antique", "artifact", "relic", "spear", "blade", "gun", "machine gun", "guillotine", "lance", "mace", "rifle", "saber", "sword", "blaster", "raygun", "nunchuck"],
 
     # simple meta rules
     "ritual": ["sabbath", "#color# mass", "dance", "rave", "concert", "festival", "funeral", "christmas", "opera", "orgy", "party", "pyre", "rite", "ritual", "sacrifice", "circus", "carnival", "bazzar", ],
@@ -39,30 +41,20 @@ base_nouns = {
     "technology": ["#vehicle#", "space station", "test tube", "forcefield", "equations", "monument", "android", "computer", "doll", "effect", "factory", "gear", "hologram", "laser", "machine", "plane", "puppet", "science", "experiment", "statue", "toy", "labratory", "lab"],
     # TODO: plural forms are riches?
 
-
     # Threats
-    # TODO: deal with 'evil_names.txt'
-    "named_noun": ["Devil", "Spiderman", "Batman", "Wonder Woman", "Ra", "Oberon", "Isis", "Ares", "Paimon", "Satan", "Dracula", "Medusa", "Hercules", "Sumuru", "Frankenstein", "Elvira", "Caligula", "Zorro", "Merlin"],
 
-    "threatening_substance": ["web", "#drug#", "blood", "slime", "meat", "poison", "elixir", "dust", "stuff", "grime", "oil", "ooze", "goop", "sludge", "goo", "ichor", ],
-
-    "evil_group": ["commission", "gestapo", "communist party", "illuminati", "secret society", "league", "triumvirate",
-                   "demagogue", "billionaire", "cabal", "unamerican activity", "lizard #person#", "mafia", "Vatican",
-                   "inner circle", "secret service", "CIA", "FBI", "Pentagon", "KGB", "congress", "SS", "council",
-                   "anarchy", "domain", "alliance", "cult", "monarchy", "legion",
-                   "fellowship", "empire", "army", "fighters", "warriors"],
-
+    "threatening_substance": ["chemtrail", "web", "#drug#", "blood", "slime", "meat", "poison", "elixir", "dust", "stuff", "grime", "oil", "ooze", "goop", "sludge", "goo", "ichor", ],
     "threatening_thing": ["AI", "freak", "scum", "creep", "beast", "terror", "humanoids", "creature", "it", "thing", "threat", "lurker", "being", "maniac", "corpse", "threat", "curse", "call", "reaper"],
 
     # short ones
     "human_reaction": ["smile", "shiver", "scream", "laugh", "frown", "scowl"],
-    "pop_culture_people": ["Spiderman", "Batman", "Wonder Woman", "Elvira", "Caligula", "Zorro", "Merlin"],
 
-    "real_animal":                      [i.strip() for i in open("sources/real_animals.txt").readlines()],
-    "natural_phenomena":                [i.strip() for i in open("sources/natural_phenomena.txt").readlines()],
-    "fantasy_animal":                   [i.strip() for i in open("sources/fantasy_animals.txt").readlines()],
-    "evocative_and_mythological_names": [i.strip() for i in open("sources/evocative_and_mythological_names.txt").readlines()],
-    "job":                              [i.strip() for i in open("sources/jobs.txt").readlines()],
+    # TODO: some of these, eg harp, shouldn't use 'the'
+    "evil_group":                       load("evil_groups"),
+    "real_animal":                      load("real_animals"),
+    "natural_phenomena":                load("natural_phenomena"),
+    "fantasy_animal":                   load("fantasy_animals"),
+    "job":                              load("jobs"),
 
     "ruler": ["king", "lord", "queen", "prince", "princess", "baron", "duke",
               "earl", "emperor", "kaiser", "pope", "Padishah", "vizier",

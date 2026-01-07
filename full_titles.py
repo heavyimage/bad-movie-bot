@@ -30,8 +30,6 @@ full_titles = [
     "#body_part# of #noun#",
     "The #body_part# of the #noun#",
 
-    "#title# #surname# and the #ma_noun#",
-
     # job
     "#ma_noun# #job#",
     "#noun# #job#",
@@ -281,6 +279,6 @@ full_titles = [
     "Ice Station #real_animal#",
 
     # Something like Ilsa she-wolf of the SS
-    "#evocative_and_mythological_names: She-#all_animals# of the #evil_group# xyz", 
+    "#name#: She-#all_animals# of the #evil_group#", 
 
 ]
