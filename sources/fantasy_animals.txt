@@ -51,7 +51,6 @@ poltergeist
 revenant
 robot
 sandworm
-santa claus
 sasquatch
 satyr
 shapeshifter

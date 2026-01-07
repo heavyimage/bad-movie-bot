@@ -55,7 +55,7 @@ RULES = {
     "funny_year": ["19XX", "20XX", "2000", "3001", "5000", "10,000"],
     "greek_letter": ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "lamda", "mu", "nu", "xi", "omicron", "pi", "rho", "sigma", "tau", "upsilon", "phi", "chi", "psi", "omega",],
     "large_count_singular_adj": ["uncountable", "endless", "hundred", "thousand", "million", "billion", "trillion"],
-    "threat_suffix": ["nado", "geddon", "zilla", "drome"],
+    "threat_suffix": ["nado", "geddon", "zilla", "drome", "ra"],
     "magic_type_adj": ["sex", "#color#", "dark", "evil", "nature"],
     "impossible_verb": ["couldn't", "wouldn't", "could never"],
     "person": ["man", "woman", "person", "robot"],
@@ -70,7 +70,7 @@ RULES = {
                     "around", "at", "before", "behind", "below",
                     "beyond", "from", "in",
                     "inside", "near", "of", "on", "over",
-                    "through", "to", "under", "with", "within"],
+                    "through", "to", "under", "with", "within", "that came to"],
 
     # names (some meta)
     "name": load("names"),

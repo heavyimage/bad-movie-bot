@@ -19,11 +19,7 @@ full_titles = [
     "#adj# #job#: The #noun# of the #ma_noun#",
     "#adj# #noun#",
     "#adj# #noun# of the #ma_nouns#",
-
-    # battles
-    "#ma_noun# vs. #ma_noun#",
     "The #ma_noun# and the #ma_noun#",
-    "#noun#-zilla VS #noun#-ra",
 
     # body part form
     "#body_part# #noun#",
@@ -39,7 +35,6 @@ full_titles = [
     # TODO: this needs a lot of work...
     # TODO: replace #place# with #maybe_adj_#place"?????
     #"#maybe_the# #maybe_adj# #adventure# #preposition# #place#",
-    # the place that was turned to material
     "#smart_place# that was turned to #material#",
     "#smart_place# that became #material#",
     "#smart_place# of #material_adj#",
@@ -122,7 +117,7 @@ full_titles = [
     "The #numeric# #portal#",
 
     # Close Encounters, lol
-    "Close Encounters of the #numeric# kind",
+    "#adj# Encounters of the #numeric# kind",
 
     # Ilsa: she wolf of the ss
     "#ma_noun#: #noun# of the #evil_group#",
@@ -131,17 +126,22 @@ full_titles = [
     "Why did you #ominous_noun_actions_present# my #relation#?!",
 
     # Shadow over innsmouth
-    # TODO: replace #place# with #maybe_adj_#place"
-    "The #noun# #preposition# #smart_place#",
+    # hell comes to frogdown
+    "The #concept# over #smart_ma_place#",
+    "The #concept# from #smart_ma_place#",
+    "The #concept# that came to #smart_ma_place#",
+    "#concept# comes to #smart_ma_place#",
+
+    # Picnic at hanging rock
+    "#ritual_or_event# at #smart_ma_place#",
 
     # "star wars"
     "#adj# #battle#",
 
     # "Battle of Los Angeles"
-    # TODO: replace with #maybe_adj_#place"
-    "#battle#: #maybe_adj# #smart_place#",
+    "#battle#: #smart_ma_place#",
 
-    # "grind-house"
+    # "grind-house", forbidden planet
     "#adj# #smart_place#",
 
     # Daughters of the Sun
@@ -283,6 +283,14 @@ full_titles = [
     "#name#: She-#all_animals# of the #evil_group#", 
 
     # Santa Claus vs. the Martians
-    "#name# vs. the #noun.s#",
+    "#name# vs. the #noun.s# xyz",
+
+    # Godzilla films
+    "#noun#-#threat_suffix# vs. #noun#-#threat_suffix# xyz",
+
+    # other Battles
+    "#name# vs. #name# xyz",
+    "#name# vs. the #ma_noun# xyz",
+    "The #ma_noun# vs. the #ma_noun# xyz",
 
 ]

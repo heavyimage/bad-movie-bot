@@ -13,6 +13,7 @@ Vatican
 alliance
 anarchy
 army
+barbarians
 bilderberg group
 billionaire
 cabal
@@ -27,16 +28,22 @@ domain
 empire
 fellowship
 freemason
+incels
+millenials
+generation X
 gestapo
 house unamerican activities committee
 illuminati
 inner circle
 league
 legion
-lizard #person#
+#real_animal# people
+#real_animal# #person#
 mafia
 monarchy
 secret service
 secret society
 triumvirate
+vegans
+vegetarians
 warriors
