@@ -5,7 +5,7 @@ from tracery.modifiers import base_english
 from adjectives import base_adjectives
 from nouns import base_nouns
 from places import base_places_rt, base_places_nrt
-from full_titles import full_titles
+from main_titles import main_titles
 
 
 
@@ -56,7 +56,7 @@ RULES = {
 
     # Years
     "maybe_era": ["AD", "BC", ""],
-    "funny_year": ["year 0", "19XX", "20XX", "1999", "2000", "2001", "3001", "5000", "10,000", "#digit##digit##digit##digit# #maybe_era#", "#digit##digit##digit##digit##digit# #maybe_era#", "#digit##digit##digit##digit##digit##digit# #maybe_era#"],
+    "funny_year": ["year 0", "41st Millennium", "19XX", "20XX", "1999", "2000", "2001", "3001", "5000", "10,000", "#digit##digit##digit##digit# #maybe_era#", "#digit##digit##digit##digit##digit# #maybe_era#", "#digit##digit##digit##digit##digit##digit# #maybe_era#"],
 
     "title": ["sgt.", "dr.", "mr.", "mrs.", "professor",],
     "letter": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
@@ -98,7 +98,7 @@ RULES = {
     # Verbs?
     "ominous_place_actions": ["explored", "studied", "walked", "was sent to", "traveled to", "returned from", "woke up in", "was transported to"],
     "ominous_noun_actions_past": ["watched", "killed", "froze", "burned", "ate", "tortured", "dissected", "dissolved", "studied", "became", "married", "swallowed"],
-    "ominous_noun_actions_present": ["kill", "freeze", "burn", "eat", "torture", "dissect", "dissolve", "study", "become", "marry", "swallow"],
+    "ominous_noun_actions_present": ["kill", "freeze", "fertilize", "burn", "eat", "torture", "dissect", "dissolve", "study", "become", "marry", "swallow"],
     
     # Maybes
     "maybe_adj":         ["", "", "#adj#"],
@@ -118,17 +118,22 @@ RULES = {
     ### title encomplexification ###
 
 	# TODO: replace #place# with #maybe_adj_#place"
-    "silly_sequels" : [
-        "#smart_place# #fun_number#: The #ma_noun#",
-        "#smart_place# #fun_number#: Return of the #ma_noun#",
-        "#smart_place# #fun_number#: Chapter #fun_numeral",
-        "#smart_place# #fun_number#: Revenge of the #ma_noun#",
-        "#smart_place# #fun_number#: #ma_noun# #noun#",
-        "#smart_place# #fun_number#: #noun# of the #ma_noun#",
-        "#ma_noun# #fun_number#: #preposition# #smart_place#",
-        "The #ma_noun# #fun_number#: #preposition# #smart_place#",
-        "The #ma_noun# #fun_number#: #smart_place#",
+    "silly_sequel" : [
+        "#main_title# #fun_number#: The #ma_noun#",
+        "#main_title# #fun_number#: Return of the #ma_noun#",
+        "#main_title# #fun_number#: Chapter #fun_numeral",
+        "#main_title# #fun_number#: Revenge of the #ma_noun#",
+        "#main_title# #fun_number#: The Squeakquel",
+        "#main_title# #fun_number#: #ma_noun# #noun#",
+        # ...Secret of the ooze
+        "#main_title# #fun_number#: #noun# of the #ma_noun#",
+        "#main_title# #fun_number#: and the #noun# of the #ma_noun#",
+        "#main_title# #fun_number#: #preposition# #smart_place#",
+        "#main_title# #fun_number#: #preposition# #smart_place#",
+        "#main_title# #fun_number#: #smart_place#",
     ],
+
+
     "silly_suffix": [
         "! kill! kill!",
         " a go-go",
@@ -136,13 +141,14 @@ RULES = {
         " (blue)",
         ": The revenge",
         ": The return",
-        ": #space_age_adj# #ritual#",
+        ": #space_age_adj# #ritual_or_event#",
         ": #story# of the #noun#",
         " XXX",
     ],
 
     "silly_prefix": [
         "Manos: The #noun.s# of",
+        "Transformers #digit##digit#: ",
         "Code Name:",
         "David Winters presents:",
         "Alias:",
@@ -150,6 +156,40 @@ RULES = {
         "Warning:",
         "Fear the",
         "Dread the",
+        "Tyler Perry’s", 
+    ],
+
+    "full_title" : [
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+
+        "#alternate#",
+        ],
+
+    # Alternate titles that happen rarely
+    "alternate": [
+        # sequels
+        "#silly_sequel#",
+
+        # prefix and suffix
+        "#silly_prefix# #noun#",
+        "#silly_prefix# #ma_noun#",
+        "#ma_noun# #silly_suffix#",
     ],
 
     
@@ -160,7 +200,7 @@ RULES.update(base_adjectives)
 RULES.update(base_nouns)
 RULES.update(base_places_rt)
 RULES.update(base_places_nrt)
-RULES['full_title'] = full_titles
+RULES['main_title'] = main_titles
 
 # TODO: capitalize both parts of a hyphenation
 def custom_capitalize(text):
@@ -198,6 +238,7 @@ def clean(title):
     title = title.replace("teethes", "teeth")
     title = title.replace("womans", "women")
     title = title.replace(" mans ", " men ")
+    title = title.replace(" mens", " men")
     title = title.replace("elfs", "elves")
     title = title.replace("nauseas", "nausea")
     title = title.replace("bloods", "blood")
@@ -217,28 +258,12 @@ def clean(title):
     title = title.replace("'S ", "'s ")
     title = title.replace(" Of ", " of ")
     title = title.replace(" The ", " the ")
-    title = title.replace(" Cia", " CIA")
-    title = title.replace(" Lsd", " LSD")
-    title = title.replace("Lsd:", "LSD:")
-    title = title.replace(" Dmv", " DMV")
-    title = title.replace(" Bdsm", " BDSM")
-    title = title.replace(" Fbi", " FBI")
-    title = title.replace(" Pvc", " PVC")
     title = title.replace(" cheetahes", " cheetahs")
     title = title.replace("'T ", "'t ")
-    title = title.replace(" Xxx", " XXX")
-    title = title.replace(" Ss", " SS")
-    title = title.replace(" Ii ", " II ")
-    title = title.replace(" Ii:", " II:")
-    title = title.replace(" Iii ", " III ")
-    title = title.replace(" Iii:", " III:")
-    title = title.replace(" Iv ", " IV ")
-    title = title.replace(" Iv:", " IV:")
-    title = title.replace(" Vi ", " VI ")
-    title = title.replace(" Vi:", " VI:")
-    title = title.replace(" Vii ", " VII ")
-    title = title.replace(" Vii:", " VII:")
+    title = title.replace(" : ", ": ")
+    title = title.replace("- ", "-")
     title = title.replace("41St", "41st")
+    title = title.replace(" stuffs", " stuff")
     
     return title
 

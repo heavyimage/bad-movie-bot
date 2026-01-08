@@ -1,24 +1,16 @@
 
 # TODO: try to have an example title to explain the rule!
 # TODO: ideally try to slim this down as much as possible
-full_titles = [
-    # prefix and suffix
-    "#silly_prefix# #noun#",
-    "#silly_prefix# #ma_noun#",
-    "#ma_noun# #silly_suffix#",
-
-    # only one of many -- so called infrequently
-    "#silly_sequels#",
+main_titles = [
 
     # basic forms
     "#ma_noun#!",
     "The #ma_noun#",
     "The #adj#, #adj# #noun#",
-    "#noun# of the #ma_noun#",
     "#noun# #noun#",
     "#adj# #job#: The #noun# of the #ma_noun#",
     "#adj# #noun#",
-    "#adj# #noun# of the #ma_nouns#",
+    "#ma_noun# of the #ma_noun#",
     "The #ma_noun# and the #ma_noun#",
 
     # body part form
@@ -230,14 +222,14 @@ full_titles = [
 
     # Plan 9 from outer space
     # TODO: replace #place# with #maybe_adj_#place"
-    "#operation# #number# from #smart_place#",
+    "#operation# #fun_number# from #smart_place#",
 
     # Assignment: earth
     # TODO: replace #place# with #maybe_adj_#place"
     "#operation#: #smart_place#",
 
     # Phase IV
-    "#operation# #number#",
+    "#operation# #fun_number#",
 
     # The hydra protocol
     "The #noun# #operation#",
@@ -282,15 +274,19 @@ full_titles = [
     # Something like Ilsa she-wolf of the SS
     "#name#: She-#all_animals# of the #evil_group#", 
 
-    # Santa Claus vs. the Martians
-    "#name# vs. the #noun.s#",
+    # Santa Claus conquers the Martians
+    "#name# conquers the #noun.s#",
 
     # Godzilla films
     "#noun#-#threat_suffix# vs. #noun#-#threat_suffix#",
 
+    # Superman vs batman: dawn of justice
+    "#name# vs. #name#: #moment_in_time# of #concept#",
+
     # other Battles
     "#name# vs. #name#",
     "#name# vs. the #ma_noun#",
+    "#name# vs. the #ma_noun.s#",
     "The #ma_noun# vs. the #ma_noun#",
 
     # Witchcraft Through the Ages
@@ -299,5 +295,32 @@ full_titles = [
     # Space 1999
     "#place_nrt#: #funny_year#",
     "#place_rt#: #funny_year#", # ignore 'the' in this context?
+
+    # Back to the future
+    "Back to #smart_place#",
+
+    # heart of darkness
+    "#body_part# of #concept#",
+
+    # Superman: dawn of justice
+    "#name#: #moment_in_time# of #concept#",
+
+    #Fat Guy Goes Nutzoid!!
+    "#adj# #human# goes #crazy_adj#!!",
+
+    # harder constructions?
+    "#noun#dotcom",
+
+    # love actually
+    "#concept# Actually",
+
+    # Martha Marcy May Marlene
+    "#name# #name# #name# Marlene",
+
+    # Precious: Based on the Novel “Push” by Sapphire 
+    "#adj#: Based on the Novel '#noun#' by #material#",
+
+    # Octopussy
+    "#adj#pussy",
 
 ]
