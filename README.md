@@ -1,4 +1,4 @@
-# B-Movie Generator
+# Bad-Movie-Bot
 
 A silly movie title generator using [(py)tracery](https://github.com/aparrish/pytracery).
 
