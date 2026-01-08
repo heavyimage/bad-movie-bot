@@ -1,36 +1,67 @@
 import tracery
 from tracery.modifiers import base_english
 
+import logging
+import time
+from random import choice
+from mastodon import Mastodon
+
+HASHTAG_INTERVAL = 10
+HASHTAGS = ["#cinema", "#flims", "#movies", "#badmovie#"]
+
 # Split up stuff!
 from adjectives import base_adjectives
 from nouns import base_nouns
 from places import base_places_rt, base_places_nrt
 from main_titles import main_titles
 
+# Setup logging
+logger = logging.getLogger()
+handler = logging.StreamHandler()
+formatter = logging.Formatter('%(asctime)s:\t%(message)s')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
+logger.setLevel(logging.INFO)
+logger = logging.getLogger()
 
+def get_api():
+    """ Access and authorize mastodon using secret token file """
+    api = Mastodon(
+        access_token = 'token.secret',
+        api_base_url = 'https://mastodon.social/'
+    )
+    return api
 
-# TODO:sanity check duplicates
-# TODO: sort out "the"
+def get_all_followers(api):
+    """ Get the accounts we are following and keep only the account names """
+    accounts = []
+    user_id = api.account_verify_credentials().id
+    following = api.account_followers(user_id)
+    while following != None :
+        accounts += list(map(lambda x: x.acct, following))
+        following = api.fetch_next(following)
+    return accounts
 
-#named threats (don't want 'the' ahead of them
-
+# TODO:
+# sanity check duplicates
+# named threats (don't want 'the' ahead of them
 # the plane of leng
 # adjective / noun agreement?
 #"#magic_type_adj# #magic#",
 # https://en.wikipedia.org/wiki/Erotic_thriller#1980s%E2%80%931990s:_Classic_period
-"breed"
-"wolf-man",
-"filth"
-"part XXX"
-"invincible"
-"grave",
-"reign"
-"country",
-"school",
-"barbed wire",
-"revenge",
-"fracture",
-"sex",
+# "breed"
+# "wolf-man",
+# "filth"
+# "part XXX"
+# "invincible"
+# "grave",
+# "reign"
+# "country",
+# "school",
+# "barbed wire",
+# "revenge",
+# "fracture",
+# "sex",
 
 # From: https://prowritingaid.com/list-of-words-not-capitalized-in-titles
 DONT_CAP = ["a", "and", "as", "at", "be", "but", "became", "by", "down", "for", "from",
@@ -85,7 +116,7 @@ RULES = {
                 , "#spooky_locale#", "Lee", "Jones", "Rodríguez", "Johnson",
                 "Williams", "Gonzalez", "#color#", "Smith", "O'Brian"],
 
-    # Load external 
+    # Load external
     "adj": [f"#{adj}#" for adj in base_adjectives],
     "noun": [f"#{noun}#" for noun in base_nouns],
     "place_rt": [f"#{place}#" for place in base_places_rt],
@@ -94,12 +125,12 @@ RULES = {
     ##### WTF ZONE ####
     # TODO:
     #"???": ["that came from", "corrupted by", "from beyond", "on the edge of", "above the"]
-    
+
     # Verbs?
     "ominous_place_actions": ["explored", "studied", "walked", "was sent to", "traveled to", "returned from", "woke up in", "was transported to"],
     "ominous_noun_actions_past": ["watched", "killed", "froze", "burned", "ate", "tortured", "dissected", "dissolved", "studied", "became", "married", "swallowed"],
     "ominous_noun_actions_present": ["kill", "freeze", "fertilize", "burn", "eat", "torture", "dissect", "dissolve", "study", "become", "marry", "swallow"],
-    
+
     # Maybes
     "maybe_adj":         ["", "", "#adj#"],
     "maybe_old_adj":     ["", "#old_adj#"],
@@ -109,6 +140,7 @@ RULES = {
 
     "smart_place": ["the #place_rt#", "#place_nrt#"],
     "smart_ma_place": ["the #maybe_adj# #place_rt#", "#maybe_adj# #place_nrt#"],
+    "smart_a_place": ["the #adj# #place_rt#", "#adj# #place_nrt#"],
 
     # Basics
     "ma_noun":       ["#maybe_adj# #noun#", ],
@@ -156,7 +188,7 @@ RULES = {
         "Warning:",
         "Fear the",
         "Dread the",
-        "Tyler Perry’s", 
+        "Tyler Perry’s",
     ],
 
     "full_title" : [
@@ -192,7 +224,7 @@ RULES = {
         "#ma_noun# #silly_suffix#",
     ],
 
-    
+
 }
 
 # Load remote lists
@@ -265,19 +297,56 @@ def clean(title):
     title = title.replace("- ", "-")
     title = title.replace("41St", "41st")
     title = title.replace(" stuffs", " stuff")
-    
+
     return title
 
 
 def main():
+    """ entry point """
+
+    # build gammar
     grammar = tracery.Grammar(RULES)
     grammar.add_modifiers(base_english)
+
+    counter = 0
+    followers = set()
+
+    logger.info("Serving: https://mastodon.social/@daveryderbot")
+
+    # get api object
+    api = get_api()
+
+    # Main loop
+    while True:
+
+        # generate the title!
+        title = clean(grammar.flatten("#full_title#"))
+
+        # toot
+        msg = title
+        if counter % HASHTAG_INTERVAL == 0:
+            msg = f"{msg} {choice(HASHTAGS)}"
+        api.status_post(msg)
+        counter += 1
+
+        # log
+        logger.info("Posted msg #%s: %s" % (counter, msg))
+
+        # Check for new followers:
+        for handle in get_all_followers(api):
+            if handle not in followers:
+                logger.info("New Follower: %s" % handle)
+                followers.add(handle)
+
+        # sleep for 3 hours
+        time.sleep(60 * 60 * 3)
+
+def test():
     for i in range(1000):
-        title = grammar.flatten("#full_title#")
-
-        title = clean(title)
-
+        grammar = tracery.Grammar(RULES)
+        title = clean(grammar.flatten("#full_title#"))
         print(title)
 
 if __name__ == "__main__":
     main()
+    #test()
