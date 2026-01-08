@@ -316,7 +316,7 @@ main_titles = [
     "#concept# Actually",
 
     # Martha Marcy May Marlene
-    "Marcy #name# #name# Marlene",
+    "Martha #name# #name# Marlene",
 
     # Precious: Based on the Novel “Push” by Sapphire 
     "#adj#: Based on the Novel '#noun#' by #material#",
