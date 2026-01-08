@@ -233,6 +233,7 @@ main_titles = [
 
     # The hydra protocol
     "The #noun# #operation#",
+    "The #name# #operation#",
     "#smart_place# #operation.s#",
 
     # escape from NY
@@ -315,7 +316,7 @@ main_titles = [
     "#concept# Actually",
 
     # Martha Marcy May Marlene
-    "#name# #name# #name# Marlene",
+    "Marcy #name# #name# Marlene",
 
     # Precious: Based on the Novel “Push” by Sapphire 
     "#adj#: Based on the Novel '#noun#' by #material#",
@@ -323,4 +324,10 @@ main_titles = [
     # Octopussy
     "#adj#pussy",
 
+    # Blade Runner
+    "#appliance_tool_or_weapon# #job#",
+    "#appliance_tool_or_weapon# #job# 20#digit##digit#",
+
+    # Flesh Market
+    "#body_part# #ritual_or_event#",
 ]

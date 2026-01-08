@@ -13,7 +13,7 @@ base_places_rt = {
                  "city", "realm", "zone", "church", "abbey", "cathedral",
                  "pagoda", "chapel", "reliquary", "synagogue", "mosque",
                  "temple", "hostel", "bodega", "adult cinema", "suburbs",
-                 "fair", "barn", "mall", "science fair", "DMV", "library"],
+                 "fair", "barn", "mall", "science fair", "DMV", "library", "harem"],
 
     "water_and_oceans": [ "sea", "deep", "depths", "reef"],
 

@@ -121,7 +121,7 @@ RULES = {
     "silly_sequel" : [
         "#main_title# #fun_number#: The #ma_noun#",
         "#main_title# #fun_number#: Return of the #ma_noun#",
-        "#main_title# #fun_number#: Chapter #fun_numeral",
+        "#main_title# #fun_number#: Chapter #fun_numeral#",
         "#main_title# #fun_number#: Revenge of the #ma_noun#",
         "#main_title# #fun_number#: The Squeakquel",
         "#main_title# #fun_number#: #ma_noun# #noun#",
@@ -235,20 +235,22 @@ def clean(title):
     #title = title.replace(" : ", ": ")
 
     # fix plurals
-    title = title.replace("teethes", "teeth")
-    title = title.replace("womans", "women")
-    title = title.replace(" mans ", " men ")
-    title = title.replace(" mens", " men")
-    title = title.replace("elfs", "elves")
-    title = title.replace("nauseas", "nausea")
-    title = title.replace("bloods", "blood")
-    title = title.replace("foots", "feet")
-    title = title.replace("gentlemans", "gentlemen")
-    title = title.replace("gentlewomans", "gentlewomen")
-    title = title.replace("spacemans", "spacemen")
-    title = title.replace("spacewomans", "spacewomen")
-    title = title.replace("snowmans", "snowmen")
-    title = title.replace("snowwomans", "snowwomen")
+    title = title.replace("Teethes", "Teeth")
+    title = title.replace("Tearses", "Tears")
+    title = title.replace("Womans", "Women")
+    title = title.replace(" Mans ", " Men ")
+    title = title.replace(" Mens", " Men")
+    title = title.replace("Elfs", "Elves")
+    title = title.replace(" Cheetahes", " Cheetahs")
+    title = title.replace("Nauseas", "Nausea")
+    title = title.replace("Bloods", "Blood")
+    title = title.replace("Foots", "Feet")
+    title = title.replace("Gentlemans", "Gentlemen")
+    title = title.replace("Gentlewomans", "Gentlewomen")
+    title = title.replace("Spacemans", "Spacemen")
+    title = title.replace("Spacewomans", "Spacewomen")
+    title = title.replace("Snowmans", "Snowmen")
+    title = title.replace("Snowwomans", "Snowwomen")
 
     # capitalize
     #title = title.strip().title()
@@ -258,7 +260,6 @@ def clean(title):
     title = title.replace("'S ", "'s ")
     title = title.replace(" Of ", " of ")
     title = title.replace(" The ", " the ")
-    title = title.replace(" cheetahes", " cheetahs")
     title = title.replace("'T ", "'t ")
     title = title.replace(" : ", ": ")
     title = title.replace("- ", "-")

@@ -9,14 +9,14 @@ def load(filename):
 base_nouns = {
     # Basic words  / vocabulary
     # short ones
-    "day_of_the_week": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+    "day_of_the_week": ["weekend", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
     "human_reaction": ["smile", "shiver", "scream", "laugh", "frown", "scowl"],
     "instrament": ["guitar", "piano", "flute", "pan-pipe", "tubular bell"],
     "magic": ["magic", "magick", "tome", "spellbook", "phylactery"],
     "operation": ["codename", "protocol", "assignment", "phase", "operation", "plan", "conspiracy"],
     "people": ["femme", "people", "men", "women", "god"],
     "portal": ["seal", "hole", "gate", "door", "gateway", "doorway", "passage", "portal", "tunnel", "bridge"],
-    "sexy_material": ["leather", "rubber", "g-string", "thong", "lace", "pvc", "latex", "lingerie"],
+    "sexy_material": ["leather", "rubber", "g-string", "thong", "lace", "PVC", "latex", "lingerie"],
     "sound": ["requium", "symphony", "sound", "scream", "song", "melody", "song"],
     "story": ["mystery", "elegy", "legend", "secret", "cycle", "fable", "fate", "saga", "tale"],
 
@@ -27,7 +27,7 @@ base_nouns = {
     "battle": ["ambush", "siege", "attack", "battle", "clash", "revolution", "hunt", "counterattack", "battlefield", "tears", "bloodbath", "mutiny", "invasion", "war", "massacre", "holocaust"],
 	"vehicle": ["car", "UFO", "black helicopter", "flying saucer", "train", "zeppelin", "truck", "rocket", "ship", "battleship", "aircraft carrier", "plane", "jet", "elevator", "tank", "spaceship", "starship", "scooter"],
     "shapes": ["square", "circle", "rune", "diagram", "pictogram", "geometry", "curve", "pyramid", "vector", "field", "color", "stain", "circle", "pentagram", "hexagon", "colour", "orb", "blob", "cube", "flash", "form", "monolith", "sphere", ],
-    "body_part": ["body", "skin", "fist", "lip", "wing", "blood", "bone", "bun", "bosom", "brain", "claw", "eye", "finger", "flesh", "foot", "gut", "hand", "heart", "jaw", "maw", "mind", "mouth", "muscle", "skull", "face", "teeth", "brow", "spine", "stomach", "gaze", "tendril", "tentacle", ],
+    "body_part": ["body", "skin", "fist", "lip", "wing", "breast", "blood", "bone", "bun", "bosom", "brain", "claw", "eye", "finger", "flesh", "foot", "gut", "hand", "heart", "jaw", "maw", "mind", "mouth", "muscle", "skull", "face", "teeth", "brow", "spine", "stomach", "gaze", "tendril", "tentacle", ],
     "adventure": ["crusade", "romp", "quest", "escape", "voyage", "odyssey", "journey", "pilgrimage", "adventure", "expedition", "encounter"],
     "riches": ["diamonds", "riches", "bounty", "harvest", "gold", "treasure", "wealth", "fortune", "prosperity", "opulence"],
     "scheme": ["coverup", "mutiny", "perversion", "study", "experiment", "destiny", "scheme", "grudge", "study", "plot", "revenge", "compact", "embrace", "pact", "bargain", "vigil", "betrayal", "lies", "promises", "wishes"],
@@ -38,7 +38,7 @@ base_nouns = {
     "dorks": ["nerd", "geek", "dork"],
 
     # simple meta rules
-    "ritual_or_event": ["picnic", "sabbath", "#color# mass", "dance", "rave", "concert", "festival", "funeral", "christmas", "opera", "orgy", "party", "pyre", "rite", "ritual", "sacrifice", "circus", "carnival", "bazzar", "toast", "banquet", "dinner", "dance", "ball", "masquerade"],
+    "ritual_or_event": ["market", "picnic", "sabbath", "#color# mass", "dance", "rave", "concert", "festival", "funeral", "christmas", "opera", "orgy", "party", "pyre", "rite", "ritual", "sacrifice", "circus", "carnival", "bazzar", "toast", "banquet", "dinner", "dance", "ball", "masquerade"],
     "human": ["ancient", "#person#", "gentle#person#", "teenager", "girl", "boy", "beefcake", "chick", "guy", "dude", "children", "daughter", "son", "bimbo", "nympho", "harlot"],
     "sexy_servant": ["sex slave", "love servant", "sex toy", "lover", "concubine", "pleasure #job#"],
     "technology": ["#vehicle#", "space station", "clone", "test tube", "forcefield", "equations", "monument", "robot", "android", "computer", "doll", "effect", "factory", "gear", "hologram", "laser", "machine", "plane", "puppet", "science", "experiment", "statue", "toy", "labratory", "lab"],
