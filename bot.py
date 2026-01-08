@@ -50,6 +50,7 @@ def get_all_followers(api):
 #"#magic_type_adj# #magic#",
 # https://en.wikipedia.org/wiki/Erotic_thriller#1980s%E2%80%931990s:_Classic_period
 # "breed"
+# Salo, or the 120 Days of Sodom
 # "wolf-man",
 # "filth"
 # "part XXX"
