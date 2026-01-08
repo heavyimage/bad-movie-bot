@@ -6,8 +6,8 @@ import time
 from random import choice
 from mastodon import Mastodon
 
-HASHTAG_INTERVAL = 10
-HASHTAGS = ["#cinema", "#flims", "#movies", "#badmovie#"]
+HASHTAG_INTERVAL = 30
+HASHTAGS = ["#cinema", "#flims", "#movies", "#badmovie", "#schlock", "#bmovie"]
 
 # Split up stuff!
 from adjectives import base_adjectives
@@ -62,6 +62,7 @@ def get_all_followers(api):
 # "revenge",
 # "fracture",
 # "sex",
+# https://www.hollywoodreporter.com/gallery/b-movie-titles-50-best-778995/9-them-1954/
 
 # From: https://prowritingaid.com/list-of-words-not-capitalized-in-titles
 DONT_CAP = ["a", "and", "as", "at", "be", "but", "became", "by", "down", "for", "from",
@@ -311,7 +312,7 @@ def main():
     counter = 0
     followers = set()
 
-    logger.info("Serving: https://mastodon.social/@daveryderbot")
+    logger.info("Serving: https://mastodon.social/@z_movie_generator")
 
     # get api object
     api = get_api()
@@ -338,8 +339,8 @@ def main():
                 logger.info("New Follower: %s" % handle)
                 followers.add(handle)
 
-        # sleep for 3 hours
-        time.sleep(60 * 60 * 3)
+        # sleep for 1 hour
+        time.sleep(60 * 60)
 
 def test():
     for i in range(1000):
