@@ -64,6 +64,7 @@ def get_all_followers(api):
 # "fracture",
 # "sex",
 # https://www.hollywoodreporter.com/gallery/b-movie-titles-50-best-778995/9-them-1954/
+# https://www.flickchart.com/Charts.aspx?genre=Exploitation+Film&perpage=100
 
 # From: https://prowritingaid.com/list-of-words-not-capitalized-in-titles
 DONT_CAP = ["a", "and", "as", "at", "be", "but", "became", "by", "down", "for", "from",
