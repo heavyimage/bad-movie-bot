@@ -347,6 +347,7 @@ def main():
 def test():
     for i in range(1000):
         grammar = tracery.Grammar(RULES)
+        grammar.add_modifiers(base_english)
         title = clean(grammar.flatten("#full_title#"))
         print(title)
 
