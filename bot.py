@@ -155,7 +155,7 @@ RULES = {
     "silly_sequel" : [
         "#main_title# #fun_number#: The #ma_noun#",
         "#main_title# #fun_number#: Return of the #ma_noun#",
-        "#main_title# #fun_number#: Chapter #fun_numeral#",
+        "#main_title# #fun_number#: Chapter #fun_number#",
         "#main_title# #fun_number#: Revenge of the #ma_noun#",
         "#main_title# #fun_number#: The Squeakquel",
         "#main_title# #fun_number#: #ma_noun# #noun#",

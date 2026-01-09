@@ -332,5 +332,5 @@ main_titles = [
     "#body_part# #ritual_or_event#",
 
     # The creature from the black lagoon
-    "The #threatening_thing# from #smart_a_place# xyz",
+    "The #threatening_thing# from #smart_a_place#",
 ]
