@@ -329,7 +329,7 @@ def main():
 
         # toot
         msg = title
-        if counter % HASHTAG_INTERVAL == 0:
+        if (counter + 1) % HASHTAG_INTERVAL == 0:
             msg = f"{msg} {choice(HASHTAGS)}"
         api.status_post(msg)
         counter += 1
