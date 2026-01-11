@@ -33,6 +33,7 @@ cruella
 cthulhu
 cyclops
 daemon
+dagon
 diablo
 dracula
 drusilla
