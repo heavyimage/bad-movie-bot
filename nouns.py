@@ -1,6 +1,5 @@
 # TODO: Move some space stuff back here?
-# TODO: split back into objects and threats (subjects and objects) -- stuff
-# might be in both lists?
+# TODO: split back into objects and threats (subjects and objects) -- stuff might be in both lists?
 # Or keep nouns that are sinister enough to be both (move ones that aren't into bot.y
 
 def load(filename):
