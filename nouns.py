@@ -10,14 +10,16 @@ base_nouns = {
     # Basic words  / vocabulary
     # short ones
     "day_of_the_week": load("days_of_the_week"),
-    "human_reaction": ["smile", "shiver", "scream", "laugh", "frown", "scowl"],
-    "instrament": ["guitar", "piano", "flute", "pan-pipe", "tubular bell"],
-    "magic": ["magic", "magick", "tome", "spellbook", "phylactery"],
-    "operation": ["codename", "protocol", "assignment", "phase", "operation", "plan", "conspiracy"],
+    "human_reaction": load("human_reactions"),
+    "instrament": load("instraments.txt"),
+    "magic": load("magic_stuff"),
+    "operation": load("operations"),
+
     "people": ["femme", "people", "men", "women", "god"],
     "portal": ["seal", "hole", "gate", "door", "gateway", "doorway", "passage", "portal", "tunnel", "bridge"],
     "sexy_material": ["leather", "rubber", "g-string", "thong", "lace", "PVC", "latex", "lingerie"],
     "sound": ["requium", "symphony", "sound", "scream", "song", "melody", "song"],
+
     "story": load("stories"),
     "relation": load("relations"),
     "drug": load("drugs"),
@@ -37,8 +39,8 @@ base_nouns = {
     "dorks": load("dorks"),
 
     # simple meta rules
-    "ritual_or_event": ["market", "picnic", "sabbath", "#color# mass", "dance", "rave", "concert", "festival", "funeral", "christmas", "opera", "orgy", "party", "pyre", "rite", "ritual", "sacrifice", "circus", "carnival", "bazzar", "toast", "banquet", "dinner", "dance", "ball", "masquerade"],
-    "human": ["ancient", "#person#", "gentle#person#", "teenager", "girl", "boy", "beefcake", "chick", "guy", "dude", "children", "daughter", "son", "bimbo", "nympho", "harlot"],
+    "ritual_or_event": load("rituals"),
+    "human": load("humans"),
     "sexy_servant": ["sex slave", "love servant", "sex toy", "lover", "concubine", "pleasure #job#"],
     "technology": ["#vehicle#", "space station", "clone", "test tube", "forcefield", "equations", "monument", "robot", "android", "computer", "doll", "effect", "factory", "gear", "hologram", "laser", "machine", "plane", "puppet", "science", "experiment", "statue", "toy", "labratory", "lab"],
     # TODO: plural forms are riches?

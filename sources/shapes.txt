@@ -9,6 +9,7 @@ field
 flash
 form
 geometry
+glow
 hexagon
 monolith
 orb
