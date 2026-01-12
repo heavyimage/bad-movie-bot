@@ -4,19 +4,20 @@ boulder
 cloud
 comet
 cyclone
+droplet
 drought
-heat
-mist
 earthquake
-lake
 fire
+fireball
 flood
 flower
 fog
 galaxy
 hail
+heat
 hurricane
 inferno
+lake
 mist
 moon
 outbreak
@@ -35,6 +36,7 @@ snow
 star
 summer
 sun
+thunder
 tidal wave
 tornado
 twister

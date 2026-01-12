@@ -1,7 +1,9 @@
 #cheese
 carrion
 casserole
+champagne
 egg
+mint
 fruit
 mold
 mushroom

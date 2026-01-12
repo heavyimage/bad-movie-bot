@@ -95,6 +95,7 @@ RULES = {
     "title": ["sgt.", "dr.", "mr.", "mrs.", "professor",],
     "letter": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
                "s", "t", "u", "v", "w", "x", "y", "z"],
+    "nato_alphabet": ["Alfa", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", "India", "Juliett", "Kilo", "Lima", "Mike", "November", "Oscar", "Papa", "Quebec", "Romeo", "Sierra", "Tango", "Uniform", "Victor", "Whiskey", "Xray", "Yankee", "Zulu "],
     "numeric": ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"],
 
     "large_count_singular_adj": ["uncountable", "endless", "hundred", "thousand", "million", "billion", "trillion"],
@@ -117,7 +118,7 @@ RULES = {
     "name": load("names"),
     "surname" :["#places_on_earth_with_the#", "#moment_in_time#", "#mythological_place#"
                 , "#spooky_natural_locale#", "Lee", "Jones", "Rodríguez", "Johnson",
-                "Williams", "Gonzalez", "#color#", "Smith", "O'Brian"],
+                "Williams", "Gonzalez", "#color#", "Smith", "O'Brian", "#color##body_part#"],
 
     # Load external
     "adj": [f"#{adj}#" for adj in base_adjectives],
@@ -177,12 +178,11 @@ RULES = {
         ": The revenge",
         ": The return",
         ": #space_age_adj# #ritual_or_event#",
-        ": #story# of tHE #noun#",
+        ": #adventure# of the #noun#",
         " XXX",
     ],
 
     "silly_prefix": [
-        "Manos: The #noun.s# of",
         "Transformers #digit##digit#: ",
         "Code Name:",
         "David Winters presents:",
@@ -270,7 +270,6 @@ def clean(title):
 
     # fix title case errors
     title = title.replace(" And ", " and ")
-    title = title.replace("THE", "the")
     title = title.replace("'S ", "'s ")
     title = title.replace(" Of ", " of ")
     title = title.replace(" The ", " the ")
@@ -279,6 +278,7 @@ def clean(title):
     title = title.replace("- ", "-")
     title = title.replace("41St", "41st")
 
+    # HACK to fix eg "I was in league with a android"
     # a --> for vowel words
     for vowel in "aeiou":
         title = title.replace(f" a {vowel.upper()}", f" an {vowel.upper()}")

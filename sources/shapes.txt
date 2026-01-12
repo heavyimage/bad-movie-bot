@@ -1,4 +1,3 @@
-blob
 circle
 color
 colour
@@ -10,14 +9,17 @@ field
 flash
 form
 geometry
+blob
 glow
 hexagon
 hierogliphic
 hieroglyph
+hypercube
 monolith
 orb
 pentagram
 pictogram
+plane
 puzzle
 pyramid
 rune
@@ -25,6 +27,7 @@ runes
 sphere
 square
 stain
+triangle
 vector
 wavelet
 writing

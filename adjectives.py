@@ -24,6 +24,7 @@ base_adjectives = {
 "religion_or_culture_adj":  load("religion_or_culture_adjs"),
 "evocative_nations":        load("evocative_nations"),
 "ordering":                 load("ordering"),
+"days_of_the_week":         load("days_of_the_week"),
 
 # needed for close encounters of the third kind but kinda awkward everywhere else...
 # "distance": ["close", "nearby"],

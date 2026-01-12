@@ -1,5 +1,7 @@
+elixer
 magic
 magick
+orb
 phylactery
 spellbook
 tome

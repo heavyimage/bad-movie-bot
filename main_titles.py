@@ -74,7 +74,7 @@ main_titles = [
     "#relation# of the #job#",
 
     # sexploitation
-    "She was a #adj# #noun#",
+    "She was #adj.a# #noun#",
     "#sexy_servant.s# of the #ma_noun#",
     "#adj# love potion#",
     "#ma_noun# de Sade",
@@ -147,6 +147,7 @@ main_titles = [
 
     # D-war
     "#letter#-#battle#",
+    "#nato_alphabet#-#battle#",
 
     # I have no mouth but I must scream
     "I have no #body_part# but I must #human_reaction#",
@@ -155,7 +156,7 @@ main_titles = [
     "#relation# of the #all_animals#-#people#",
 
     # I was a teenage warewolf
-    "I Was a #silly_adj# #ma_noun#",
+    "I Was #silly_adj.a# #ma_noun#",
 
     # hitchiker's guide to the galaxy
     "The #job#'s guide to #smart_place#",
@@ -172,13 +173,14 @@ main_titles = [
 
     # Vampire hunter D
     "#noun# #job# '#letter#'",
+    "#noun# #job# '#nato_alphabet#'",
 
     # TODO: The Million Eyes of Sumuru
     "The #large_count_singular_adj# #body_part.s# of the #noun#",
     "The #large_count_singular_adj# #body_part.s# of the #noun.s#",
 
     # TODO: night of 1000 dreams
-    "#moment_in_time# of a #large_count_singular_adj# #concept.s#",
+    "#moment_in_time# of #large_count_singular_adj.a# #concept.s#",
 
     # fear and loathing
     "#concept# and #concept#",
@@ -223,6 +225,8 @@ main_titles = [
     # Plan 9 from outer space
     # TODO: replace #place# with #maybe_adj_#place"
     "#operation# #fun_number# from #smart_place#",
+
+    "#operation#: #nato_alphabet# #nato_alphabet# #nato_alphabet#",
 
     # Assignment: earth
     # TODO: replace #place# with #maybe_adj_#place"
@@ -319,7 +323,7 @@ main_titles = [
     "Martha #name# #name# Marlene",
 
     # Precious: Based on the Novel “Push” by Sapphire 
-    "#adj#: Based on the Novel '#noun#' by #material#",
+    "#adj#: Based on the Novel \"#noun#\" by #material#",
 
     # Octopussy
     "#adj#pussy",
@@ -337,6 +341,26 @@ main_titles = [
     # Salo, or the 120 Days of Sodom
     "Salo, or the #digit##digit##digit# days of #mythological_place#",
 
+    # Dr. Goldfoot and the bikini machine
+    "#title# #surname# and the #clothes# #technology#",
+
+    # Dr. Fate
+    "#title# #concept#",
+
+    # Manos: the hands of fate
+    "#name#: The #body_part.s# of #concept#",
+
+    # A Study in Scarlet
+    "#scheme.a# in #color#",
+
+    # A Study in Scarlet
+    "The #shape# of the #noun#",
+
     #The hound of the baskervilles#
     "The #all_animals# of #smart_place#",
+
+    #The hound of the baskervilles#
+    "The #spooky_natural_locale# of #concept#",
+
+
 ]

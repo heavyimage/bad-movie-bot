@@ -1,6 +1,7 @@
 DMV
 abbey
 adult cinema
+alley
 barn
 barracks
 base
@@ -40,6 +41,7 @@ reliquary
 ruin
 science fair
 sepulcher
+sewer
 shipwreck
 stalag
 suburbs

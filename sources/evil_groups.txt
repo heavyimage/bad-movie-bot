@@ -1,3 +1,5 @@
+#real_animal# #person#
+#real_animal# people
 CERN
 CIA
 FBI
@@ -7,6 +9,7 @@ KGB
 Majestic 12
 New World Order
 Opus Dei
+Panantir
 Pentagon
 SS
 Vatican
@@ -28,18 +31,16 @@ domain
 empire
 fellowship
 freemason
-incels
-millenials
 generation X
 gestapo
 house unamerican activities committee
 illuminati
+incels
 inner circle
 league
 legion
-#real_animal# people
-#real_animal# #person#
 mafia
+millenials
 monarchy
 secret service
 secret society

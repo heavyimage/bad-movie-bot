@@ -1,6 +1,7 @@
 AI
 beast
 being
+blob
 call
 corpse
 creature

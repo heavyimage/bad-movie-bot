@@ -2,6 +2,7 @@ frown
 laugh
 leer
 scowl
+blush
 scream
 shiver
 smile

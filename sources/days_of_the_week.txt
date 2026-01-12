@@ -6,3 +6,5 @@ Thursday
 Tuesday
 Wednesday
 Weekend
+midnight
+teatime

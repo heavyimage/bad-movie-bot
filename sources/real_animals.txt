@@ -30,6 +30,7 @@ leech
 lion
 lizard
 maggot
+manatee
 mantis
 mole
 octopus

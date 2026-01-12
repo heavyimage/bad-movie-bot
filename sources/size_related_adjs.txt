@@ -1,7 +1,7 @@
+big
 colossal
 enormous
 giant
-indestructible
 mega
 mega-
 micro
@@ -9,4 +9,5 @@ micro-
 mighty
 shrinking
 titanic
+indestructible
 transforming

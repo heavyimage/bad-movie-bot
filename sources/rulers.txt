@@ -1,8 +1,10 @@
 admiral
+autarch
 baron
 caliph
 chieftain
 count
+czar
 dominus
 duke
 dynasty

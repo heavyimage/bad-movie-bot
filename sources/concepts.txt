@@ -13,6 +13,7 @@ dream
 ecstasy
 eternity
 evil
+fate
 fear
 fever
 hell
@@ -27,15 +28,18 @@ love
 madness
 nausea
 nightmare
+oblivion
 pain
 peace
 pestilence
 rage
 revenge
 sacrifice
+tranquillity
 urge
 vengence
 vibes
 vice
+vitality
 war
 wonder
