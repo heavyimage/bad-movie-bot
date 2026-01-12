@@ -1,3 +1,4 @@
+//deep
 //rim
 20,000 fathoms
 above
@@ -13,7 +14,6 @@ cemetery
 center of the earth
 continent
 crater
-deep
 depths
 earth
 field

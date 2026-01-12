@@ -363,5 +363,8 @@ main_titles = [
     #The hound of the baskervilles#
     "The #spooky_natural_locale# of #concept#",
 
+    # citizen kane
+    "#job# #surname#",
+
 
 ]

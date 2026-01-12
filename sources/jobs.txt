@@ -21,6 +21,7 @@ cannibal
 captain
 charlatan
 cheerleader
+citizen
 cleric
 clone
 clown
