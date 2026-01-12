@@ -336,6 +336,8 @@ def main():
         msg = title
         if (counter + 1) % HASHTAG_INTERVAL == 0:
             msg = f"{msg} {choice(HASHTAGS)}"
+        logger.info("Considering msg: %s for 3 seconds..." % msg)
+        sleep(3)
         api.status_post(msg)
         counter += 1
 
