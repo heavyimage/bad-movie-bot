@@ -12,6 +12,7 @@ HASHTAG_INTERVAL = 30
 HASHTAGS = ["#cinema", "#flims", "#movies", "#badmovie", "#schlock", "#bmovie"]
 
 REMOVE_ARTICLE = [
+    # Evil groups
     "Palantir",
     "CERN",
     "George Soros",
@@ -19,17 +20,26 @@ REMOVE_ARTICLE = [
     "HAARP",
     "Majestic 12",
     "Opus Dei",
+
+    # governments
+    "Capitalism",
 ]
 
 PLURAL_FIXES = {
     "Wines": "Wine",
+    "CERNs": "CERN",
     "Teethes": "Teeth",
     "Tearses": "Tears",
     "Stuffs": "Stuff",
+    "Christmases": "Christmas",
     " Mans": " Men",
     " Mens": " Men",
     " Womens": " Women",
     " Womans": " Women",
+    "-Mans": "-Men",
+    "-Mens": "-Men",
+    "-Womens": "-Women",
+    "-Womans": "-Women",
     "Elfs": "Elves",
     "Cheetahes": "Cheetahs",
     "Barbarianses": "Barbarians",
@@ -166,26 +176,27 @@ RULES = {
         "#main_title# #fun_number#: Chapter #fun_number#",
         "#main_title# #fun_number#: Revenge of the #ma_noun#",
         "#main_title# #fun_number#: The Squeakquel",
+        "#main_title# #fun_number#: Hypercube",
         "#main_title# #fun_number#: #ma_noun# #noun#",
         # ...Secret of the ooze
-        "#main_title# #fun_number#: #noun# of the #ma_noun#",
+        "#main_title# #fun_number#: #adventure# of the #threatening_substance#",
+        # Superman IV: the Quest for Peace
+        "#main_title# #fun_number#: #adventure# for #concept#",
         "#main_title# #fun_number#: and the #noun# of the #ma_noun#",
         "#main_title# #fun_number#: #preposition# #smart_place#",
         "#main_title# #fun_number#: #preposition# #smart_place#",
         "#main_title# #fun_number#: #smart_place#",
-    ],
+        "#main_title#! kill! kill!",
+        "#main_title# (Yellow)",
+        "#main_title# (Blue)",
+        "#main_title#: The revenge",
+        "#main_title#: The return",
+        "#main_title# XXX",
+        "This ain't \"#main_title#\" XXX",
 
-
-    "silly_suffix": [
-        "! kill! kill!",
-        " a go-go",
-        " (Yellow)",
-        " (Blue)",
-        ": The revenge",
-        ": The return",
-        ": #space_age_adj# #ritual_or_event#",
-        ": #adventure# of the #noun#",
-        " XXX",
+        "#ma_noun# a go-go",
+        "#ma_noun#: #space_age_adj# #ritual_or_event#",
+        "#ma_noun#: #adventure# of the #noun#",
     ],
 
     "silly_prefix": [
@@ -230,7 +241,6 @@ RULES = {
 
         # prefix and suffix
         "#silly_prefix# #main_title.capitalize#",
-        "#main_title# #silly_suffix#",
     ],
 
 

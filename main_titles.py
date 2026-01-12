@@ -32,7 +32,7 @@ main_titles = [
     "The #place_rt# of #material#",
     "The #portal# #preposition# #smart_place#",
     "I attended #adj.a# #ritual_or_event#",
-    "#name# led the #adj# #ritual_or_event# xyz",
+    "#name# led the #adj# #ritual_or_event#",
     "#job# #noun# and the #ma_noun# #preposition# #smart_place#",
     "#job# #noun# and the #noun# #preposition# #smart_place#",
     "#job# #preposition# #smart_place#",
@@ -324,7 +324,7 @@ main_titles = [
     "Martha #name# #name# Marlene",
 
     # Precious: Based on the Novel “Push” by Sapphire 
-    "#adj#: Based on the Novel \"#noun#\" by #material#",
+    "#adj#: Based on the Novel \"#noun.capitalize#\" by #material#",
 
     # Octopussy
     "#adj#pussy",

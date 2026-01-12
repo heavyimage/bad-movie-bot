@@ -1,3 +1,4 @@
+//rim
 20,000 fathoms
 above
 barrens
@@ -30,7 +31,6 @@ mountain
 park
 pit
 reef
-rim
 sands
 sea
 shores

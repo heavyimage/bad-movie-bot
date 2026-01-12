@@ -97,7 +97,6 @@ lavender
 lime
 magenta
 magnolia
-maize
 malachite
 maroon
 mauve
