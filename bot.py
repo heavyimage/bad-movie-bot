@@ -1,12 +1,14 @@
+import subprocess
+import logging
+import time
+from random import choice
+
+from mastodon import Mastodon
+
 import tracery
 from tracery.modifiers import base_english
 
 from common import load, testload
-
-import logging
-import time
-from random import choice
-from mastodon import Mastodon
 
 HASHTAG_INTERVAL = 30
 HASHTAGS = ["#cinema", "#flims", "#movies", "#badmovie", "#schlock", "#bmovie"]
@@ -357,5 +359,8 @@ def test():
         print(title)
 
 if __name__ == "__main__":
+    head = subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD']).decode('ascii').strip()
+    logger.info(f"latest commit: {head}")
+
     main()
     #test()
