@@ -331,7 +331,7 @@ main_titles = [
     "#adj#pussy",
 
     # goldfinger
-    "#color##body_part# xyz",
+    "#color##body_part#",
 
     # Blade Runner
     "#appliance_tool_or_weapon# #job#",
