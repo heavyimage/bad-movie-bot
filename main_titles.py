@@ -29,7 +29,7 @@ main_titles = [
     #"#maybe_the# #maybe_adj# #adventure# #preposition# #place#",
     "The #place_rt# that was turned to #material#",
     "The #place_rt# that became #material#",
-    "The #place_rt# of #material_adj#",
+    "The #place_rt# of #material#",
     "The #portal# #preposition# #smart_place#",
     "I attended #adj.a# #ritual_or_event#",
     "#name# led the #adj# #ritual_or_event# xyz",
