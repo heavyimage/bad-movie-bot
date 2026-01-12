@@ -333,4 +333,8 @@ main_titles = [
 
     # The creature from the black lagoon
     "The #threatening_thing# from #smart_a_place#",
+
+    # Salo, or the 120 Days of Sodom
+    "Salo, or the #digit##digit##digit# days of #mythological_place#",
+
 ]

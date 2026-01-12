@@ -17,7 +17,7 @@ base_places_nrt = {
     "star": load("stars"),
     "fancy_star": ["#star# #maybe_fun_numeral#", "#greek_letter# #star#"],
     "named_planetary_body": load("named_planetary_bodies"),
-    "mythological_places": load("mythological_places"),
+    "mythological_place": load("mythological_places"),
     "places_on_earth_without_the": load("places_on_earth_without_the"),
     "cosmic_places_without_the": load("cosmic_places_without_the"),
 }

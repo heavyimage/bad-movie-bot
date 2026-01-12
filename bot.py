@@ -9,6 +9,28 @@ from mastodon import Mastodon
 HASHTAG_INTERVAL = 30
 HASHTAGS = ["#cinema", "#flims", "#movies", "#badmovie", "#schlock", "#bmovie"]
 
+PLURAL_FIXES = {
+    "Wines": "Wine",
+    "Teethes": "Teeth",
+    "Tearses": "Tears",
+    "Womans": "Women",
+    " Mans": " Men",
+    " Mens": " Men",
+    " Womans": " Women",
+    " Womens": " Women",
+    "Elfs": "Elves",
+    " Cheetahes": " Cheetahs",
+    "Nauseas": "Nausea",
+    "Bloods": "Blood",
+    "Foots": "Feet",
+    "Gentlemans": "Gentlemen",
+    "Gentlewomans": "Gentlewomen",
+    "Spacemans": "Spacemen",
+    "Spacewomans": "Spacewomen",
+    "Snowmans": "Snowmen",
+    "Snowwomans": "Snowwomen",
+}
+
 # Split up stuff!
 from adjectives import base_adjectives
 from nouns import base_nouns
@@ -91,8 +113,8 @@ RULES = {
 
     # names (some meta)
     "name": load("names"),
-    "surname" :["#places_on_earth#", "#moment_in_time#", "#mythological_places#"
-                , "#spooky_locale#", "Lee", "Jones", "Rodríguez", "Johnson",
+    "surname" :["#places_on_earth_with_the#", "#moment_in_time#", "#mythological_place#"
+                , "#spooky_natural_locale#", "Lee", "Jones", "Rodríguez", "Johnson",
                 "Williams", "Gonzalez", "#color#", "Smith", "O'Brian"],
 
     # Load external
@@ -148,12 +170,12 @@ RULES = {
     "silly_suffix": [
         "! kill! kill!",
         " a go-go",
-        " (yellow)",
-        " (blue)",
+        " (Yellow)",
+        " (Blue)",
         ": The revenge",
         ": The return",
         ": #space_age_adj# #ritual_or_event#",
-        ": #story# of the #noun#",
+        ": #story# of tHE #noun#",
         " XXX",
     ],
 
@@ -198,9 +220,8 @@ RULES = {
         "#silly_sequel#",
 
         # prefix and suffix
-        "#silly_prefix# #noun#",
-        "#silly_prefix# #ma_noun#",
-        "#ma_noun# #silly_suffix#",
+        "#silly_prefix# #main_title.capitalize#",
+        "#main_title# #silly_suffix#",
     ],
 
 
@@ -236,38 +257,12 @@ def custom_capitalize(text):
 
 
 def clean(title):
-    ## merge adjectives / prefixes / suffixes
-    #title = title.replace("- ", "")
-    #title = title.replace(" -", "")
-    #title = title.replace("  ", " ")
-
-    ## fix spacing
-    #title = title.replace("' ", "'")
-    #title = title.replace(" : ", ": ")
+    # capitalize
+    title = custom_capitalize(title.strip())
 
     # fix plurals
-    title = title.replace("Teethes", "Teeth")
-    title = title.replace("Tearses", "Tears")
-    title = title.replace("Womans", "Women")
-    title = title.replace(" Mans", " Men")
-    title = title.replace(" Mens", " Men")
-    title = title.replace(" Womans", " Women")
-    title = title.replace(" Womens", " Women")
-    title = title.replace("Elfs", "Elves")
-    title = title.replace(" Cheetahes", " Cheetahs")
-    title = title.replace("Nauseas", "Nausea")
-    title = title.replace("Bloods", "Blood")
-    title = title.replace("Foots", "Feet")
-    title = title.replace("Gentlemans", "Gentlemen")
-    title = title.replace("Gentlewomans", "Gentlewomen")
-    title = title.replace("Spacemans", "Spacemen")
-    title = title.replace("Spacewomans", "Spacewomen")
-    title = title.replace("Snowmans", "Snowmen")
-    title = title.replace("Snowwomans", "Snowwomen")
-
-    # capitalize
-    #title = title.strip().title()
-    title = custom_capitalize(title.strip())
+    for k,v in PLURAL_FIXES.items():
+        title = title.replace(k, v)
 
     # fix title case errors
     title = title.replace(" And ", " and ")
