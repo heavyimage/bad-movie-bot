@@ -32,6 +32,7 @@ base_nouns = {
     "appliance_tool_or_weapon": load("appliance_tool_or_weapon"),
     "time":                     load("times"),
     "dorks":                    load("dorks"),
+    "government":               load("governments"),
     "clothes":                  load("clothes"),
     "transformation":           load("transformations"),
     "ritual_or_event":          load("rituals"),

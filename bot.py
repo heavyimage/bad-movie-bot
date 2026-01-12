@@ -9,6 +9,16 @@ from mastodon import Mastodon
 HASHTAG_INTERVAL = 30
 HASHTAGS = ["#cinema", "#flims", "#movies", "#badmovie", "#schlock", "#bmovie"]
 
+REMOVE_ARTICLE = [
+    "Palantir",
+    "CERN",
+    "George Soros",
+    "Generation X",
+    "HAARP",
+    "Majestic 12",
+    "Opus Dei",
+]
+
 PLURAL_FIXES = {
     "Wines": "Wine",
     "Teethes": "Teeth",
@@ -186,6 +196,7 @@ RULES = {
         "Transformers #digit##digit#: ",
         "Code Name:",
         "David Winters presents:",
+        "Uwe Boll presents:",
         "Alias:",
         "Danger!!",
         "Warning:",
@@ -266,6 +277,12 @@ def clean(title):
     for k,v in PLURAL_FIXES.items():
         title = title.replace(k, v)
 
+    # some orgs NEVER have 'the' 
+    # TODO: kinda gross to hard code this...
+    for org in REMOVE_ARTICLE:
+        title = title.replace(f"The {org}", f"{org}")
+        title = title.replace(f"the {org}", f"{org}")
+
     title = title.replace("' ", "'") # they called me ' alpha'
 
     # fix title case errors
@@ -277,6 +294,7 @@ def clean(title):
     title = title.replace(" : ", ": ")
     title = title.replace("- ", "-")
     title = title.replace("41St", "41st")
+
 
     # HACK to fix eg "I was in league with a android"
     # a --> for vowel words

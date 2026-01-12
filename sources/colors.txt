@@ -14,7 +14,6 @@ black
 blond
 blue
 blush
-bole
 bone
 boysenberry
 brass

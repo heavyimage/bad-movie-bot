@@ -1,5 +1,5 @@
 #threatening_substance#
-cages
+cage
 jail
 prison
 slaughterhouse

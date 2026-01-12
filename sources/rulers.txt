@@ -7,13 +7,11 @@ count
 czar
 dominus
 duke
-dynasty
 earl
 emir
 emperor
 general
 heir
-house
 kaiser
 king
 knight
@@ -22,9 +20,9 @@ lord
 padishah
 pope
 prince
+demagogue
 princess
 queen
-reign
 scion
 sheikh
 shogun

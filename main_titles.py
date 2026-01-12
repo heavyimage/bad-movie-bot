@@ -27,9 +27,9 @@ main_titles = [
     # TODO: this needs a lot of work...
     # TODO: replace #place# with #maybe_adj_#place"?????
     #"#maybe_the# #maybe_adj# #adventure# #preposition# #place#",
-    "#smart_place# that was turned to #material#",
-    "#smart_place# that became #material#",
-    "#smart_place# of #material_adj#",
+    "The #place_rt# that was turned to #material#",
+    "The #place_rt# that became #material#",
+    "The #place_rt# of #material_adj#",
     "The #portal# #preposition# #smart_place#",
     "I attended #maybe_adj.a# #ritual_or_event#",
     "#job# #noun# and the #ma_noun# #preposition# #smart_place#",
@@ -147,7 +147,6 @@ main_titles = [
 
     # D-war
     "#letter#-#battle#",
-    "#nato_alphabet#-#battle#",
 
     # I have no mouth but I must scream
     "I have no #body_part# but I must #human_reaction#",
