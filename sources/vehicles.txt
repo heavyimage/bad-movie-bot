@@ -1,0 +1,18 @@
+UFO
+aircraft carrier
+battleship
+black helicopter
+car
+elevator
+flying saucer
+jet
+plane
+rocket
+scooter
+ship
+spaceship
+starship
+tank
+train
+truck
+zeppelin

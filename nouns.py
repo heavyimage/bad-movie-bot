@@ -4,12 +4,12 @@
 # Or keep nouns that are sinister enough to be both (move ones that aren't into bot.y
 
 def load(filename):
-    return [i.strip() for i in open(f"sources/{filename}.txt").readlines()]
+    return [i.strip() for i in open(f"sources/{filename}.txt").readlines() if not i.startswith("#")]
 
 base_nouns = {
     # Basic words  / vocabulary
     # short ones
-    "day_of_the_week": ["weekend", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
+    "day_of_the_week": load("days_of_the_week"),
     "human_reaction": ["smile", "shiver", "scream", "laugh", "frown", "scowl"],
     "instrament": ["guitar", "piano", "flute", "pan-pipe", "tubular bell"],
     "magic": ["magic", "magick", "tome", "spellbook", "phylactery"],
@@ -18,14 +18,14 @@ base_nouns = {
     "portal": ["seal", "hole", "gate", "door", "gateway", "doorway", "passage", "portal", "tunnel", "bridge"],
     "sexy_material": ["leather", "rubber", "g-string", "thong", "lace", "PVC", "latex", "lingerie"],
     "sound": ["requium", "symphony", "sound", "scream", "song", "melody", "song"],
-    "story": ["mystery", "elegy", "legend", "secret", "cycle", "fable", "fate", "saga", "tale"],
+    "story": load("stories"),
 
-    "relation": ["mom", "dad", "ex-wife", "ex-husband", "grandpa", "grandma", "step-father", "step-mother", "mother-in-law", "father-in-law", "father", "mother", "girlfriend", "boyfriend", "twin", "husband", "wife", "boss", "partner", "bride", "spouse", "groom", "baby", "offspring"],
-    "drug": ["spice", "stimulant", "heroin", "psychedelic", "drug", "ketamine", "marijuana", "PCP", "cocaine", "LSD", "reefer", "ganja", "angel dust"],
-    "food": [ "carrion", "fruit", "tomato", "water", "mushroom", "casserole", "toast", "mold", "egg", "tofu"],
-    "spooky_evidence": ["sigil", "talisman", "crop circles", "vision", "clue", "proof", "vestage", "vision", "stare", "track", "sign", "footprint", "fossil", "shadow", "touch", "sacrifice", "whisper", "echo", "stench", "shard", "bone", "ruin", "trail"],
-    "battle": ["ambush", "siege", "attack", "battle", "clash", "revolution", "hunt", "counterattack", "battlefield", "tears", "bloodbath", "mutiny", "invasion", "war", "massacre", "holocaust"],
-	"vehicle": ["car", "UFO", "black helicopter", "flying saucer", "train", "zeppelin", "truck", "rocket", "ship", "battleship", "aircraft carrier", "plane", "jet", "elevator", "tank", "spaceship", "starship", "scooter"],
+    "relation": load("relations"),
+    "drug": load("drugs"),
+    "food": load("food"),
+    "spooky_evidence": load("spooky_evidence"),
+    "battle": load("battles"),
+	"vehicle": load("vehicles"),
     "shapes": ["square", "circle", "rune", "diagram", "pictogram", "geometry", "curve", "pyramid", "vector", "field", "color", "stain", "circle", "pentagram", "hexagon", "colour", "orb", "blob", "cube", "flash", "form", "monolith", "sphere", ],
     "body_part": ["body", "skin", "fist", "lip", "wing", "breast", "blood", "bone", "bun", "bosom", "brain", "claw", "eye", "finger", "flesh", "foot", "gut", "hand", "heart", "jaw", "maw", "mind", "mouth", "muscle", "skull", "face", "teeth", "brow", "spine", "stomach", "gaze", "tendril", "tentacle", ],
     "adventure": ["crusade", "romp", "quest", "escape", "voyage", "odyssey", "journey", "pilgrimage", "adventure", "expedition", "encounter"],

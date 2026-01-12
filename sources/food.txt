@@ -1,0 +1,11 @@
+carrion
+casserole
+#cheese
+egg
+fruit
+mold
+mushroom
+toast
+tofu
+tomato
+water

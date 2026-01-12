@@ -1,0 +1,9 @@
+cycle
+elegy
+fable
+fate
+legend
+mystery
+saga
+secret
+tale
