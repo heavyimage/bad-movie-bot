@@ -1,4 +1,5 @@
 #day_of_the_week#
+#funny_year#
 aeon
 age
 dawn
@@ -13,4 +14,3 @@ sunrise
 time
 twilight
 year
-year #funny_year#

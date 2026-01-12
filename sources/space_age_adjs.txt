@@ -1,28 +1,44 @@
+//experimental
+art deco
+assembly line
 astro
+atomic
 cathode-ray
 chemical
+cyber
 cybernetic
+deep sea
+dieselpunk
 electric
 electro-mechanical
-experimental
 futuristic
 genetic
+high-tech
 holographic
-light
+hover
+jetpack
 machine
 mecha-
 mechanical
 mechano-
-modern
 neon
+nuclear
+objectivist
+orbital
 photonic
 positronic
+postmodern
+pulp
 retro
 robo-
+robot
 rocket
 solar
+soviet
 space
 space age
+steam
+steampunk
 stellar
 techno
 techno-
@@ -30,4 +46,7 @@ temporal
 time
 transdimensional
 turbo
+ultramodern
+underwater
+utopian
 video

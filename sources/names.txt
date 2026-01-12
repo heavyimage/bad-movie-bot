@@ -12,7 +12,6 @@ Alibaba
 Amaru
 Amon
 Ares
-Arges
 Asmodeus
 Aswang
 Aurora
@@ -102,6 +101,7 @@ Nebuchadnezzar
 Nephilim
 Nergal
 Nessie
+Neuromancer
 Ngyr-Korath
 Niamh
 Nixon
@@ -148,6 +148,7 @@ Typhon
 Ubbo-Sathla
 Ulthar
 Washington
+Wintermute
 Wonder woman
 Xa'ligha
 Xexanoth

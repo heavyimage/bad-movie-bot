@@ -91,6 +91,7 @@ president
 priest
 private eye
 professor
+punk
 pyromaniac
 queen
 rabbi
@@ -99,6 +100,7 @@ reanimator
 renegade
 rider
 roadie
+robot
 ronin
 runner
 samurai

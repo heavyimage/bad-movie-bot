@@ -1,18 +1,24 @@
+//toast
 ball
 banquet
-bazzar
+baptism
+bar mitzvah
+bazaar
+beach party
 bonfire
+breakfast
 carnival
 christmas
+camp
 circus
+communion
 concert
 dance
-dinner
 extinction
 festival
-fete
 funeral
 key party
+lunch
 market
 masquerade
 mass
@@ -27,4 +33,4 @@ ritual
 sabbath
 sacrifice
 sex
-toast
+sex party

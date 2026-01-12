@@ -50,7 +50,6 @@ fern
 firebrick
 folly
 fuchsia
-fulvous
 glaucous
 glitter
 gold
@@ -61,8 +60,6 @@ indigo
 iris
 ivory
 jade
-jasmine
-jasper
 kaleidoscopic
 khaki
 lavender
@@ -89,7 +86,6 @@ plum
 puce
 pumpkin
 purple
-rackley
 red
 rose
 ruby
@@ -98,10 +94,7 @@ scarlet
 sepia
 sienna
 silver
-snow
-straw
 tan
-taupe
 teal
 topaz
 turquoise
@@ -112,6 +105,4 @@ vermilion
 violet
 viridian
 white
-wisteria
 yellow
-zaffre

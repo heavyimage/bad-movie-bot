@@ -1,11 +1,13 @@
 blush
 frown
 grimace
-sigh
 laugh
 leer
 scowl
 scream
 shiver
+sigh
 smile
+smirk
 stare
+wink

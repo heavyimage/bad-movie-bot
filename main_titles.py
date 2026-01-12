@@ -376,4 +376,13 @@ main_titles = [
     # gremlins / demons
     "#fantasy_animal.s#", 
 
+    # Robot Carnival
+    "#space_age_adj# #ritual_or_event#",
+
+    # Jesus Camp
+    "#name# #ritual_or_event#",
+
+    # The good the bad and the ugly
+    "The Good, The Bad and the #noun#",
+
 ]

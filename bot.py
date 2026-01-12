@@ -34,6 +34,7 @@ PLURAL_FIXES = {
     "Tearses": "Tears",
     "Stuffs": "Stuff",
     "Christmases": "Christmas",
+    "Socialisms": "Socialism",
     " Mans": " Men",
     " Mens": " Men",
     " Womens": " Women",
@@ -110,8 +111,14 @@ RULES = {
     "fun_number": ["#digit#", "#roman_numeral#", "#greek_letter#"],
 
     # Years
-    "maybe_era": ["AD", "BC", ""],
-    "funny_year": ["year 0", "41st Millennium", "19XX", "20XX", "1999", "2000", "2001", "3001", "5000", "10,000", "#digit##digit##digit##digit# #maybe_era#", "#digit##digit##digit##digit##digit# #maybe_era#", "#digit##digit##digit##digit##digit##digit# #maybe_era#"],
+    "funny_year_core": ["0", "1", "19XX", "20XX", "1999", "2000", "2001", "3001", "5000", "10,000", "#digit##digit##digit##digit#", "#digit##digit##digit##digit##digit#", "#digit##digit##digit##digit##digit##digit#"],
+    "funny_year": [
+        "#funny_year_core# A.D.",
+        "#funny_year_core# B.C.",
+        "Year #funny_year_core#",
+        "41st Millennium",
+    ],
+
 
     "title": ["sgt.", "dr.", "mr.", "mrs.", "professor",],
     "letter": ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r",
