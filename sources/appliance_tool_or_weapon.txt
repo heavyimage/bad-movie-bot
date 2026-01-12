@@ -9,17 +9,18 @@ blaster
 bolt
 bullet
 camera
-candy
 capsule
 chainsaw
 clock
 coin
 cross
+crossbow
 crown
 crucifix
 crystal ball
 dial
 drill
+flamethrower
 flechette
 fusillade
 globe

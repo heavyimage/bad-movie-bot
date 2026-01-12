@@ -3,9 +3,9 @@
 # Or keep nouns that are sinister enough to be both (move ones that aren't into bot.y
 
 def load(filename):
-    return [i.strip() for i in open(f"sources/{filename}.txt").readlines() if i.strip() and not i.startswith("#")]
+    return [i.strip() for i in open(f"sources/{filename}.txt").readlines() if i.strip() and not i.startswith("//")]
 def testload(filename):
-    return ["%s %s" % (i.strip(), "xyz") for i in open(f"sources/{filename}.txt").readlines() if i.strip() and not i.startswith("#")]
+    return ["%s %s" % (i.strip(), "xyz") for i in open(f"sources/{filename}.txt").readlines() if i.strip() and not i.startswith("//")]
 
 base_nouns = {
     # Basic words  / vocabulary

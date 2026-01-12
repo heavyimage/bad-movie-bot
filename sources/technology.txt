@@ -1,5 +1,4 @@
 #vehicle#
-android
 chronometer
 clone
 computer
@@ -10,6 +9,7 @@ factory
 forcefield
 gear
 hologram
+jetpack
 lab
 labratory
 laser
@@ -18,6 +18,7 @@ monument
 plane
 puppet
 robot
+rocket belt
 science
 space station
 statue

@@ -1,3 +1,4 @@
+#appliance_tool_or_weapon#smith xyz
 POW
 addict
 aeronaut

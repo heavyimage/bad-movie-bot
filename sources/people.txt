@@ -4,3 +4,5 @@ man
 woman
 person
 robot
+android
+replicant
