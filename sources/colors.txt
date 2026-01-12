@@ -15,7 +15,6 @@ blond
 blue
 blush
 bone
-boysenberry
 brass
 bronze
 brown
@@ -78,13 +77,9 @@ fulvous
 glaucous
 glitter
 gold
-golden
-goldenrod
 gray
 green
 grey
-honeydew
-icterine
 indigo
 iris
 ivory
@@ -96,12 +91,9 @@ khaki
 lavender
 lime
 magenta
-magnolia
 malachite
 maroon
 mauve
-mulberry
-munsell
 mustard
 myrtle
 obsidian

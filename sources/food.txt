@@ -10,7 +10,9 @@ mold
 mushroom
 tincture
 toast
+salt
 tofu
+pepper
 tomato
 water
 wine

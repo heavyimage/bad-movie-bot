@@ -33,6 +33,7 @@ mansion
 mausoleum
 metropolis
 mine
+mission
 mosque
 pagoda
 pyramid

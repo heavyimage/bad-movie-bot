@@ -166,7 +166,6 @@ RULES = {
     "ma_noun":       ["#maybe_adj# #noun#", ],
     "ma_nouns": ["#maybe_adj# #noun.s#", ],
 
-
     ### title encomplexification ###
 
 	# TODO: replace #place# with #maybe_adj_#place"
