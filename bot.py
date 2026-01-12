@@ -294,6 +294,7 @@ def clean(title):
     title = custom_capitalize(title.strip())
 
     # fix title case errors
+    title = title.replace(" And ", " and ")
     title = title.replace("'S ", "'s ")
     title = title.replace(" Of ", " of ")
     title = title.replace(" The ", " the ")
