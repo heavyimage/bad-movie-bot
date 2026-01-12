@@ -8,18 +8,15 @@ def load(filename):
 
 base_nouns = {
     # Basic words  / vocabulary
-    # short ones
     "day_of_the_week": load("days_of_the_week"),
     "human_reaction": load("human_reactions"),
     "instrament": load("instraments"),
     "magic": load("magic_stuff"),
     "operation": load("operations"),
-
     "people": load("people"),
     "portal": load("portals"),
-    "sexy_material": ["leather", "rubber", "g-string", "thong", "lace", "PVC", "latex", "lingerie"],
-    "sound": ["requium", "symphony", "sound", "scream", "song", "melody", "song"],
-
+    "sexy_material": load("sexy_materials"),
+    "sound": load("sounds"),
     "story": load("stories"),
     "relation": load("relations"),
     "drug": load("drugs"),
@@ -37,27 +34,24 @@ base_nouns = {
     "appliance_tool_or_weapon": load("appliance_tool_or_weapon"),
     "time": load("times"),
     "dorks": load("dorks"),
-
-    # simple meta rules
     "ritual_or_event": load("rituals"),
-    "human": load("humans"),
-    "sexy_servant": ["sex slave", "love servant", "sex toy", "lover", "concubine", "pleasure #job#"],
-    "technology": ["#vehicle#", "space station", "clone", "test tube", "forcefield", "equations", "monument", "robot", "android", "computer", "doll", "effect", "factory", "gear", "hologram", "laser", "machine", "plane", "puppet", "science", "experiment", "statue", "toy", "labratory", "lab"],
-    # TODO: plural forms are riches?
-
-    # Threats
-    "threatening_substance": ["chemtrail", "web", "#drug#", "blood", "slime", "meat", "poison", "elixir", "dust", "stuff", "oil", "ooze", "goop", "sludge", "goo", "ichor", ],
     "threatening_thing": load("threatening_things"),
 
-    # TODO: some of these, eg harp, shouldn't use 'the'
-    "evil_group":                       load("evil_groups"),
+    # simple meta rules
+    "human": 				load("humans"),
+    "sexy_servant": 			load("sexy_servants"),
+    "technology": 			load("technology"),
+    "threatening_substance": 		load("threatening_substances"),
+
+    # "threats"
     "real_animal":                      load("real_animals"),
     "natural_phenomena":                load("natural_phenomena"),
     "fantasy_animal":                   load("fantasy_animals"),
     "job":                              load("jobs"),
-    "ruler": load("rulers"),
-
-    # Some threat meta...
+    "ruler": 				load("rulers"),
+    # meta rules
+    # TODO: some of these, eg harp, shouldn't use 'the'
+    "evil_group":                       load("evil_groups"),
     "all_animals": ["#fantasy_animal#", "#real_animal#"],
     #"threats": ["#named_threat#", "#threatening_substance#", "#evil_group#",
     #            "#threatening_substance#", "#evil_group#",

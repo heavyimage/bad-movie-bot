@@ -1,0 +1,25 @@
+#vehicle#
+android
+clone
+computer
+doll
+effect
+equations
+experiment
+factory
+forcefield
+gear
+hologram
+lab
+labratory
+laser
+machine
+monument
+plane
+puppet
+robot
+science
+space station
+statue
+test tube
+toy
