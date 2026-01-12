@@ -50,6 +50,7 @@ executioner
 exorcist
 ferry#person#
 football player
+footsolider
 gangster
 geisha
 gladiator
