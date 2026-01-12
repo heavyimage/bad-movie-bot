@@ -1,0 +1,16 @@
+#day_of_the_week#
+aeon
+age
+dawn
+day
+dusk
+eon
+era
+future
+night
+solstice
+sunrise
+time
+twilight
+year
+year #funny_year#

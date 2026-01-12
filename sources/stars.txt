@@ -1,0 +1,69 @@
+Achernar
+Alcor
+Aldebaran
+Algol
+Altair
+Andromeda
+Antares
+Aquila
+Arcturus
+Auriga
+Aurigae
+Betelgeuse
+Boötes
+Cancer
+Canes Venatici
+Canis Major
+Canis Minor
+Canopus
+Capella
+Carina
+Carinae
+Castor
+Centauri
+Centaurus
+Cephei
+Cepheus
+Cetus
+Cor Caroli
+Corona borealis
+Crucis
+Crux
+Cygnus
+Deneb
+Eridanus
+Fomalhaut
+Geminga
+Gemini
+Hercules
+Leo
+Lyra
+Lyrae
+Mira Ceti
+Mizar
+Monoceros
+Ophiuchus
+Orion
+Pegasus
+Perseus
+Pictor
+Pictoris
+Piscis Austrinus
+Pleiades
+Pleione
+Polaris
+Pollux
+Praesepe
+Procyon
+R Monocerotis
+Ras Algethi
+Regulus
+Rigel
+Scorpius
+Sirius
+Sol
+Taurus
+Ursa Major
+Ursa Minor
+Vega
+Virgo

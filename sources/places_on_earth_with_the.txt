@@ -1,0 +1,11 @@
+Himalayas
+Orient
+Zambezi
+Amazon
+Antarctic
+Atlantic
+Far #cardinal_direction#
+Nile
+North pole
+Outback
+Pacific

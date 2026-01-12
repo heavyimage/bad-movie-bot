@@ -1,0 +1,15 @@
+attic
+basement
+bed
+cellar
+closet
+crawlspace
+fireplace
+furnace
+garden
+kitchen
+panic room 
+sewer
+shed
+walls
+well

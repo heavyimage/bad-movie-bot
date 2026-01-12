@@ -9,7 +9,7 @@ base_adjectives = {
 "natural_adj":  		load("natural_adjs"),
 "old_adj":  			load("old_adjs"),
 "silly_adj":  			load("silly_adjs"),
-"wonderous_adj":  		load("wonderous_adjs.txt"),
+"wonderous_adj":  		load("wonderous_adjs"),
 "color": 			load("colors"),
 "unseen_adj": 			load("unseen_adjs"),
 "material_adj":  		load("material_adjs"),

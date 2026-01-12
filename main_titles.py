@@ -165,7 +165,7 @@ main_titles = [
     "The #moment_in_time# of the #ma_nouns#",
 
     # Beyond the valley of the dolls
-    "#preposition# the #spooky_locale# of the #ma_nouns#",
+    "#preposition# the #spooky_natural_locale# of the #ma_nouns#",
 
     # sky captain and the world of tomorrow
     "#adj# #job# and the world of #smart_place.s#",
@@ -199,10 +199,10 @@ main_titles = [
     "#natural_phenomena#starter",
 
     # The hills have eyes
-    "The #spooky_locale.s# have #body_part.s#",
+    "The #spooky_natural_locale.s# have #body_part.s#",
 
     # The cabin in the woods
-    "The #building# in the #spooky_locale.s#",
+    "The #human_structure# in the #spooky_natural_locale.s#",
 
     # Superman lives!
     "#noun# lives!",
@@ -255,7 +255,7 @@ main_titles = [
     "#title# #surname# and the #job# of the #adj# #appliance_tool_or_weapon#",
 
     # Indiana Jones and the temple of doom
-    "#title# #surname# and the #building# of #concept#",
+    "#title# #surname# and the #human_structure# of #concept#",
 
     # Indiana Jones and last crusade
     "#title# #surname# and the #ordering# #adventure#",
