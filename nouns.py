@@ -13,7 +13,6 @@ base_nouns = {
     "operation":                load("operations"),
     "person":                   load("people"),
     "portal":                   load("portals"),
-    "sexy_material":            load("sexy_materials"),
     "sound":                    load("sounds"),
     "relation":                 load("relations"),
     "drug":                     load("drugs"),

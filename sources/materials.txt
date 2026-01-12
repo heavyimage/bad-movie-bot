@@ -9,11 +9,11 @@ crystal
 earth
 fire
 glass
-rust
 gold
 iron
 ivory
 jade
+lace
 lead
 mahogany
 metal
@@ -22,6 +22,7 @@ platinum
 plutonium
 rubber
 ruby
+rust
 sand
 sapphire
 silver
