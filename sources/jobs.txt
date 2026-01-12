@@ -13,6 +13,7 @@ bureaucrat
 butcher
 cannibal
 captain
+charlatan
 cheerleader
 cleric
 clown
