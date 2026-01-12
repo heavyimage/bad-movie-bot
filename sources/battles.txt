@@ -3,8 +3,11 @@ attack
 battle
 battlefield
 bloodbath
+calamity
 clash
 counterattack
+crisis
+crossfire
 holocaust
 hunt
 invasion
@@ -12,5 +15,7 @@ massacre
 mutiny
 revolution
 siege
+snare
 tears
+trap
 war

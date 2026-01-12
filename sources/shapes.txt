@@ -1,3 +1,4 @@
+blob
 circle
 color
 colour
@@ -9,12 +10,12 @@ field
 flash
 form
 geometry
-blob
 glow
 hexagon
 hierogliphic
 hieroglyph
 hypercube
+matrix
 monolith
 orb
 pentagram

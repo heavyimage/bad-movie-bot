@@ -43,7 +43,7 @@ republicanism
 secret society
 shogunate
 socialism
-statism
+//statism
 technocracy
 theocracy
 totalitarianism

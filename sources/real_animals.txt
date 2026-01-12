@@ -46,10 +46,11 @@ rabbit
 raven
 razorback
 scorpion
-seaweed
 serpent
 shark
 shrub
+slug
+snail
 snake
 spider
 squid

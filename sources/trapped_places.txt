@@ -1,7 +1,7 @@
+#battle#
 #threatening_substance#
 cage
+cell
 jail
 prison
 slaughterhouse
-snare
-trap

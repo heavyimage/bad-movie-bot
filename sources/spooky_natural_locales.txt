@@ -1,8 +1,8 @@
 //deep
 //rim
-20,000 fathoms
+20,000 fathom
 above
-barrens
+barren
 barrier
 beach
 below
@@ -30,10 +30,11 @@ mesa
 mountain
 park
 pit
+realm
 reef
-sands
+sand
 sea
-shores
+shore
 swamp
 underground
 valley

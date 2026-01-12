@@ -330,6 +330,9 @@ main_titles = [
     # Octopussy
     "#adj#pussy",
 
+    # goldfinger
+    "#color##body_part# xyz",
+
     # Blade Runner
     "#appliance_tool_or_weapon# #job#",
     "#appliance_tool_or_weapon# #job# 20#digit##digit#",
@@ -369,5 +372,8 @@ main_titles = [
 
     # Reindeer Games
     "#real_animal# Games",
+
+    # gremlins / demons
+    "#fantasy_animal.s#", 
 
 ]

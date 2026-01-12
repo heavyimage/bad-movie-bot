@@ -1,8 +1,16 @@
 //person
 android
+baby
+boy 
+dad
+dork
 femme
+geek
+girl
 god
 man
+mom
+nerd
 replicant
 robot
 woman

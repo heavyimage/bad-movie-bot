@@ -51,15 +51,8 @@ ebon
 ecru
 eggplant
 emerald
-fallow
-famous
-fandango
-fawn
 fern
 firebrick
-flame
-flavescent
-flax
 folly
 fuchsia
 fulvous
@@ -114,7 +107,6 @@ snow
 straw
 tan
 taupe
-tawny
 teal
 topaz
 turquoise

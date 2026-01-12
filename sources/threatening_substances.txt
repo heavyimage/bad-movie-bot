@@ -7,7 +7,6 @@ dust
 elixir
 foam
 froth
-gelatin
 goo
 goop
 ichor
