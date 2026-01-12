@@ -5,6 +5,7 @@ colour
 cube
 curve
 diagram
+wavelet
 field
 flash
 form
