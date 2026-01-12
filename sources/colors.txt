@@ -131,7 +131,6 @@ scarlet
 sepia
 sienna
 silver
-smalt
 snow
 straw
 tan
