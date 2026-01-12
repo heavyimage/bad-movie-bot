@@ -4,7 +4,6 @@ cybernetic
 electric
 electro-mechanical
 experimental
-film
 futuristic
 genetic
 holographic
@@ -16,6 +15,7 @@ mechano-
 modern
 neon
 photonic
+positronic
 retro
 robo-
 rocket

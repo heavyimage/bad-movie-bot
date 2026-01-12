@@ -6,6 +6,7 @@ doll
 effect
 experiment
 factory
+film
 forcefield
 gear
 hologram
@@ -15,7 +16,6 @@ labratory
 laser
 machine
 monument
-plane
 puppet
 robot
 rocket belt
@@ -24,3 +24,4 @@ space station
 statue
 test tube
 toy
+transistor

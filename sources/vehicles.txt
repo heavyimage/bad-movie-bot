@@ -1,17 +1,23 @@
 UFO
+aeroplane
 aircraft carrier
+airplane
+autogyro
 battleship
 black helicopter
 car
 elevator
 flying saucer
+hot air balloon
 jet
 plane
 rocket
 scooter
 ship
+sled
 spaceship
 starship
+submarine
 submersible
 tank
 train
