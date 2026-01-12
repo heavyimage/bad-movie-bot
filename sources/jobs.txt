@@ -71,6 +71,7 @@ librarian
 lord
 luchador
 mage
+maniac
 marquis
 master
 maverick

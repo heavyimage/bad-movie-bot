@@ -2,5 +2,6 @@ bonkers
 crazy
 deranged
 mad
+maniac
 mental
 nutzoid

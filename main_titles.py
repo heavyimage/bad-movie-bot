@@ -152,7 +152,8 @@ main_titles = [
     "I have no #body_part# but I must #human_reaction#",
 
     # "Daughter of the dinosaur people"
-    "#relation# of the #all_animals#-#people#",
+    "#relation# of the #all_animals#-#person#",
+    "#relation# of the #all_animals#-#person.s#",
 
     # I was a teenage warewolf
     "I Was #silly_adj.a# #ma_noun#",

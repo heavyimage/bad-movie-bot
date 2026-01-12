@@ -4,6 +4,8 @@
 
 def load(filename):
     return [i.strip() for i in open(f"sources/{filename}.txt").readlines() if i.strip() and not i.startswith("#")]
+def testload(filename):
+    return ["%s %s" % (i.strip(), "xyz") for i in open(f"sources/{filename}.txt").readlines() if i.strip() and not i.startswith("#")]
 
 base_nouns = {
     # Basic words  / vocabulary
@@ -12,7 +14,7 @@ base_nouns = {
     "instrament":               load("instraments"),
     "magic":                    load("magic_stuff"),
     "operation":                load("operations"),
-    "people":                   load("people"),
+    "person":                   load("people"),
     "portal":                   load("portals"),
     "sexy_material":            load("sexy_materials"),
     "sound":                    load("sounds"),

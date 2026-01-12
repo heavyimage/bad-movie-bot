@@ -112,7 +112,6 @@ RULES = {
     "threat_suffix": ["nado", "geddon", "zilla", "drome", "ra"],
     "magic_type_adj": ["sex", "#color#", "dark", "evil", "nature"],
     "impossible_verb": ["couldn't", "wouldn't", "could never"],
-    "person": ["man", "woman", "person", "robot"],
     "fear": ["fear", "dread", "avoid", "flee"],
 
 

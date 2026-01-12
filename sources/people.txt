@@ -1,5 +1,6 @@
 femme
 god
-men
-people
-women
+man
+woman
+person
+robot

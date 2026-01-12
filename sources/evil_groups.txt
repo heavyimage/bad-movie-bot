@@ -1,4 +1,5 @@
 #government#
+#adj# #government#
 #real_animal# #person#
 #real_animal# people
 CERN
