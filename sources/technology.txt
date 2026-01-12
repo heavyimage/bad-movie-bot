@@ -1,10 +1,10 @@
 #vehicle#
 android
+chronometer
 clone
 computer
 doll
 effect
-equations
 experiment
 factory
 forcefield

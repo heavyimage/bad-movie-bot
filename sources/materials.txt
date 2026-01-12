@@ -1,21 +1,24 @@
 aluminum
 bone
 brass
+brimstone
 clay
 cobalt
 copper
 crystal
 earth
 fire
+glass
 gold
 iron
-glass
 lead
 metal
 plutonium
+rubber
 ruby
 sapphire
 silver
+stainless steel
 steel
 stone
 thorium

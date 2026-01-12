@@ -6,6 +6,9 @@ band
 bible
 blade
 blaster
+bolt
+bullet
+camera
 candy
 capsule
 chainsaw
@@ -17,6 +20,9 @@ crucifix
 crystal ball
 dial
 drill
+flechette
+fusillade
+globe
 guillotine
 gun
 hammer
@@ -44,3 +50,5 @@ scepter
 shield
 spear
 sword
+telegraph
+transmitter

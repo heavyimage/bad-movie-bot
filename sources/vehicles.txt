@@ -12,6 +12,7 @@ scooter
 ship
 spaceship
 starship
+submersible
 tank
 train
 truck

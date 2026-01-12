@@ -1,6 +1,9 @@
 POW
 addict
+aeronaut
+agent
 alchemist
+apothecary
 architect
 astronaut
 autarch
@@ -11,6 +14,7 @@ biker
 boozehound
 bureaucrat
 butcher
+cadet
 cannibal
 captain
 charlatan
@@ -72,6 +76,7 @@ ninja
 nun
 nurse
 occultist
+pilot
 pirate
 preacher
 president

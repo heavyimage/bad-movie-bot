@@ -30,6 +30,7 @@ lighthouse
 mall
 mansion
 mausoleum
+metropolis
 mine
 mosque
 pagoda

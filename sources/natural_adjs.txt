@@ -1,5 +1,4 @@
 albino
-crustaceous
 amorphous
 backwoods
 bamboo
@@ -7,6 +6,7 @@ blood-sucking
 burning
 chimeric
 chitinous
+crustaceous
 dead
 diurnal
 fiery
@@ -28,6 +28,7 @@ psycho-
 psychotic
 rabid
 sentient
+sky
 starving
 untamed
 wild

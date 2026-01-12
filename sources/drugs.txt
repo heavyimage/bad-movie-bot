@@ -6,6 +6,7 @@ drug
 ganja
 heroin
 ketamine
+laudanum
 marijuana
 psychedelic
 reefer
