@@ -24,6 +24,7 @@ mind
 mouth
 muscle
 sac
+skeleton
 skin
 skull
 spine

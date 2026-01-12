@@ -1,19 +1,16 @@
 bone
 clue
-crop circles
+crop circle
 echo
 footprint
 fossil
 proof
 ruin
-sacrifice
 shadow
 shard
-sigil
 sign
-stare
+skeleton
 stench
-talisman
 touch
 track
 trail

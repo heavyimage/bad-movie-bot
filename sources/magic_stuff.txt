@@ -1,8 +1,12 @@
+amulet
 elixer
 magic
 magick
+medallion
 orb
 phylactery
+sigil
 spellbook
+talisman
 tome
 voodoo

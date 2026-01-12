@@ -356,7 +356,7 @@ def test():
         grammar = tracery.Grammar(RULES)
         grammar.add_modifiers(base_english)
         title = clean(grammar.flatten("#full_title#"))
-        print(title)
+        logger.info(title)
 
 if __name__ == "__main__":
     head = subprocess.check_output(['git', 'rev-parse', '--short', 'HEAD']).decode('ascii').strip()
