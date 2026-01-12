@@ -1,0 +1,25 @@
+admiral
+baron
+caliph
+chieftain
+count
+dominus
+duke
+earl
+emir
+emperor
+general
+kaiser
+king
+knight
+laird
+lord
+padishah
+pope
+prince
+princess
+queen
+sheikh
+shogun
+vizier
+wing commander

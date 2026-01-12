@@ -4,7 +4,7 @@
 # Or keep nouns that are sinister enough to be both (move ones that aren't into bot.y
 
 def load(filename):
-    return [i.strip() for i in open(f"sources/{filename}.txt").readlines() if not i.startswith("#")]
+    return [i.strip() for i in open(f"sources/{filename}.txt").readlines() if i.strip() and not i.startswith("#")]
 
 base_nouns = {
     # Basic words  / vocabulary
@@ -19,23 +19,22 @@ base_nouns = {
     "sexy_material": ["leather", "rubber", "g-string", "thong", "lace", "PVC", "latex", "lingerie"],
     "sound": ["requium", "symphony", "sound", "scream", "song", "melody", "song"],
     "story": load("stories"),
-
     "relation": load("relations"),
     "drug": load("drugs"),
     "food": load("food"),
     "spooky_evidence": load("spooky_evidence"),
     "battle": load("battles"),
-	"vehicle": load("vehicles"),
-    "shapes": ["square", "circle", "rune", "diagram", "pictogram", "geometry", "curve", "pyramid", "vector", "field", "color", "stain", "circle", "pentagram", "hexagon", "colour", "orb", "blob", "cube", "flash", "form", "monolith", "sphere", ],
-    "body_part": ["body", "skin", "fist", "lip", "wing", "breast", "blood", "bone", "bun", "bosom", "brain", "claw", "eye", "finger", "flesh", "foot", "gut", "hand", "heart", "jaw", "maw", "mind", "mouth", "muscle", "skull", "face", "teeth", "brow", "spine", "stomach", "gaze", "tendril", "tentacle", ],
-    "adventure": ["crusade", "romp", "quest", "escape", "voyage", "odyssey", "journey", "pilgrimage", "adventure", "expedition", "encounter"],
-    "riches": ["diamonds", "riches", "bounty", "harvest", "gold", "treasure", "wealth", "fortune", "prosperity", "opulence"],
-    "scheme": ["coverup", "mutiny", "perversion", "study", "experiment", "destiny", "scheme", "grudge", "study", "plot", "revenge", "compact", "embrace", "pact", "bargain", "vigil", "betrayal", "lies", "promises", "wishes"],
-    "concept": ["darkness", "hell", "vice", "peace", "war", "vibes", "love", "horror", "beauty", "destiny", "evil", "doom", "damnation", "revenge", "madness", "damnation", "fear", "loathing", "wonder", "evil", "life", "chaos", "justice", "insanity", "nightmare", "hunger", "dream", "horror", "death", "urge", "fever", "consciousness", "nausea", "pain", "anguish", "eternity", "infinity", "sacrifice", "pestilence", "dogma", "courage", "vengence", "rage"],
-    "material" : ["water", "fire", "earth", "brass", "stone", "copper", "iron", "metal", "steel", "titanium", "aluminum", "cobalt", "plutonium", "thorium", "uranium", "gold", "silver", "lead", "wax", "clay", "crystal", "bone", "ruby", "sapphire"],
-    "appliance_tool_or_weapon": ["necronomicon", "clock", "pocketwatch", "ark", "refrigerator", "saw", "hammer", "drill", "key", "coin", "lucre", "money", "crucifix", "dial", "mechanism", "chainsaw", "armor", "ring", "candy", "crown", "cross", "bible", "crystal ball", "masque", "scepter", "shield", "mask", "capsule", "mirror", "band", "antique", "artifact", "relic", "spear", "blade", "gun", "machine gun", "guillotine", "lance", "mace", "rifle", "saber", "sword", "blaster", "raygun", "nunchuck"],
-    "time": ["age", "aeon", "year", "era"],
-    "dorks": ["nerd", "geek", "dork"],
+    "vehicle": load("vehicles"),
+    "shapes": load("shapes"),
+    "body_part": load("body_parts"),
+    "adventure": load("adventures"),
+    "riches": load("riches"),
+    "scheme": load("schemes"),
+    "concept": load("concepts"),
+    "material" : load("materials"),
+    "appliance_tool_or_weapon": load("appliance_tool_or_weapon"),
+    "time": load("times"),
+    "dorks": load("dorks"),
 
     # simple meta rules
     "ritual_or_event": ["market", "picnic", "sabbath", "#color# mass", "dance", "rave", "concert", "festival", "funeral", "christmas", "opera", "orgy", "party", "pyre", "rite", "ritual", "sacrifice", "circus", "carnival", "bazzar", "toast", "banquet", "dinner", "dance", "ball", "masquerade"],
@@ -46,7 +45,7 @@ base_nouns = {
 
     # Threats
     "threatening_substance": ["chemtrail", "web", "#drug#", "blood", "slime", "meat", "poison", "elixir", "dust", "stuff", "oil", "ooze", "goop", "sludge", "goo", "ichor", ],
-    "threatening_thing": ["AI", "freak", "scum", "creep", "beast", "terror", "humanoids", "creature", "it", "thing", "threat", "lurker", "being", "maniac", "corpse", "threat", "curse", "call", "reaper"],
+    "threatening_thing": load("threatening_things"),
 
     # TODO: some of these, eg harp, shouldn't use 'the'
     "evil_group":                       load("evil_groups"),
@@ -54,11 +53,7 @@ base_nouns = {
     "natural_phenomena":                load("natural_phenomena"),
     "fantasy_animal":                   load("fantasy_animals"),
     "job":                              load("jobs"),
-
-    "ruler": ["king", "lord", "queen", "prince", "princess", "baron", "duke",
-              "earl", "emperor", "kaiser", "pope", "Padishah", "vizier",
-              "shogun", "Emir", "count", "chieftain", "sheikh", "caliph",
-              "general", "wing commander", "laird", "admiral", "dominus", "knight"],
+    "ruler": load("rulers"),
 
     # Some threat meta...
     "all_animals": ["#fantasy_animal#", "#real_animal#"],

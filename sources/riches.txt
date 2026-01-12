@@ -1,0 +1,10 @@
+bounty
+diamonds
+fortune
+gold
+harvest
+opulence
+prosperity
+riches
+treasure
+wealth

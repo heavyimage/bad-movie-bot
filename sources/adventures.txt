@@ -1,0 +1,11 @@
+adventure
+crusade
+encounter
+escape
+expedition
+journey
+odyssey
+pilgrimage
+quest
+romp
+voyage
