@@ -1,5 +1,4 @@
-def load(filename):
-    return [i.strip() for i in open(f"sources/{filename}.txt").readlines() if i.strip() and not i.startswith("//")]
+from common import load, testload
 
 # TODO: needs love!
 base_places_rt = {

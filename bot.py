@@ -1,6 +1,8 @@
 import tracery
 from tracery.modifiers import base_english
 
+from common import load, testload
+
 import logging
 import time
 from random import choice
@@ -81,9 +83,6 @@ DONT_CAP = ["a", "and", "as", "at", "be", "but", "became", "by", "down", "for", 
                    "if", "in", "into", "like", "near", "nor", "of", "off ",
                    "on", "once", "onto", "or", "over", "past", "so", "than",
                    "that", "to", "upon", "vs.", "was", "when", "with", "yet"]
-
-def load(filename):
-    return [i.strip() for i in open(f"sources/{filename}.txt").readlines()]
 
 RULES = {
     ##################### Basic Rules #######################
