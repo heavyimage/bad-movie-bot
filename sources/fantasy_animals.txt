@@ -6,6 +6,7 @@ chimera
 chupacabra
 cockatrice
 cyborg
+daemon
 demon
 devil
 dragon

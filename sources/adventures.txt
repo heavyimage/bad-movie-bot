@@ -8,4 +8,5 @@ odyssey
 pilgrimage
 quest
 romp
+sojourn
 voyage

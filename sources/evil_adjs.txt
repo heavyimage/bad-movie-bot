@@ -2,6 +2,8 @@ abominable
 aggressive
 barbaric
 blaspheming
+cacodaemoniacal
+chthonian
 corrupt
 damned
 dark
@@ -18,8 +20,10 @@ enraged
 evil
 fallen
 ferocious
+fiendish
 furious
 godless
+graven
 grim
 haunted
 homicidal
@@ -33,10 +37,14 @@ laughing
 lurking
 macabre
 mausolean
+miasmal
 mindless
 murderous
+necrophagous
+nether
 remorseless
 satanic
+sepulchral
 shadowy
 sinister
 skeletal

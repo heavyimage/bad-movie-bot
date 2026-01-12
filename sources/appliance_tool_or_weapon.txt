@@ -47,8 +47,10 @@ ring
 saber
 saw
 scepter
+screwdriver
 shield
 spear
 sword
 telegraph
 transmitter
+wire

@@ -26,11 +26,9 @@ cuniform
 # "part XXX"
 # "invincible"
 # "grave",
-# "reign"
 # "country",
 # "school",
 # "barbed wire",
-# "revenge",
 # "fracture",
 # "sex",
 # https://www.hollywoodreporter.com/gallery/b-movie-titles-50-best-778995/9-them-1954/
@@ -46,25 +44,14 @@ anecdote
 antediluvian
 atavistic
 bachtrachian
-bas relief
 belie
-betwixt
 blackball
-bovine
-brawny
-cacodaemoniacal
-casement
-charnel or Charnel-House
-chthonian
 colloquy
 congenial
 construe
-contemptuous
 coruscation
 countenance
-crude
 cuspidor
-daemon
 debased
 declivity
 delirium
@@ -74,64 +61,35 @@ disport
 disposition
 dissension
 dissipation
-ecstasy
 edifice
 effluence
 effulgence
 effulgent
 effusion
-elysian
 emanation
 eminence
 encumbrance
-fiendishly
-fishily
 foetid
 foetor
-gelatinous
-graven
 habitue
 herbage
 illumine
 incredulity
-indistinct
-ineffable
-inexplicable
 infirmity
 insolence
 lambent
 lamented
 lament
-leer
-listless
 lucubration
-luminous
 mangy
 matutinal
-metamorphosis
 metrical
-miasmal
-mundane
-necrophagous
-nether
-nocturnal
 noisome
 obdurate
-odious
-odoriferous
-outre
-paramount
 pasquinade
-patois
-perilous
-piliferous
-piteous
 posterity
 proboscidian
-prodigious
-profound
 pursy
-quaint
 ravishing
 resplendent
 reverie
@@ -140,28 +98,34 @@ roisterer
 rugose
 sallow
 scion
-scrofulous
 seldom
-sepulchral
-sesquipedalian
-slovenly
-sodden
-sojourn
-somnolent
 sooth
-squamous
-stolid
-stupendous
-sty
 supernal
 surcease
 terrene
 thither
 tranquillity
 undulation
-vagabond
 vain
-vaporous
 vitality
-vivacious
 zenith
+
+# adjectives
+odious
+odoriferous
+perilous
+piliferous
+piteous
+somnolent
+sodden
+prodigious
+scrofulous
+listless
+sesquipedalian
+slovenly
+squamous
+stolid
+stupendous
+vivacious
+mundane
+profound

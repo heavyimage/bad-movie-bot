@@ -8,6 +8,7 @@ bee
 bird
 brood
 bunny
+capybara
 cat
 centipede
 cheetah
@@ -20,6 +21,8 @@ eagle
 eel
 fish
 frog
+gerbil
+hamster
 hedge
 horse
 hound

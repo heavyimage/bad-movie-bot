@@ -1,5 +1,6 @@
 frown
 laugh
+leer
 scowl
 scream
 shiver

@@ -134,7 +134,7 @@ main_titles = [
     "#battle#: #smart_ma_place#",
 
     # "grind-house", forbidden planet
-    "#adj# #smart_place#",
+    "#smart_ma_place#",
 
     # Daughters of the Sun
     "#human# of the #natural_phenomena#",
@@ -337,4 +337,6 @@ main_titles = [
     # Salo, or the 120 Days of Sodom
     "Salo, or the #digit##digit##digit# days of #mythological_place#",
 
+    #The hound of the baskervilles#
+    "The #all_animals# of #smart_place#",
 ]

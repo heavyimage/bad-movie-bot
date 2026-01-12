@@ -22,6 +22,7 @@ pope
 prince
 princess
 queen
+reign
 scion
 sheikh
 shogun

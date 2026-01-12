@@ -13,13 +13,15 @@ PLURAL_FIXES = {
     "Wines": "Wine",
     "Teethes": "Teeth",
     "Tearses": "Tears",
+    "Stuffs": "Stuff",
+    "Mans": "Men",
+    "Mens": "Men",
+    "Womens": "Women",
     "Womans": "Women",
-    " Mans": " Men",
-    " Mens": " Men",
-    " Womans": " Women",
-    " Womens": " Women",
     "Elfs": "Elves",
-    " Cheetahes": " Cheetahs",
+    "Cheetahes": "Cheetahs",
+    "Barbarianses": "Barbarians",
+    "Millenialses": "Millenials",
     "Nauseas": "Nausea",
     "Bloods": "Blood",
     "Foots": "Feet",
@@ -264,8 +266,11 @@ def clean(title):
     for k,v in PLURAL_FIXES.items():
         title = title.replace(k, v)
 
+    title = title.replace("' ", "'") # they called me ' alpha'
+
     # fix title case errors
     title = title.replace(" And ", " and ")
+    title = title.replace("THE", "the")
     title = title.replace("'S ", "'s ")
     title = title.replace(" Of ", " of ")
     title = title.replace(" The ", " the ")
@@ -273,7 +278,10 @@ def clean(title):
     title = title.replace(" : ", ": ")
     title = title.replace("- ", "-")
     title = title.replace("41St", "41st")
-    title = title.replace(" stuffs", " stuff")
+
+    # a --> for vowel words
+    for vowel in "aeiou":
+        title = title.replace(f" a {vowel.upper()}", f" an {vowel.upper()}")
 
     return title
 
