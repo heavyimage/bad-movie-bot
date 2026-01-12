@@ -48,7 +48,7 @@ empress
 enforcer
 executioner
 exorcist
-ferryman
+ferry#person#
 football player
 gangster
 geisha
@@ -116,7 +116,7 @@ superhero
 supervillain
 surfer
 surgeon
-taxman
+tax#person#
 teacher
 thief
 trooper
