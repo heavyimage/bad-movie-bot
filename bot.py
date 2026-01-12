@@ -124,9 +124,7 @@ RULES = {
 
     # names (some meta)
     "name": load("names"),
-    "surname" :["#places_on_earth_with_the#", "#moment_in_time#", "#mythological_place#"
-                , "#spooky_natural_locale#", "Lee", "Jones", "Rodríguez", "Johnson",
-                "Williams", "Gonzalez", "#color#", "Smith", "O'Brian", "#color##body_part#"],
+    "surname": load("surnames"),
 
     # Load external
     "adj": [f"#{adj}#" for adj in base_adjectives],
