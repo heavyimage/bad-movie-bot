@@ -11,6 +11,8 @@ humanoids
 it
 lurker
 maniac
+phantasm
+phantom
 reaper
 scum
 terror

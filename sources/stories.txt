@@ -4,6 +4,7 @@ fable
 fate
 legend
 mystery
+reminiscence
 saga
 secret
 tale

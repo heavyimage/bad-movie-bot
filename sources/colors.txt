@@ -11,6 +11,7 @@ ebon
 emerald
 golden
 green
+kaleidoscopic
 obsidian
 onyx
 orange

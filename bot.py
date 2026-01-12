@@ -42,30 +42,6 @@ def get_all_followers(api):
         following = api.fetch_next(following)
     return accounts
 
-# TODO:
-# sanity check duplicates
-# named threats (don't want 'the' ahead of them
-# the plane of leng
-# adjective / noun agreement?
-#"#magic_type_adj# #magic#",
-# https://en.wikipedia.org/wiki/Erotic_thriller#1980s%E2%80%931990s:_Classic_period
-# "breed"
-# Salo, or the 120 Days of Sodom
-# "wolf-man",
-# "filth"
-# "part XXX"
-# "invincible"
-# "grave",
-# "reign"
-# "country",
-# "school",
-# "barbed wire",
-# "revenge",
-# "fracture",
-# "sex",
-# https://www.hollywoodreporter.com/gallery/b-movie-titles-50-best-778995/9-them-1954/
-# https://www.flickchart.com/Charts.aspx?genre=Exploitation+Film&perpage=100
-
 # From: https://prowritingaid.com/list-of-words-not-capitalized-in-titles
 DONT_CAP = ["a", "and", "as", "at", "be", "but", "became", "by", "down", "for", "from",
                    "if", "in", "into", "like", "near", "nor", "of", "off ",

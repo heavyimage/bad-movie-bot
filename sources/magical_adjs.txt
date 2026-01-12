@@ -14,5 +14,6 @@ sorcerous
 supernatural
 telekinetic
 telepathic
+uncanny
 vedic
 voodoo

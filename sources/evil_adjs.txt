@@ -7,6 +7,8 @@ damned
 dark
 deadly
 demon
+demonaic
+demoniac
 demonic
 depraved
 doomed
@@ -30,6 +32,7 @@ killer
 laughing
 lurking
 macabre
+mausolean
 mindless
 murderous
 remorseless
@@ -38,6 +41,7 @@ shadowy
 sinister
 skeletal
 spooky
+tenebrous
 terrifying
 twisted
 unholy

@@ -1,4 +1,5 @@
 albino
+crustaceous
 amorphous
 backwoods
 bamboo
@@ -7,6 +8,7 @@ burning
 chimeric
 chitinous
 dead
+diurnal
 fiery
 flaming
 flesh-eating
@@ -15,10 +17,12 @@ frozen
 fungal
 gelatinous
 heavy
+ichthyic
 jungle
 living
 man-eating
 nocturnal
+ophidian
 protoplasmic
 psycho-
 psychotic
