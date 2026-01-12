@@ -15,7 +15,6 @@ ivory
 jade
 lace
 lead
-mahogany
 metal
 pearl
 platinum
@@ -29,10 +28,10 @@ silver
 stainless steel
 steel
 stone
-terracotta
 thorium
 titanium
 unobtainium
 uranium
 water
 wax
+yew

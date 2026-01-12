@@ -33,7 +33,6 @@ base_nouns = {
     "clothes":                  load("clothes"),
     "transformation":           load("transformations"),
     "ritual_or_event":          load("rituals"),
-    "threatening_thing":        load("threatening_things"),
 
     # simple meta rules
     "human": 				    load("humans"),

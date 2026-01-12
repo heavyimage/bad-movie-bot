@@ -217,7 +217,7 @@ main_titles = [
     "#job# #job#",
 
     # The treasure of the sierra madres
-    "The #maybe_old_adj# #riches# of #adj# #smart_place#",
+    "The #maybe_old_adj# #riches# of #smart_ma_place#",
 
     # Mountain of the cannibal god
     # TODO: replace #place# with #maybe_adj_#place"
@@ -341,7 +341,7 @@ main_titles = [
     "#body_part# #ritual_or_event#",
 
     # The creature from the black lagoon
-    "The #threatening_thing# from #smart_a_place#",
+    "The #fantasy_animal# from #smart_a_place#",
 
     # Salo, or the 120 Days of Sodom
     "Salo, or the #digit##digit##digit# days of #mythological_place#",
@@ -384,5 +384,11 @@ main_titles = [
 
     # The good the bad and the ugly
     "The Good, The Bad and the #noun#",
+
+    # Godzilla: king of all monsters
+    "#name#: #ruler# of all #fantasy_animal.s#",
+
+    # The King in Yellow
+    "The #ruler# in #color#",
 
 ]

@@ -35,6 +35,7 @@ PLURAL_FIXES = {
     "Stuffs": "Stuff",
     "Christmases": "Christmas",
     "Socialisms": "Socialism",
+    "Vibses": "Vibes",
     " Mans": " Men",
     " Mens": " Men",
     " Womens": " Women",
@@ -108,7 +109,8 @@ RULES = {
     "greek_letter": ["alpha", "beta", "gamma", "delta", "epsilon", "zeta", "eta", "theta", "iota", "kappa", "lamda", "mu", "nu", "xi", "omicron", "pi", "rho", "sigma", "tau", "upsilon", "phi", "chi", "psi", "omega",],
     "digit" :["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"],
     # slighty meta here...
-    "fun_number": ["#digit#", "#roman_numeral#", "#greek_letter#"],
+    #"fun_number": ["#digit#", "#roman_numeral#", "#greek_letter#"],
+    "fun_number": ["#digit#", "#roman_numeral#"],
 
     # Years
     "funny_year_core": ["0", "1", "19XX", "20XX", "1999", "2000", "2001", "3001", "5000", "10,000", "#digit##digit##digit##digit#", "#digit##digit##digit##digit##digit#", "#digit##digit##digit##digit##digit##digit#"],
@@ -163,7 +165,7 @@ RULES = {
     # Maybes
     "maybe_adj":         ["", "", "#adj#"],
     "maybe_old_adj":     ["", "#old_adj#"],
-    "maybe_fun_numeral": ["", "#roman_numeral#", "#greek_letter#"],
+    "maybe_fun_numeral": ["", "#fun_number#"],
     "maybe_the":         ["", "the"],
     "maybe_adj_place":   ["#maybe_adj# #smart_place#"],
 

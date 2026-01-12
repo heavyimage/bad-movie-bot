@@ -1,7 +1,14 @@
 assignment
 codename
-conspiracy
+encounter
+expedition
+formula
+method
+mission
 operation
 phase
 plan
+program
+project
 protocol
+strategy

@@ -1,6 +1,8 @@
+//almond
 //bubble gum pink
 //candy apple red
-almond
+//cinereous
+//pistachio
 amaranth
 amber
 amethyst
@@ -13,11 +15,8 @@ azure
 beige
 beryl
 black
-blond
 blue
-blush
 bone
-brass
 bronze
 brown
 burgundy
@@ -31,8 +30,6 @@ chartreuse
 cherry
 chestnut
 chocolate
-chromatic
-cinereous
 cinnabar
 citrine
 cobalt
@@ -46,9 +43,6 @@ ebon
 ecru
 eggplant
 emerald
-fern
-firebrick
-folly
 fuchsia
 glaucous
 glitter
@@ -60,7 +54,6 @@ indigo
 iris
 ivory
 jade
-kaleidoscopic
 khaki
 lavender
 lime
@@ -69,10 +62,8 @@ malachite
 maroon
 mauve
 mustard
-myrtle
 obsidian
 ochre
-olive
 olivine
 onyx
 orange
@@ -81,7 +72,6 @@ peach
 peridot
 periwinkle
 pink
-pistachio
 plum
 puce
 pumpkin

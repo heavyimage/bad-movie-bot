@@ -1,6 +1,8 @@
 adventure
+conspiracy
 crusade
 cycle
+diary
 elegy
 encounter
 escape
@@ -9,6 +11,7 @@ fable
 fate
 journey
 legend
+memorandum
 mission
 mystery
 odyssey

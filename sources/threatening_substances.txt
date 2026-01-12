@@ -1,4 +1,5 @@
 #drug#
+//stuff
 blood
 bubble
 chemtrail
@@ -17,5 +18,4 @@ pentagram
 poison
 slime
 sludge
-stuff
 web

@@ -3,7 +3,7 @@ chronometer
 clone
 computer
 doll
-effect
+#adj# effect
 experiment
 factory
 film
