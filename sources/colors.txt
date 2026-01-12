@@ -20,7 +20,6 @@ bronze
 brown
 bubble gum pink
 burgundy
-byzantium
 camel
 canary
 candy apple red
@@ -31,9 +30,6 @@ celadon
 celeste
 cerise
 cerulean
-chamoisee
-champagne
-charcoal
 chartreuse
 cherry
 chestnut
@@ -41,23 +37,16 @@ chocolate
 chromatic
 cinereous
 cinnabar
-cinnamon
 citrine
 cobalt
 coffee
 copper
-coquelicot
 coral
-cordovan
 corn
-cornflower
-cornsilk
 cream
 crimson
 cyan
-daffodil
 dandelion
-drab
 ebon
 ecru
 eggplant
@@ -130,7 +119,6 @@ teal
 topaz
 turquoise
 ultramarine
-umber
 urobilin
 verdigris
 vermilion

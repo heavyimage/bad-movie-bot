@@ -1,8 +1,8 @@
+//person
+android
 femme
 god
 man
-woman
-person
-robot
-android
 replicant
+robot
+woman

@@ -82,8 +82,8 @@ main_titles = [
     "#maybe_adj# #noun.s# in the #trapped_place#",
     "The #noun# in the #trapped_place#",
     "The #ma_noun# Lovers",
-    "#ma_noun# in #sexy_material#",
-    "#ma_nouns# in #sexy_material#",
+    "#ma_noun# in #material#",
+    "#ma_nouns# in #material#",
     "My #relation# is #adj.a# #sexy_servant#",
     "My #relation# is #ma_noun.a#",
     "My #relation# is the #adj# #sexy_servant# of #job.s#",
@@ -227,7 +227,8 @@ main_titles = [
     # TODO: replace #place# with #maybe_adj_#place"
     "#operation# #fun_number# from #smart_place#",
 
-    "#operation#: #nato_alphabet# #nato_alphabet# #nato_alphabet#",
+    # whiskey tango foxtrot
+    "#nato_alphabet# #nato_alphabet# #nato_alphabet#",
 
     # Assignment: earth
     # TODO: replace #place# with #maybe_adj_#place"
@@ -366,5 +367,7 @@ main_titles = [
     # citizen kane
     "#job# #surname#",
 
+    # Reindeer Games
+    "#real_animal# Games",
 
 ]

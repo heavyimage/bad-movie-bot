@@ -1,8 +1,10 @@
 ash
 avalanche
 boulder
+charcoal
 cloud
 comet
+crystal
 cyclone
 droplet
 drought
@@ -13,13 +15,16 @@ flood
 flower
 fog
 galaxy
+gemstone
 hail
 heat
 hurricane
 inferno
 lake
+mineral
 mist
 moon
+ore
 outbreak
 pandemic
 plague
@@ -30,6 +35,7 @@ rainbow
 rockslide
 sandstorm
 shadow
+sky
 smog
 smoke
 snow
@@ -44,6 +50,7 @@ typhoon
 vapor
 vortex
 water
+waterfall
 wave
 wind
 winter

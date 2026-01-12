@@ -19,6 +19,7 @@ spaceship
 starship
 submarine
 submersible
+subway
 tank
 train
 truck
