@@ -1,3 +1,5 @@
+//bubble gum pink
+//candy apple red
 almond
 amaranth
 amber
@@ -18,16 +20,11 @@ bone
 brass
 bronze
 brown
-bubble gum pink
 burgundy
 camel
 canary
-candy apple red
 cardinal
-carmine
-carnelian
 celadon
-celeste
 cerise
 cerulean
 chartreuse
@@ -39,10 +36,8 @@ cinereous
 cinnabar
 citrine
 cobalt
-coffee
 copper
 coral
-corn
 cream
 crimson
 cyan

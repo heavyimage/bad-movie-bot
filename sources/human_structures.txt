@@ -2,6 +2,7 @@ DMV
 abbey
 adult cinema
 alley
+amusement park
 barn
 barracks
 base
@@ -15,6 +16,7 @@ city
 colony
 crypt
 dungeon
+factory
 fair
 fort
 fortress
@@ -36,6 +38,7 @@ mine
 mission
 mosque
 pagoda
+parking lot
 pyramid
 realm
 reliquary
