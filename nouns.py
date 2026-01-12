@@ -11,12 +11,12 @@ base_nouns = {
     # short ones
     "day_of_the_week": load("days_of_the_week"),
     "human_reaction": load("human_reactions"),
-    "instrament": load("instraments.txt"),
+    "instrament": load("instraments"),
     "magic": load("magic_stuff"),
     "operation": load("operations"),
 
-    "people": ["femme", "people", "men", "women", "god"],
-    "portal": ["seal", "hole", "gate", "door", "gateway", "doorway", "passage", "portal", "tunnel", "bridge"],
+    "people": load("people"),
+    "portal": load("portals"),
     "sexy_material": ["leather", "rubber", "g-string", "thong", "lace", "PVC", "latex", "lingerie"],
     "sound": ["requium", "symphony", "sound", "scream", "song", "melody", "song"],
 

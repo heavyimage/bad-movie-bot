@@ -1,0 +1,13 @@
+bridge
+door
+doorway
+gate
+gateway
+hole
+passage
+passageway
+portal
+rift
+seal
+stargate
+tunnel

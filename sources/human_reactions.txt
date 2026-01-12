@@ -1,0 +1,6 @@
+frown
+laugh
+scowl
+scream
+shiver
+smile
