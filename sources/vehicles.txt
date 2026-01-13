@@ -9,15 +9,18 @@ car
 destroyer
 dreadnought
 elevator
+escape pod
 flying saucer
 hot air balloon
 jet
+motorcycle
 plane
 rocket
 scooter
 ship
 sled
 spaceship
+speedboat
 starship
 submarine
 submersible

@@ -1,3 +1,4 @@
+//diurnal
 albino
 amorphous
 backwoods
@@ -8,7 +9,6 @@ chimeric
 chitinous
 crustaceous
 dead
-diurnal
 fallow
 fiery
 flaming

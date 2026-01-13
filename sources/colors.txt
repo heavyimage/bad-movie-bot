@@ -6,7 +6,6 @@
 //pistachio
 amber
 amethyst
-apricot
 aqua
 aquamarine
 auburn
