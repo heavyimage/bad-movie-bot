@@ -12,6 +12,7 @@ from common import load, testload
 
 HASHTAG_INTERVAL = 30
 HASHTAGS = ["#cinema", "#flims", "#movies", "#badmovie", "#schlock", "#bmovie"]
+SLEEP_BEFORE_POST = 5
 
 REMOVE_ARTICLE = [
     # Evil groups
@@ -345,8 +346,8 @@ def main():
         msg = title
         if (counter + 1) % HASHTAG_INTERVAL == 0:
             msg = f"{msg} {choice(HASHTAGS)}"
-        logger.info("Considering msg: %s for 3 seconds..." % msg)
-        time.sleep(3)
+        logger.info(f"Considering msg: {msg} for {SLEEP_BEFORE_POST} seconds...")
+        time.sleep(SLEEP_BEFORE_POST)
         api.status_post(msg)
         counter += 1
 
