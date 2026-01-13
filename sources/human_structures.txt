@@ -1,6 +1,7 @@
 DMV
 abbey
 adult cinema
+airport
 alley
 amusement park
 barn
@@ -38,6 +39,7 @@ mine
 mission
 mosque
 pagoda
+parking garage
 parking lot
 pyramid
 realm
@@ -49,6 +51,7 @@ sewer
 shipwreck
 stalag
 suburbs
+supermarket
 synagogue
 temple
 throne
@@ -56,5 +59,7 @@ tomb
 torture chamber
 tower
 town
+train station
 village
+windmill
 zone

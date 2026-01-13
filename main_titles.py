@@ -138,8 +138,8 @@ main_titles = [
     "#smart_ma_place#",
 
     # Daughters of the Sun
-    "#human# of the #natural_phenomena#",
-    "#human.s# of the #natural_phenomena#",
+    "#person# of the #natural_phenomena#",
+    "#person.s# of the #natural_phenomena#",
 
     # The door in time
     "The #portal# #preposition# #smart_place#",
@@ -313,7 +313,7 @@ main_titles = [
     "#name#: #moment_in_time# of #concept#",
 
     #Fat Guy Goes Nutzoid!!
-    "#adj# #human# goes #crazy_adj#!!",
+    "#adj# #person# goes #crazy_adj#!!",
 
     # harder constructions?
     "#noun#dotcom",

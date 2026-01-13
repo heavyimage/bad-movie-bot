@@ -7,6 +7,7 @@ breast
 brow
 bun
 claw
+egg
 eye
 face
 finger
@@ -16,6 +17,7 @@ foot
 gaze
 gut
 hand
+head
 heart
 jaw
 lip

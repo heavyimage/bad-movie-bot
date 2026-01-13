@@ -6,6 +6,8 @@ autogyro
 battleship
 black helicopter
 car
+destroyer
+dreadnought
 elevator
 flying saucer
 hot air balloon

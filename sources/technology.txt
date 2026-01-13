@@ -1,9 +1,10 @@
+#adj# effect
+#robot#
 #vehicle#
 chronometer
 clone
 computer
 doll
-#adj# effect
 experiment
 factory
 film
@@ -16,10 +17,12 @@ labratory
 laser
 machine
 monument
+prism
+processor
 puppet
-robot
 rocket belt
 science
+sculpture
 space station
 statue
 test tube

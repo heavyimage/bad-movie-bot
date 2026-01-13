@@ -21,6 +21,7 @@ base_nouns = {
     "battle":                   load("battles"),
     "vehicle":                  load("vehicles"),
     "shape":                    load("shapes"),
+    "robot":                    load("robots"),
     "body_part":                load("body_parts"),
     "adventure":                load("adventures"),
     "riches":                   load("riches"),
@@ -35,7 +36,6 @@ base_nouns = {
     "ritual_or_event":          load("rituals"),
 
     # simple meta rules
-    "human": 				    load("humans"),
     "sexy_servant": 			load("sexy_servants"),
     "technology": 			    load("technology"),
     "threatening_substance": 	load("threatening_substances"),

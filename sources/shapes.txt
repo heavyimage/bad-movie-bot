@@ -9,6 +9,7 @@ equation
 field
 flash
 form
+fractal
 geometry
 glow
 hexagon

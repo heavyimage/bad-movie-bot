@@ -1,0 +1,14 @@
+android
+automaton
+cyber #person#
+cyborg
+droid
+giant robot
+golem
+homunculus
+humanoid
+killbot
+machine
+mech
+replicant
+robot
