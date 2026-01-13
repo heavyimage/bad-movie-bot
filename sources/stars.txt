@@ -1,3 +1,5 @@
+//Boötes
+//Cancer
 Achernar
 Alcor
 Aldebaran
@@ -10,8 +12,6 @@ Arcturus
 Auriga
 Aurigae
 Betelgeuse
-Boötes
-Cancer
 Canes Venatici
 Canis Major
 Canis Minor

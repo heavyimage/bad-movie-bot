@@ -1,9 +1,9 @@
 //almond
+//amaranth
 //bubble gum pink
 //candy apple red
 //cinereous
 //pistachio
-amaranth
 amber
 amethyst
 apricot
@@ -23,8 +23,6 @@ burgundy
 camel
 canary
 cardinal
-celadon
-cerise
 cerulean
 chartreuse
 cherry
@@ -64,13 +62,9 @@ mauve
 mustard
 obsidian
 ochre
-olivine
 onyx
 orange
-orchid
-peach
 peridot
-periwinkle
 pink
 plum
 puce

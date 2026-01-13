@@ -34,6 +34,7 @@ PLURAL_FIXES = {
     "Teethes": "Teeth",
     "Tearses": "Tears",
     "Stuffs": "Stuff",
+    "Childs": "Children",
     "Christmases": "Christmas",
     "Socialisms": "Socialism",
     "Vibses": "Vibes",
@@ -139,10 +140,10 @@ RULES = {
     # just use the ones that imply coming from somewhere
     # TODO: split into for nouns and places?
     "preposition": ["above", "across", "among",
-                    "around", "at", "before", "behind", "below",
+                    "at", "before", "below",
                     "beyond", "from", "in",
                     "inside", "near", "of", "on", "over",
-                    "through", "to", "under", "with", "within", "that came to"],
+                    "through", "to", "with", "within", "that came to"],
 
     # names (some meta)
     "name": load("names"),
@@ -211,16 +212,14 @@ RULES = {
     ],
 
     "silly_prefix": [
-        "Transformers #digit##digit#: ",
-        "Code Name:",
-        "David Winters presents:",
-        "Uwe Boll presents:",
-        "Alias:",
-        "Danger!!",
-        "Warning:",
-        "Fear the",
-        "Dread the",
-        "Tyler Perry’s",
+        "Transformers #digit##digit#: #main_title.capitalize#",
+        "Code Name: #main_title.capitalize#",
+        "David Winters presents: #main_title.capitalize#",
+        "Uwe Boll presents: #main_title.capitalize#",
+        "Danger!! #main_title.capitalize#",
+        "Warning: #main_title.capitalize#",
+        "Tyler Perry’s #main_title.capitalize#",
+
     ],
 
     "full_title" : [
@@ -251,7 +250,7 @@ RULES = {
         "#silly_sequel#",
 
         # prefix and suffix
-        "#silly_prefix# #main_title.capitalize#",
+        "#silly_prefix#",
     ],
 
 

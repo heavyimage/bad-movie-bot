@@ -13,6 +13,9 @@ main_titles = [
     "#ma_noun# of the #ma_noun#",
     "The #ma_noun# and the #ma_noun#",
 
+    "Alias: #ma_noun#",
+    "#fear# the #ma_noun#",
+
     # body part form
     "#body_part# #noun#",
     "#body_part# of #noun#",
@@ -369,6 +372,7 @@ main_titles = [
 
     # citizen kane
     "#job# #surname#",
+    "A #job# named #surname#",
 
     # Reindeer Games
     "#real_animal# Games",
