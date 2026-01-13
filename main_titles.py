@@ -319,7 +319,7 @@ main_titles = [
     "#adj# #person# goes #crazy_adj#!!",
 
     # harder constructions?
-    "#noun#dotcom",
+    "#noun#-dot-com",
 
     # love actually
     "#concept# Actually",
