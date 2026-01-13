@@ -12,10 +12,12 @@ forcefield
 gear
 hologram
 jetpack
+kama sutra
 lab
 labratory
 laser
 machine
+light show
 monument
 prism
 processor

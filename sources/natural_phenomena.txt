@@ -1,6 +1,7 @@
 ash
 avalanche
 boulder
+cactus
 charcoal
 cloud
 comet
@@ -32,6 +33,7 @@ planet
 pool
 rain
 rainbow
+rainforest
 rockslide
 sandstorm
 seaweed

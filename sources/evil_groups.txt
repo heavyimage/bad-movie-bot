@@ -1,14 +1,17 @@
-#government#
 #adj# #government#
+#government#
 #real_animal# #person#
 #real_animal# people
+//The System
 CERN
 CIA
 FBI
+Watergate
 George Soros
 HAARP
 KGB
 Majestic 12
+Military-Industrial Complex
 New World Order
 Opus Dei
 Palantir

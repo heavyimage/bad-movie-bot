@@ -1,7 +1,7 @@
 #appliance_tool_or_weapon#smith
+#robot#
 #ruler#
 #sexy_servant#
-#robot#
 //wainwright
 POW
 addict
@@ -22,12 +22,14 @@ bandito
 barbarian
 bard
 baron
+beatnik
 berserker
 biker
 boozehound
 boxer
 brainiac
 bureaucrat
+burnout
 butcher
 cadet
 cannibal
@@ -59,6 +61,7 @@ detective
 diver
 doctor
 doppelganger
+downer
 drone
 druid
 duke
@@ -80,6 +83,7 @@ gladiator
 goddess
 groupie
 guest
+guru
 hag
 harlequin
 harvester
@@ -129,6 +133,7 @@ president
 priest
 private eye
 professor
+psychonaut
 punk
 pyromaniac
 queen
@@ -170,6 +175,7 @@ tax#person#
 teacher
 thief
 townsfolk
+travel agent
 trooper
 trucker
 vagabond

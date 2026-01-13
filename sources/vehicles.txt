@@ -4,8 +4,12 @@ aircraft carrier
 airplane
 autogyro
 battleship
+bicycle
+bike
 black helicopter
+cadillac
 car
+corvette
 destroyer
 dreadnought
 elevator
@@ -28,4 +32,5 @@ subway
 tank
 train
 truck
+vespa
 zeppelin

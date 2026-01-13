@@ -38,6 +38,7 @@ mechanism
 mirror
 missile
 money
+napalm
 necronomicon
 nunchuck
 pocketwatch
@@ -54,5 +55,6 @@ shield
 spear
 sword
 telegraph
+TNT
 transmitter
 wire

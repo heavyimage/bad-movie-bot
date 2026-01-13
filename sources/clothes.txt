@@ -1,13 +1,15 @@
 beach blanket
+bellbottom
 bikini
 bra
 brassiere
-fedora
-g-string
 catsuit
+fedora
+mini-skirt
+g-string
 go-go boot
-moccasin
 lingerie
+moccasin
 necklace
 pajama
 pants
@@ -16,3 +18,4 @@ swimsuit
 thong
 trenchcoat
 underwear
+Birkenstock

@@ -7,6 +7,7 @@ brain
 breast
 brow
 bun
+chakra
 claw
 egg
 eye

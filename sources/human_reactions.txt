@@ -1,6 +1,7 @@
 blush
 frown
 grimace
+howl
 laugh
 leer
 scowl

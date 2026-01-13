@@ -23,6 +23,7 @@ REMOVE_ARTICLE = [
     "HAARP",
     "Majestic 12",
     "Opus Dei",
+    "The System",
 
     # governments
     "Capitalism",
@@ -35,7 +36,8 @@ PLURAL_FIXES = {
     "Tearses": "Tears",
     "Stuffs": "Stuff",
     "Childs": "Children",
-    "Christmases": "Christmas",
+    "Military-Industrial Complexes": "Military-Industrial Complex",
+    #"Christmases": "Christmas",
     "Socialisms": "Socialism",
     "Vibses": "Vibes",
     "Mans ": "Men ",

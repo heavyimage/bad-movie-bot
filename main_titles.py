@@ -395,4 +395,10 @@ main_titles = [
     # The King in Yellow
     "The #ruler# in #color#",
 
+    # The Pact of the kings
+    "The #scheme# of the #ruler.s#",
+
+    # John Carter of Mars
+    "John #surname# of #place_nrt#",
+
 ]

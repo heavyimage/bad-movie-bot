@@ -3,6 +3,7 @@ Aztec
 Mayan
 Mormon
 Norse
+Rasta
 Scandanavian
 christian
 communist

@@ -13,9 +13,12 @@ electric
 electro-mechanical
 futuristic
 genetic
+heavy
+high
 high-tech
 holographic
 hover
+hyper
 jetpack
 machine
 mecha-
@@ -25,10 +28,13 @@ neon
 nuclear
 objectivist
 orbital
+peak
 photonic
 positronic
 postmodern
+power
 pulp
+quadrophonic
 retro
 robo-
 robot
@@ -50,3 +56,4 @@ ultramodern
 underwater
 utopian
 video
+xeno
