@@ -81,7 +81,7 @@ main_titles = [
     "She was #adj.a# #noun#",
     "#sexy_servant.s# of the #ma_noun#",
     "#adj# love potion#",
-    "#ma_noun# de Sade",
+    #"#ma_noun# de Sade",
     "#maybe_adj# #noun.s# in the #trapped_place#",
     "The #noun# in the #trapped_place#",
     "The #ma_noun# Lovers",
