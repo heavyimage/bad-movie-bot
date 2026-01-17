@@ -1,9 +1,12 @@
 import subprocess
 import logging
 import time
+from datetime import datetime
 from random import choice
+import html
 
 from mastodon import Mastodon
+from bs4 import BeautifulSoup
 
 import tracery
 from tracery.modifiers import base_english
@@ -13,6 +16,7 @@ from common import load, testload
 HASHTAG_INTERVAL = 30
 HASHTAGS = ["#cinema", "#flims", "#movies", "#badmovie", "#schlock", "#bmovie"]
 SLEEP_BEFORE_POST = 5
+DELETE_BY = 7
 
 REMOVE_ARTICLE = [
     # Evil groups
@@ -365,8 +369,30 @@ def main():
                 logger.info("New Follower: %s" % handle)
                 followers.add(handle)
 
+        # clean up old statuses
+        cleanup(api)
+
         # sleep for 1 hour
         time.sleep(60 * 60)
+
+def cleanup(api):
+    logger.info("### Performing cleanup ###")
+    bid = api._Mastodon__get_logged_in_id()
+    statuses = api.account_statuses(bid)
+    while True:
+        now = datetime.now()
+        for status in statuses:
+            days_since_post = (now - status['created_at'].replace(tzinfo=None)).days
+            likes = status['favourites_count']
+            if days_since_post > DELETE_BY and likes == 0:
+                soup = BeautifulSoup(status['content'], features="lxml")
+                post = html.unescape(soup.find("p").string)
+                logger.info(f"\tDeleting {post} {(status['id'])} from {days_since_post} days ago!")
+                api.status_delete(status['id'])
+
+        statuses = api.fetch_next(statuses)
+        if statuses is None:
+            break
 
 def test():
     for i in range(10000):
