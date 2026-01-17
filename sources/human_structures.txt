@@ -5,7 +5,7 @@ airport
 alley
 amusement park
 barn
-barracks
+barrack
 base
 bodega
 cabin
@@ -54,7 +54,7 @@ sepulcher
 sewer
 shipwreck
 stalag
-suburbs
+suburb
 supermarket
 synagogue
 temple

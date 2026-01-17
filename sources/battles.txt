@@ -16,6 +16,6 @@ mutiny
 revolution
 siege
 snare
-tears
+tear
 trap
 war

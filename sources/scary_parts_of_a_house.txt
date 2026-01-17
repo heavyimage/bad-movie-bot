@@ -11,5 +11,5 @@ kitchen
 panic room 
 sewer
 shed
-walls
+wall
 well

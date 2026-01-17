@@ -1,5 +1,5 @@
 bounty
-diamonds
+diamond
 fortune
 gold
 harvest

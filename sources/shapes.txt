@@ -25,7 +25,6 @@ plane
 puzzle
 pyramid
 rune
-runes
 sphere
 square
 stain

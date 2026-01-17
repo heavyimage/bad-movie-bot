@@ -401,4 +401,10 @@ main_titles = [
     # John Carter of Mars
     "John #surname# of #place_nrt#",
 
+    # 5,000 fingers of Dr. T #
+    "#digit#,#digit##digit##digit# #body_part.s# of #title# #letter.capitalizeAll#",
+
+    # noun noun overdrive!
+    "#noun# #noun# Overdrive",
+
 ]

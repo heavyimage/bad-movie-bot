@@ -1,7 +1,7 @@
 anguish
 beauty
 bummer
-buzz
+//buzz
 chaos
 come down
 consciousness

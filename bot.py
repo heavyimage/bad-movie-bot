@@ -58,7 +58,7 @@ PLURAL_FIXES = {
     "Millenialses": "Millenials",
     "Nauseas": "Nausea",
     "Bloods": "Blood",
-    " Foots": " Feet",
+    " Foots ": " Feet ",
     "Gentlemans": "Gentlemen",
     "Gentlewomans": "Gentlewomen",
     "Spacemans": "Spacemen",
@@ -137,7 +137,7 @@ RULES = {
     "numeric": ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth"],
 
     "large_count_singular_adj": ["uncountable", "endless", "hundred", "thousand", "million", "billion", "trillion"],
-    "threat_suffix": ["nado", "geddon", "zilla", "drome", "ra"],
+    "threat_suffix": ["palooza", "nado", "geddon", "zilla", "drome", "ra"],
     "magic_type_adj": ["sex", "#color#", "dark", "evil", "nature"],
     "impossible_verb": ["couldn't", "wouldn't", "could never"],
     "fear": ["fear", "dread", "avoid", "flee"],
