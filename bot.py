@@ -397,7 +397,7 @@ def cleanup(api):
 def test():
     grammar = tracery.Grammar(RULES)
     grammar.add_modifiers(base_english)
-    for i in range(10000):
+    for i in range(1000):
         title = clean(grammar.flatten("#full_title#"))
         print(title)
 
