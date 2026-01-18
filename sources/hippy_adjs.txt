@@ -1,3 +1,4 @@
+420-friendly
 counterculture
 day-glo
 disorienting
@@ -7,15 +8,18 @@ freaky
 funky
 groovy
 hippie
+new-age
+new-wave
 psychedelic
 rainbow
 righteous
 smashing
 stoned
+surfing
 trippy
 uncool
+undercover
 underground
-unreal
 vegan
 vegetarian
 wicked

@@ -160,7 +160,7 @@ main_titles = [
     "#relation# of the #all_animals#-#person.s#",
 
     # I was a teenage warewolf
-    "I Was #silly_adj.a# #ma_noun#",
+    "I Was #adj.a# #ma_noun#",
 
     # hitchiker's guide to the galaxy
     "The #job#'s guide to #smart_place#",
@@ -406,5 +406,8 @@ main_titles = [
 
     # noun noun overdrive!
     "#noun# #noun# Overdrive",
+
+    # Doctor Strange in the Multiverse of Madness
+    "#title# #strange_adj# in the #cosmic_place# of #concept#",
 
 ]
