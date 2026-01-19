@@ -1,31 +1,31 @@
 #greek_letter# Ceti #fun_number#
 #greek_letter# Persei #fun_number#
 Armageddon
+Atlantis
+Avalon
+Carcosa
 Dune
+Eden
 El Dorado
+Elm street
 Ga'Hoole
 Gomorrah
+Greenwich village
+Hell
 Hyboria
 Innsmouth
+Kingdom come
+Lemuria
+Leng
+Miskatonic university
 Olympus
 R'lyeh
 Saphos
 Shangra-La
 Sodom
+Styx
 The Baskervilles
-atlantis
-avalon
-carcosa
-eden
-elm street
-greenwich village
-hell
-kingdom come
-lemuria
-leng
-miskatonic university
-styx
-troy
-underworld
-valhalla
-vulcan
+Troy
+Underworld
+Valhalla
+Vulcan
