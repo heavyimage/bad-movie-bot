@@ -390,9 +390,14 @@ def cleanup(api):
                 logger.info(f"\tDeleting {post} {(status['id'])} from {days_since_post} days ago!")
                 api.status_delete(status['id'])
 
-        statuses = api.fetch_next(statuses)
-        if statuses is None:
-            break
+        try:
+            time.sleep(1)
+            statuses = api.fetch_next(statuses)
+            if statuses is None:
+                break
+        except TypeError as te:
+            logger.error(str(te))
+
 
 def test():
     grammar = tracery.Grammar(RULES)
