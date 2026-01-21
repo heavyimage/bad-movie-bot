@@ -36,6 +36,7 @@ REMOVE_ARTICLE = [
 PLURAL_FIXES = {
     "Wines": "Wine",
     "CERNs": "CERN",
+    "Courages": "Courage",
     "Teethes": "Teeth",
     "Tearses": "Tears",
     "Stuffs": "Stuff",
