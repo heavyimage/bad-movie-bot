@@ -410,4 +410,10 @@ main_titles = [
     # Doctor Strange in the Multiverse of Madness
     "#title# #strange_adj# in the #cosmic_place# of #concept#",
 
+    # Sign of the southern cross
+    "#spooky_evidence# of the #cardinal_direction.capitalizeAll#ern #shape#",
+
+    # The color out of space
+    "The #shape# out of #cosmic_places_without_the#",
+
 ]

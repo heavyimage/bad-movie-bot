@@ -1,12 +1,13 @@
-blob
 circle
 color
 colour
+cross
 cube
 curve
 diagram
 equation
 field
+figure eight
 flash
 form
 fractal
