@@ -22,6 +22,7 @@ hail
 heat
 hurricane
 inferno
+isotype
 lake
 mineral
 mist
@@ -31,6 +32,7 @@ outbreak
 pandemic
 plague
 planet
+plutonium
 pool
 rain
 rainbow
@@ -51,6 +53,7 @@ tidal wave
 tornado
 twister
 typhoon
+uranium
 vapor
 vortex
 water

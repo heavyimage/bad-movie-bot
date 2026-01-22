@@ -2,6 +2,7 @@ android
 automaton
 cyber #person#
 cyborg
+exocomp
 droid
 giant robot
 golem

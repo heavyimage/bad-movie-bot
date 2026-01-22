@@ -3,7 +3,6 @@
 ancient
 baby
 boy
-boy 
 bro
 chick
 child
@@ -13,7 +12,8 @@ dork
 dude
 femme
 geek
-gentle#person#
+gentleman
+gentlewoman
 girl
 god
 grandchild
