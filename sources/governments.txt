@@ -1,3 +1,5 @@
+//logocracy
+//statism
 alliance
 anarchy
 aristocracy
@@ -32,7 +34,6 @@ kakistocracy
 kleptocracy
 league
 legion
-logocracy
 meritocracy
 military dictatorship
 monarchy
@@ -43,7 +44,6 @@ republicanism
 secret society
 shogunate
 socialism
-//statism
 technocracy
 theocracy
 totalitarianism
