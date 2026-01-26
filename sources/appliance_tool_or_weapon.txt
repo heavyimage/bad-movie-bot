@@ -1,3 +1,4 @@
+TNT
 antique
 ark
 armor
@@ -23,6 +24,7 @@ drill
 flamethrower
 flechette
 fusillade
+gallows
 globe
 guillotine
 gun
@@ -55,6 +57,5 @@ shield
 spear
 sword
 telegraph
-TNT
 transmitter
 wire

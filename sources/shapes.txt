@@ -23,6 +23,7 @@ orb
 pentagram
 pictogram
 plane
+point
 puzzle
 pyramid
 rune
