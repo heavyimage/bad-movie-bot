@@ -416,4 +416,10 @@ main_titles = [
     # The color out of space
     "The #shape# out of #cosmic_places_without_the#",
 
+    # Crimson desert
+    "#color# #place_rt#",
+
+    # Deception point
+    "#scheme# #shape#",
+
 ]
