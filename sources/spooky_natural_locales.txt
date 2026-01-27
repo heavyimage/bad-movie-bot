@@ -3,10 +3,7 @@
 20,000 fathom
 above
 barren
-barrier
 beach
-below
-beyond
 caldera
 castle
 cave
@@ -30,7 +27,6 @@ mesa
 mountain
 park
 pit
-realm
 reef
 sand
 sea
@@ -39,6 +35,5 @@ swamp
 underground
 valley
 vault
-void
 volcano
 wilderness

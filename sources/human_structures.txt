@@ -46,7 +46,6 @@ parking garage
 parking lot
 police station
 pyramid
-realm
 reliquary
 ruin
 science fair
@@ -67,4 +66,3 @@ train station
 village
 wall
 windmill
-zone

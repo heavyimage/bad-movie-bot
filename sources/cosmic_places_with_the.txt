@@ -1,6 +1,9 @@
 #star# constellation
 asteroid belt
 astral plane
+barrier
+below
+beyond
 black hole
 continuum
 dimension
@@ -10,8 +13,11 @@ moon
 multiverse
 nebula
 planet
+realm
 solar system
 space station
 spaceship
 star
+void
 world
+zone

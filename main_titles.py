@@ -422,4 +422,7 @@ main_titles = [
     # Deception point
     "#scheme# #shape#",
 
+    # Harsh Realm
+    "#decayed_adj# #cosmic_place#",
+
 ]
