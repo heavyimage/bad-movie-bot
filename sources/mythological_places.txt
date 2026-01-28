@@ -7,6 +7,7 @@ Carcosa
 Dune
 Eden
 El Dorado
+El-Adrel
 Elm street
 Ga'Hoole
 Gomorrah
@@ -24,6 +25,7 @@ Saphos
 Shangra-La
 Sodom
 Styx
+Tenagra
 The Baskervilles
 Troy
 Underworld

@@ -34,6 +34,7 @@ Caliban
 Caligula
 Ceres
 Cetus
+Chenza
 Chernobog
 Circe
 Cloud-Thing
@@ -44,6 +45,8 @@ Cyclops
 D'endrrah
 Daemon
 Dagon
+Darmok
+Dathon
 Diablo
 Dracula
 Drusilla
@@ -68,8 +71,8 @@ Ialdagorth
 Iblis
 Ilsa
 Isis
-Jezebeth
 Jezebel
+Jezebeth
 Kaajh'Kaalbh
 Karakal
 Krampus
@@ -148,6 +151,7 @@ Tulzscha
 Typhon
 Ubbo-Sathla
 Ulthar
+Uzani
 Washington
 Wintermute
 Wonder woman
