@@ -398,6 +398,7 @@ def cleanup(api):
                 break
         except TypeError as te:
             logger.error(str(te))
+            break
 
 
 def test():
