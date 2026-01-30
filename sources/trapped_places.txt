@@ -1,7 +1,3 @@
 #battle#
 #threatening_substance#
-cage
-cell
-jail
-prison
-slaughterhouse
+#human_structure#

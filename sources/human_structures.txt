@@ -9,8 +9,11 @@ barrack
 base
 bodega
 cabin
+cage
 castle
+catacomb
 cathedral
+cell
 cemetary
 chapel
 church
@@ -29,6 +32,7 @@ hospital
 hostel
 hotel
 house
+jail
 keep
 kingdom
 labrynth
@@ -45,6 +49,7 @@ pagoda
 parking garage
 parking lot
 police station
+prison
 pyramid
 reliquary
 ruin
@@ -52,6 +57,7 @@ science fair
 sepulcher
 sewer
 shipwreck
+slaughterhouse
 stalag
 suburb
 supermarket
@@ -65,4 +71,5 @@ town
 train station
 village
 wall
+well
 windmill
