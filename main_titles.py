@@ -247,6 +247,7 @@ main_titles = [
 
     # escape from NY
     "#adventure# #preposition# #smart_place#",
+
     # The love witch
     "The #noun# #job#",
 
@@ -424,5 +425,12 @@ main_titles = [
 
     # Harsh Realm
     "#decayed_adj# #cosmic_place#",
+
+    # love demon
+    "#concept# #fantasy_animal#",
+    "The #concept# #fantasy_animal#",
+
+    # The call of cthulu
+    "The call of #name#",
 
 ]

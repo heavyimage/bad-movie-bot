@@ -9,7 +9,6 @@ beast
 being
 bigfoot
 blob
-call
 centaur
 chimera
 chupacabra
