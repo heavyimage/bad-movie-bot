@@ -11,7 +11,16 @@ extend English grammar
 # desired titles:
 # the plane of leng
 
-fork pytracery to add "valences" for each word that become hastags...?
+directors and taglines 
+    fork pytracery to add "valences" for each word that become hastags...?
+    Omg adding tag lines would be so great
+    I had this insane idea to come up with fake director names too
+    So like — if I added a score to each word in the vocabulary in term of a few different dimensions (horror, comedy, sexploitation) etc 
+    I could create a stable of fake directors with particular genre preferences / domains and then find the closest director for a given titles total set of scores
+    Adding tag lines could be fun too — I guess trying to procedurally make puns or reference common aphorisms based on the meaning / content of words in the title 
+    This would be a huge task — the vocabulary is huge
+    But would enable some fun things
+    https://github.com/baiango/english_idioms/blob/main/idioms.csv
 
 # "Voodoo from the time" --> voodoo from time
 # conundrum / star trek episodes
