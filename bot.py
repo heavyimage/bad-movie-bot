@@ -14,7 +14,9 @@ from tracery.modifiers import base_english
 from common import load, testload
 
 HASHTAG_INTERVAL = 30
-HASHTAGS = ["#cinema", "#flims", "#movies", "#badmovie", "#schlock", "#bmovie"]
+HASHTAGS = ["#cinema", "#badcinema", "#wouldnotwatch", "#films", "#movies", 
+            "#badmovie", "#badmovies", "#schlock", "#bmovie", "#twothumbsdown",
+            "#twothumbsup"]
 SLEEP_BEFORE_POST = 5
 DELETE_BY = 7
 
