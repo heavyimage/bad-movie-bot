@@ -17,7 +17,7 @@ HASHTAG_INTERVAL = 30
 HASHTAGS = ["#cinema", "#badcinema", "#wouldnotwatch", "#films", "#movies", 
             "#badmovie", "#badmovies", "#schlock", "#bmovie", "#twothumbsdown",
             "#twothumbsup"]
-SLEEP_BEFORE_POST = 5
+SLEEP_BEFORE_POST = 10
 DELETE_BY = 7
 
 REMOVE_ARTICLE = [
