@@ -376,7 +376,7 @@ def main():
         cleanup(api)
 
         # sleep for 1 hour
-        time.sleep(60 * 60)
+        time.sleep(3 * 60 * 60)
 
 def cleanup(api):
     logger.info("### Performing cleanup ###")
