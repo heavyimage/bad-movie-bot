@@ -392,6 +392,7 @@ def cleanup(api):
                 post = html.unescape(soup.find("p").string or status['content'])
                 logger.info(f"\tDeleting {post} {(status['id'])} from {days_since_post} days ago!")
                 api.status_delete(status['id'])
+                time.sleep(1)
 
         try:
             time.sleep(1)
