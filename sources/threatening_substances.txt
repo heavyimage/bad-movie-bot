@@ -13,10 +13,12 @@ goop
 ichor
 meat
 muck
+noise
 oil
 ooze
 poison
 quicksand
+radiation
 slime
 sludge
 web
