@@ -390,7 +390,7 @@ def cleanup(api):
             if days_since_post > DELETE_BY and likes == 0:
                 soup = BeautifulSoup(status['content'], features="lxml")
                 post = html.unescape(soup.find("p").string or status['content'])
-                logger.info(f"\tDeleting {post} {(status['id'])} from {days_since_post} days ago!")
+                logger.info(f"\tDeleting {post} ({status['id']}) from {days_since_post} days ago!")
                 api.status_delete(status['id'])
                 time.sleep(1)
 
