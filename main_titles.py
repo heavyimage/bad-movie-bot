@@ -433,4 +433,7 @@ main_titles = [
     # The call of cthulu
     "The call of #name#",
 
+    # Cocaine Bear
+    "#drug# #animal#",
+
 ]
