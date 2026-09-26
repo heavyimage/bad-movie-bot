@@ -434,6 +434,6 @@ main_titles = [
     "The call of #name#",
 
     # Cocaine Bear
-    "#drug# #animal#",
+    "#drug# #all_animals#",
 
 ]
