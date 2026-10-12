@@ -182,7 +182,6 @@ vagabond
 vigilante
 villager
 villain
-vixen
 waiter
 warlock
 warrior

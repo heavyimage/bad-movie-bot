@@ -169,9 +169,6 @@ main_titles = [
     # the night of the lepus
     "The #moment_in_time# of the #ma_nouns#",
 
-    # Beyond the valley of the dolls
-    "#preposition# the #spooky_natural_locale# of the #ma_nouns#",
-
     # sky captain and the world of tomorrow
     "#adj# #job# and the world of #smart_place.s#",
 
@@ -436,4 +433,20 @@ main_titles = [
     # Cocaine Bear
     "#drug# #all_animals#",
 
+    # Russ meyer zone
+
+    # Faster, Pussycat!  Kill!  Kill!
+    "Faster, #real_animal#!  Kill!  Kill!",
+
+    # Vixen!
+    "#job#!",
+
+    # Supervixen!
+    "#wonderous_adj# #sexy_servant.s#! xyz",
+
+    # Beyond the valley of the dolls
+    "#preposition# the #spooky_natural_locale# of the #ma_nouns#",
+
+    # Beneath the Valley of the Ultra-Vixens
+    "#preposition# the #spooky_natural_locale# of the #wonderous_adj# #sexy_servant.s# xyz",
 ]
