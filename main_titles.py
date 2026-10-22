@@ -449,4 +449,7 @@ main_titles = [
 
     # Beneath the Valley of the Ultra-Vixens
     "#preposition# the #spooky_natural_locale# of the #wonderous_adj# #sexy_servant.s#",
+
+    # faith of our fathers
+    "#scheme# of our #relation.s#",
 ]
