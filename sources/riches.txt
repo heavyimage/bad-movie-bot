@@ -1,9 +1,11 @@
+\#gold
 bounty
 diamond
 fortune
-gold
 harvest
+loot
 opulence
+plunder
 prosperity
 riches
 treasure

@@ -1,7 +1,9 @@
 //ululation
 melody
-requium
+requiem
 scream
 song
-sound
+\#sound
+cacophony
+screech
 symphony

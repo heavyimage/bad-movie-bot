@@ -3,7 +3,7 @@
 #vehicle#
 chronometer
 clone
-computer
+\#computer
 doll
 experiment
 factory
@@ -23,7 +23,7 @@ prism
 processor
 puppet
 rocket belt
-science
+\#science
 sculpture
 space station
 statue

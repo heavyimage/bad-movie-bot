@@ -11,4 +11,4 @@ plan
 program
 project
 protocol
-strategy
+\#strategy

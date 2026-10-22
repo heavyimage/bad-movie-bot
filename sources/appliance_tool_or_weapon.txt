@@ -1,4 +1,5 @@
 TNT
+\#money
 antique
 ark
 armor
@@ -39,7 +40,6 @@ masque
 mechanism
 mirror
 missile
-money
 napalm
 necronomicon
 nunchuck

@@ -7,9 +7,9 @@ cobalt
 copper
 crystal
 earth
-fire
+\#fire
 glass
-gold
+\#gold
 iron
 ivory
 jade

@@ -59,7 +59,7 @@ designer
 destroyer
 detective
 diver
-doctor
+\#doctor
 doppelganger
 downer
 drone
@@ -88,7 +88,7 @@ hag
 harlequin
 harvester
 hellion
-hero
+\#hero
 hitchiker
 hooker
 hunter
@@ -185,6 +185,6 @@ villain
 waiter
 warlock
 warrior
-witch
+\#witch
 wizard
 wrestler

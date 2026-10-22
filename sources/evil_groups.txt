@@ -21,7 +21,7 @@ Vatican
 bilderberg group
 billionaire
 cabal
-commission
+\#commission
 communist party
 congress
 council for foreign relations

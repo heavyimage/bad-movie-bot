@@ -8,7 +8,7 @@ cinnamon
 egg
 fruit
 kefir
-mint
+\#mint
 mold
 mushroom
 pepper

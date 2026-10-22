@@ -20,12 +20,12 @@ enlightenment
 eternity
 evil
 fate
-fear
+\#fear
 fever
 hallucination
 hell
 horror
-hunger
+\#hunger
 infinity
 insanity
 justice

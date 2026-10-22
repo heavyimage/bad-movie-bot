@@ -1,6 +1,6 @@
 //figure eight
 circle
-color
+\#color
 colour
 cross
 cube
@@ -33,4 +33,4 @@ stain
 triangle
 vector
 wavelet
-writing
+\#writing

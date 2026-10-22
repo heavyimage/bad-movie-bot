@@ -1,5 +1,5 @@
 #robot#
-AI
+\#AI
 alicorn
 alien
 angel
@@ -31,7 +31,7 @@ dryad
 dwarf
 efreet
 elemental
-elf
+\#elf
 entity
 faerie
 fairy
@@ -41,7 +41,7 @@ gargoyle
 ghost
 ghoul
 giant
-gnome
+\#gnome
 goblin
 god
 golem
@@ -133,4 +133,4 @@ wight
 wraith
 wurm
 yeti
-zombie
+\#zombie

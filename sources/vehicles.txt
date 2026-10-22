@@ -15,9 +15,9 @@ dreadnought
 elevator
 escape pod
 flying saucer
-hot air balloon
+hot air \#balloon
 jet
-motorcycle
+\#motorcycle
 plane
 rocket
 scooter

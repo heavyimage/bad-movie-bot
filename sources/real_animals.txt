@@ -16,9 +16,9 @@ boar
 brood
 bunny
 camel
-capybara
+\#capybara
 caribou
-cat
+\#cat
 centipede
 chameleon
 cheetah
@@ -30,7 +30,7 @@ crab
 crocodile
 deer
 dinosaur
-dog
+\#dog
 dolphin
 donkey
 eagle
@@ -87,7 +87,7 @@ porcupine
 possum
 puma
 pussycat
-python
+\#python
 rabbit
 raccoon
 rat

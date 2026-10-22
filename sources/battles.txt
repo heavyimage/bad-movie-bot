@@ -13,7 +13,7 @@ hunt
 invasion
 massacre
 mutiny
-revolution
+\#revolution
 siege
 snare
 tear

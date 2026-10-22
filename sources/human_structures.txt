@@ -30,14 +30,14 @@ graveyard
 harem
 hospital
 hostel
-hotel
+\#hotel
 house
 jail
 keep
 kingdom
 labrynth
 library
-lighthouse
+\#lighthouse
 mall
 mansion
 mausoleum

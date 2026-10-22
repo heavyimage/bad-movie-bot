@@ -289,6 +289,8 @@ def custom_capitalize(text):
                 fix = "-".join([custom_capitalize(c) for c in word.split("-")])
             elif word[0] == "'":
                 fix = f"'{word[1].upper()}{word[2:]}"
+            elif word[0] == "#":
+                fix = f"#{word[1:].title()}"
             else:
                 fix = f"{word[0].upper()}{word[1:]}"
             capitalized_words.append(fix)

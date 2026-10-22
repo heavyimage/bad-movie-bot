@@ -7,12 +7,12 @@ Baghdad
 Basque Country
 Bavaria
 Berkley
-Berlin
+\#Berlin
 Brooklyn
 Egypt
 Groom Lake
 Harlem
-L.A.
+\#L.A.
 Main Street USA
 Manhattan
 Mesoptamia

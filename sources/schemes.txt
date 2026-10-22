@@ -4,6 +4,7 @@ betrayal
 coverup
 deception
 destiny
+faith
 embrace
 experiment
 grudge
@@ -15,6 +16,6 @@ plot
 promise
 revenge
 scheme
-study
+\#study
 vigil
 wish

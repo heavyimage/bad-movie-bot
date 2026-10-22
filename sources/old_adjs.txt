@@ -9,7 +9,7 @@ forgotten
 goth
 gothic
 long-lost
-lost
+\#lost
 medieval
 middle-age
 new
