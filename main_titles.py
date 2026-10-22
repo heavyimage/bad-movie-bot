@@ -442,11 +442,11 @@ main_titles = [
     "#job#!",
 
     # Supervixen!
-    "#wonderous_adj# #sexy_servant.s#! xyz",
+    "#wonderous_adj# #sexy_servant.s#!",
 
     # Beyond the valley of the dolls
     "#preposition# the #spooky_natural_locale# of the #ma_nouns#",
 
     # Beneath the Valley of the Ultra-Vixens
-    "#preposition# the #spooky_natural_locale# of the #wonderous_adj# #sexy_servant.s# xyz",
+    "#preposition# the #spooky_natural_locale# of the #wonderous_adj# #sexy_servant.s#",
 ]
