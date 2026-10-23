@@ -3,7 +3,9 @@ Brazilian
 Canadian
 Caribbean
 Chinese
+Czech
 Egyptian
+Euro
 French
 German
 Italian

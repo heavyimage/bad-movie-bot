@@ -1,9 +1,14 @@
 #adj# effect
 #robot#
 #vehicle#
+\#computer
+\#psychiatry
+\#psychology
+\#research
+\#science
 chronometer
 clone
-\#computer
+console
 doll
 experiment
 factory
@@ -18,15 +23,16 @@ labratory
 laser
 light show
 machine
+malware
 monument
 prism
 processor
 puppet
 rocket belt
-\#science
 sculpture
 space station
 statue
 test tube
 toy
 transistor
+website

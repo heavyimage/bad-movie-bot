@@ -1,3 +1,4 @@
+\#lost
 abandoned
 anachronistic
 ancient
@@ -8,8 +9,8 @@ eldrich
 forgotten
 goth
 gothic
+long-forgotten
 long-lost
-\#lost
 medieval
 middle-age
 new
@@ -20,4 +21,6 @@ prehistoric
 primal
 primeval
 primordial
+ruined
+rural
 teenage

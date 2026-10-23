@@ -9,6 +9,7 @@ escape
 expedition
 fable
 fate
+flight
 journey
 legend
 memorandum

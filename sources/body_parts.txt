@@ -28,6 +28,7 @@ mind
 mouth
 muscle
 sac
+scar
 skeleton
 skin
 skull
@@ -37,3 +38,4 @@ teeth
 tendril
 tentacle
 wing
+wound

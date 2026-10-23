@@ -131,7 +131,6 @@ Burke
 Burnett
 Burns
 Burton
-\#Bush
 Butler
 Byrd
 Cabrera
@@ -1014,3 +1013,10 @@ Zavala
 Zhang
 Zimmerman
 Zuniga
+\#Bush
+\#Macron
+\#Marx
+\#Shakespeare
+\#Tesla
+\#Tolkien
+\#Windsor

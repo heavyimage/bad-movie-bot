@@ -1,5 +1,8 @@
 #robot#
 \#AI
+\#elf
+\#gnome
+\#zombie
 alicorn
 alien
 angel
@@ -31,17 +34,16 @@ dryad
 dwarf
 efreet
 elemental
-\#elf
 entity
 faerie
 fairy
+fate
 freak
 fury
 gargoyle
 ghost
 ghoul
 giant
-\#gnome
 goblin
 god
 golem
@@ -92,6 +94,7 @@ poltergeist
 reaper
 reflection
 revenant
+saint
 sandworm
 sasquatch
 satyr
@@ -133,4 +136,3 @@ wight
 wraith
 wurm
 yeti
-\#zombie

@@ -8,7 +8,6 @@ chronic
 cigarette
 cocaine
 dank
-reefer
 dime bag
 dope
 dose
@@ -33,3 +32,6 @@ schwag
 space cake
 spice
 stimulant
+tequila
+vodka
+whiskey

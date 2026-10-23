@@ -1,6 +1,8 @@
 //figure eight
-circle
 \#color
+\#typography
+\#writing
+circle
 colour
 cross
 cube
@@ -24,13 +26,17 @@ pentagram
 pictogram
 plane
 point
+portent
 puzzle
 pyramid
 rune
+sign
+signal
 sphere
 square
 stain
+sticker
+tattoo
 triangle
 vector
 wavelet
-\#writing

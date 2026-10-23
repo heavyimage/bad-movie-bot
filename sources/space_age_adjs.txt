@@ -1,7 +1,9 @@
 //experimental
+\#artificial
+\#astro
+\#nuclear
 art deco
 assembly line
-\#astro
 atomic
 cathode-ray
 chemical
@@ -25,8 +27,8 @@ machine
 mecha-
 mechanical
 mechano-
+meta
 neon
-\#nuclear
 objectivist
 orbital
 peak

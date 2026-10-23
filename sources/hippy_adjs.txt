@@ -1,13 +1,16 @@
 420-friendly
+\#vegetarian
 counterculture
 day-glo
 disorienting
 drugged-out
 far out
-freaky
+free
+free-love
 funky
 groovy
 hippie
+indigenous
 new-age
 new-wave
 psychedelic
@@ -21,5 +24,4 @@ uncool
 undercover
 underground
 vegan
-\#vegetarian
 wicked

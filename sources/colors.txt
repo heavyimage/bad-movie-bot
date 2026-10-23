@@ -43,7 +43,7 @@ emerald
 fuchsia
 glaucous
 glitter
-\#gold
+gold
 gray
 green
 grey
@@ -88,4 +88,4 @@ vermilion
 violet
 viridian
 white
-\#yellow
+yellow

@@ -1,5 +1,7 @@
 //sex
 //toast
+\#market
+anniversary
 ball
 banquet
 baptism
@@ -17,12 +19,13 @@ concert
 dance
 extinction
 festival
+fiesta
+fun
 funeral
 gig
 key party
+lifestyle
 lunch
-yoga retreat
-\#market
 masquerade
 mass
 opera
@@ -31,8 +34,12 @@ party
 picnic
 pyre
 rave
+renaissance
+revolution
 rite
 ritual
 sabbath
 sacrifice
 sex party
+threesome
+yoga retreat

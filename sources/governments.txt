@@ -1,17 +1,16 @@
 //logocracy
 //statism
+\#coalition
 alliance
 anarchy
 aristocracy
-authoritarianism
 bureaucracy
 caliphate
-capitalism
-colonialism
-communism
+commission
+company
+conclave
 confederacy
 confederation
-confessional state
 corporatocracy
 council
 cult
@@ -21,14 +20,11 @@ ecclesiocracy
 electocracy
 empire
 ergatocracy
-fascism
-federalism
 fellowship
-feudalism
 geniocracy
 gerontocracy
+gynocracy
 house
-imperialism
 inner circle
 kakistocracy
 kleptocracy
@@ -38,14 +34,12 @@ meritocracy
 military dictatorship
 monarchy
 oligarchy
+parliament
 plutocracy
 reign
-republicanism
 secret society
 shogunate
-socialism
+team
 technocracy
 theocracy
-totalitarianism
-tribalism
 triumvirate

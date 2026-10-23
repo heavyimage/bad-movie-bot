@@ -326,7 +326,7 @@ main_titles = [
     "Martha #name# #name# Marlene",
 
     # Precious: Based on the Novel “Push” by Sapphire 
-    "#adj#: Based on the Novel \"#noun.capitalize#\" by #material#",
+    #"#adj#: Based on the Novel \"#noun.capitalize#\" by #material#",
 
     # Octopussy
     "#adj#pussy",
@@ -452,4 +452,31 @@ main_titles = [
 
     # faith of our fathers
     "#scheme# of our #relation.s#",
+
+    # The Wages of Fear
+    "The Wages of #concept#",
+
+    #B5!
+    # Severed dreams
+    "#decayed_adj# #concept.s#",
+    # The parliament of dreams
+    "The #government# of #concept#",
+
+    # architects of fear
+    "The #job.s# of #concept#",
+
+    # The Duel of the fates
+    "The #battle# of the #fantasy_animal.s#",
+
+    # interview with the vampire
+    "Interview with the #all_animals#",
+
+    # The fury of dracula
+    "The #concept# of #name#",
+
+    # bride of tracula
+    "#relation# of #name#",
+
+    # The brides of tracula
+    "The #relation.s# of #name#",
 ]

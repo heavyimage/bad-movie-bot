@@ -1,4 +1,5 @@
 UFO
+\#motorcycle
 aeroplane
 aircraft carrier
 airplane
@@ -16,8 +17,9 @@ elevator
 escape pod
 flying saucer
 hot air \#balloon
+hoverbike
+hovercraft
 jet
-\#motorcycle
 plane
 rocket
 scooter

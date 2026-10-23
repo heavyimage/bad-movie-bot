@@ -7,16 +7,17 @@ Baghdad
 Basque Country
 Bavaria
 Berkley
-\#Berlin
 Brooklyn
+China
 Egypt
 Groom Lake
+Hanging Rock
 Harlem
-\#L.A.
 Main Street USA
 Manhattan
 Mesoptamia
 Mongolia
+Mount Olympus
 New Jersey
 Persia
 Queens
@@ -28,4 +29,15 @@ Staten Island
 Tampa
 Tibet
 Yucca Flats
-hanging rock
+\#Alcatraz
+\#Berlin
+\#Boston
+\#Dresden
+\#Greenland
+\#Harvard
+\#Hollywood
+\#L.A.
+\#Madrid
+\#Manitoba
+\#Morocco
+\#Winnipeg

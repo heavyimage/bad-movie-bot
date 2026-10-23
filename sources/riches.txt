@@ -1,4 +1,5 @@
 \#gold
+\#luxury
 bounty
 diamond
 fortune

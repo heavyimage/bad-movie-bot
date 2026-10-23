@@ -2,8 +2,15 @@
 #robot#
 #ruler#
 #sexy_servant#
+//employee
 //wainwright
 POW
+\#artisan
+\#copilot
+\#doctor
+\#hacker
+\#hero
+\#witch
 addict
 advisor
 aeronaut
@@ -19,6 +26,7 @@ astronaut
 athlete
 avenger
 bandito
+banker
 barbarian
 bard
 baron
@@ -59,7 +67,6 @@ designer
 destroyer
 detective
 diver
-\#doctor
 doppelganger
 downer
 drone
@@ -67,7 +74,6 @@ druid
 duke
 duplicator
 emperor
-employee
 empress
 enforcer
 executioner
@@ -88,12 +94,12 @@ hag
 harlequin
 harvester
 hellion
-\#hero
 hitchiker
 hooker
 hunter
 inquisitor
 invader
+jedi
 judge
 juggernaut
 junkie
@@ -110,6 +116,7 @@ marquis
 master
 maverick
 mercenary
+messenger
 messiah
 mime
 minion
@@ -121,7 +128,9 @@ nomad
 nun
 nurse
 occultist
+pagan
 paratrooper
+patriot
 peasant
 performer
 pest
@@ -185,6 +194,5 @@ villain
 waiter
 warlock
 warrior
-\#witch
 wizard
 wrestler

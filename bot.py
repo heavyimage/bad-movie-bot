@@ -37,6 +37,7 @@ REMOVE_ARTICLE = [
 
 PLURAL_FIXES = {
     "Wines": "Wine",
+    "Wifes": "Wives",
     "CERNs": "CERN",
     "Courages": "Courage",
     "Teethes": "Teeth",
@@ -211,7 +212,6 @@ RULES = {
         "#main_title# #fun_number#: #preposition# #smart_place#",
         "#main_title# #fun_number#: #preposition# #smart_place#",
         "#main_title# #fun_number#: #smart_place#",
-        "#main_title#! kill! kill!",
         "#main_title# (Yellow)",
         "#main_title# (Blue)",
         "#main_title#: The revenge",
@@ -236,6 +236,24 @@ RULES = {
     ],
 
     "full_title" : [
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
+        "#main_title#",
         "#main_title#",
         "#main_title#",
         "#main_title#",
@@ -280,7 +298,7 @@ RULES['main_title'] = main_titles
 def custom_capitalize(text):
     capitalized_words = []
     for word in text.split():
-        if word.lower in DONT_CAP:
+        if word.lower() in DONT_CAP:
             capitalized_words.append(word)
         else:
             if len(word) == 1:

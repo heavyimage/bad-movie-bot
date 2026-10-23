@@ -1,3 +1,10 @@
+\#butterfly
+\#capybara
+\#cat
+\#dog
+\#duck
+\#python
+\#tiger
 amoeba
 anaconda
 ant
@@ -16,9 +23,7 @@ boar
 brood
 bunny
 camel
-\#capybara
 caribou
-\#cat
 centipede
 chameleon
 cheetah
@@ -30,7 +35,6 @@ crab
 crocodile
 deer
 dinosaur
-\#dog
 dolphin
 donkey
 eagle
@@ -42,6 +46,7 @@ fish
 fox
 frog
 fungus
+gecko
 gerbil
 germ
 goat
@@ -87,7 +92,6 @@ porcupine
 possum
 puma
 pussycat
-\#python
 rabbit
 raccoon
 rat
@@ -109,7 +113,6 @@ spider
 sponge
 squid
 termite
-tiger
 tree
 trilobite
 turtle

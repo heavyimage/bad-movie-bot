@@ -1,4 +1,7 @@
 DMV
+\#hotel
+\#lighthouse
+\#port
 abbey
 adult cinema
 airport
@@ -19,6 +22,7 @@ chapel
 church
 city
 colony
+court
 crypt
 dungeon
 factory
@@ -30,14 +34,12 @@ graveyard
 harem
 hospital
 hostel
-\#hotel
 house
 jail
 keep
 kingdom
 labrynth
 library
-\#lighthouse
 mall
 mansion
 mausoleum
@@ -45,6 +47,7 @@ metropolis
 mine
 mission
 mosque
+opera
 pagoda
 parking garage
 parking lot
@@ -73,3 +76,4 @@ village
 wall
 well
 windmill
+workshop

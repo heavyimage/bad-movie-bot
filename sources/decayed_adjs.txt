@@ -1,3 +1,4 @@
+\#nuclear
 acrid
 ashen
 atomic
@@ -15,7 +16,6 @@ fetid
 harsh
 melting
 mutated
-\#nuclear
 one-eyed
 paralyzed
 putrid
@@ -23,5 +23,6 @@ radioactive
 rotting
 rusted
 rusty
+severed
 toxic
 wet
