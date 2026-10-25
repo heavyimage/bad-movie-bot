@@ -51,6 +51,7 @@ smog
 smoke
 snow
 star
+storm
 summer
 sun
 thunder
