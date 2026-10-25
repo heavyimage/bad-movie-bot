@@ -18,7 +18,7 @@ HASHTAGS = ["#cinema", "#badcinema", "#wouldnotwatch", "#films", "#movies",
             "#badmovie", "#badmovies", "#schlock", "#bmovie", "#twothumbsdown",
             "#twothumbsup"]
 SLEEP_BEFORE_POST = 10
-DELETE_BY = 7
+DELETE_BY = 2
 
 REMOVE_ARTICLE = [
     # Evil groups
