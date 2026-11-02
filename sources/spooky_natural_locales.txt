@@ -1,6 +1,8 @@
+//center of the earth
 //deep
 //rim
 20,000 fathom
+\#mountain
 above
 barren
 beach
@@ -8,7 +10,6 @@ caldera
 castle
 cave
 cemetery
-center of the earth
 continent
 crater
 depths
@@ -21,10 +22,10 @@ hive
 island
 jungle
 lagoon
+lair
 lake
 land
 mesa
-\#mountain
 park
 pit
 reef

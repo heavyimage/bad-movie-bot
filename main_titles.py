@@ -479,4 +479,7 @@ main_titles = [
 
     # The brides of tracula
     "The #relation.s# of #name#",
+
+    # Lair of the white worm
+    "The #spooky_natural_locale# of the #color# #real_animal# xyz",
 ]
